@@ -1,0 +1,953 @@
+*** STARTING NEW GAME ***
+Generating world using parameter set CREATE WORLD NOW = 1111115
+ Seed: HbsAv6Ys8QHftXhJtWtg
+ History Seed: DMW30g1KMv3Q3uDIlrHu
+ Name Seed: X5OjF8zHV07ek9NxF5Ni
+ Creature Seed: OVK24gGMKIm9I3SAyHhO
+Nothing has arrived on the calendar.
+The weather has cleared.
+Nothing has arrived on the calendar.
+The weather has cleared.
+** Starting New Outpost **
+*** STARTING NEW GAME ***
+** Loading Fortress **
+Spring has arrived on the calendar.
+It has started raining.
+Loaded region1, N‹r Dakon (The Land of Omen) at coordinates (10,10)
+Loaded the fortress IgathŠrith (Scrapedlabor), colonized by the group Sigun Arkoth (The Tour of Prophecies) of the civilization K–buk Nadak (The Lances of Defending).
+You have struck olivine!
+You have struck serpentine!
+You have struck prase opal!
+You have struck violet spessartine!
+The weather has cleared.
+You have struck orthoclase!
+You have struck periclase!
+You have struck tetrahedrite!
+It has started raining.
+You have struck malachite!
+You have struck chrysocolla!
+You have struck lignite!
+You have struck tiger iron!
+You have struck galena!
+You have struck jet!
+You have struck lignite!
+You have struck galena!
+You have struck schorl!
+You have struck prase!
+You have struck rose quartz!
+You have struck hematite!
+Digging designation cancelled: damp stone located.
+x2
+x3
+You have struck microcline!
+You have struck pyrite!
+You have struck picture jasper!
+You have struck tetrahedrite!
+Digging designation cancelled: damp stone located.
+x2
+x3
+x4
+x5
+x6
+x7
+x8
+x9
+You have struck sardonyx!
+You have struck aventurine!
+The weather has cleared.
+You have struck native gold!
+You have struck jet!
+You have struck limonite!
+You have struck hematite!
+You have struck jet!
+Digging designation cancelled: damp stone located.
+x2
+x3
+x4
+x5
+x6
+x7
+x8
+x9
+x10
+x11
+x12
+x13
+It has started raining.
+Asob Emaloddom, Fish Cleaner cancels Construct Building: Item blocking site.
+The dwarves suspended the construction of Fishery.
+You have struck shell opal!
+You have struck prase!
+You have struck calcite!
+You have struck green jade!
+You have struck hematite!
+You have struck lignite!
+Digging designation cancelled: damp stone located.
+x2
+x3
+x4
+x5
+x6
+x7
+x8
+x9
+x10
+The weather has cleared.
+Digging designation cancelled: damp stone located.
+x2
+x3
+You have struck clear tourmaline!
+Cerol Ilidudib has become a Bone Carver.
+Shorast Larstukos has become a Engraver.
+It has started raining.
+You have struck gypsum!
+You have struck jet!
+You have struck galena!
+You have struck gray chalcedony!
+You have struck bone opal!
+You have struck bituminous coal!
+The weather has cleared.
+You have struck petrified wood!
+You have struck lignite!
+It is now summer.
+Thief!  Protect the hoard from skulking filth!
+You have struck citrine!
+You have struck aventurine!
+It has started raining.
+Cerol Ilidudib has created a masterpiece pond turtle shell amulet!
+The Stray Yak Cow (Tame) has been slaughtered.
+x2
+Cerol Ilidudib has created a masterpiece pond turtle shell bracelet!
+Stock level is low: microcline chair
+Cerol Ilidudib has created a masterpiece pond turtle shell crown!
+Cerol Ilidudib has created a masterpiece pond turtle shell earring!
+Cerol Ilidudib has created a masterpiece pond turtle shell ring!
+The weather has cleared.
+Cerol Ilidudib has created a masterpiece pond turtle shell figurine of a cave spider!
+Cerol Ilidudib has created a masterpiece pond turtle shell earring!
+Cerol Ilidudib has created a masterpiece pond turtle shell figurine of dwarves!
+Cerol Ilidudib has created a masterpiece pond turtle shell amulet!
+Cerol Ilidudib has created a masterpiece pond turtle shell figurine of cave spiders!
+It has started raining.
+Stopping production: biscuits
+Stopping production: roast
+Cerol Ilidudib has created a masterpiece pond turtle shell crown!
+Cerol Ilidudib has created a masterpiece pond turtle shell bracelet!
+Stopping production: stew
+Cerol Ilidudib has created a masterpiece pond turtle shell amulet!
+Some migrants have arrived.
+Stopping production: microcline chair
+Cerol Ilidudib has created a masterpiece pond turtle shell ring!
+Stopping production: microcline table
+Cerol Ilidudib has created a masterpiece pond turtle shell crown!
+x2
+x3
+Cerol Ilidudib has created a masterpiece pond turtle shell ring!
+Cerol Ilidudib has created a masterpiece yak bone bolts [5]!
+x2
+The flying ({-®*bronze bolt*¯-}) strikes the wolverine in the head, tearing the muscle, fracturing the skull and tearing the brain!
+A tendon in the skull has been torn!
+The wolverine has been knocked unconscious!
+Tulon Zaneg–z, Hunter: I have improved my ambush.  That was not satisfying.
+Tulon Zaneg–z, Hunter: I finished up some work.  That was very satisfying!
+The hunter stands up.
+Cerol Ilidudib has created a masterpiece yak cow skull totem!
+RŒsen R†shlogem has become a expedition leader.
+Stopping production: wood bed
+Cerol Ilidudib has created a masterpiece pond turtle shell crown!
+The weather has cleared.
+Cerol Ilidudib has created a masterpiece yak hoof earring!
+Cerol Ilidudib, Bone Carver cancels Make Totem: Needs unrotten totemable body part.
+Cerol Ilidudib has created a masterpiece yak bone bolts [5]!
+You have struck green tourmaline!
+You have struck hematite!
+You have struck limonite!
+Cerol Ilidudib has created a masterpiece yak bone bolts [5]!
+You have struck shell opal!
+Cerol Ilidudib has created a masterpiece yak horn earring!
+Cerol Ilidudib has created a masterpiece yak horn figurine of ‹ngiz Gildsoaked!
+Cerol Ilidudib, Bone Carver cancels Make horn Crafts: Needs unrotten horn body part.
+Shorast Larstukos, Engraver cancels Construct gabbro Mechanisms: Needs gabbro.
+Stopping production: wood bin
+Resuming production: microcline chair
+Resuming production: microcline table
+Cerol Ilidudib has created a masterpiece wolverine bone bolts [5]!
+Cerol Ilidudib has created a masterpiece pond turtle shell earring!
+Cerol Ilidudib has created a masterpiece pond turtle shell ring!
+It has started raining.
+Cerol Ilidudib has created a masterpiece wolverine bone bolts [5]!
+Cerol Ilidudib has created a masterpiece pond turtle shell bracelet!
+Cerol Ilidudib has created a masterpiece yak bone bolts [5]!
+Cerol Ilidudib has created a masterpiece pond turtle shell earring!
+Cerol Ilidudib has created a masterpiece yak bone bolts [5]!
+Resuming production: wood bin
+Lokum Inodb–nem has grown to become a Hen.
+Cerol Ilidudib has created a masterpiece pond turtle shell bracelet!
+Cerol Ilidudib has created a masterpiece pond turtle shell earring!
+Cerol Ilidudib has created a masterpiece yak bone bolts [5]!
+You have struck rose quartz!
+You have struck prase!
+You have struck chrysoprase!
+Cerol Ilidudib has created a masterpiece pond turtle shell ring!
+Cerol Ilidudib, Bone Carver cancels Make bone bolts: Needs unrotten bone body part.
+You have struck rock crystal!
+You have struck white jade!
+Cerol Ilidudib has created a masterpiece pond turtle shell bracelet!
+Cerol Ilidudib has created a masterpiece pond turtle shell amulet!
+Cerol Ilidudib has created a masterpiece pond turtle shell bracelet!
+Cerol Ilidudib has created a masterpiece pond turtle shell ring!
+Stock level is low: jet door
+Cerol Ilidudib has created a masterpiece pond turtle shell earring!
+The weather has cleared.
+There is nothing to catch in the central swamps.
+Cerol Ilidudib has created a masterpiece pond turtle shell earring!
+Cerol Ilidudib has created a masterpiece pond turtle shell crown!
+Cerol Ilidudib has created a masterpiece pond turtle shell figurine of Cerol Rulesyrups!
+Cerol Ilidudib has created a masterpiece pond turtle shell ring!
+Cerol Ilidudib has created a masterpiece pond turtle shell bracelet!
+Cerol Ilidudib has created a masterpiece pond turtle shell figurine of ‹ngiz Gildsoaked!
+Cerol Ilidudib has created a masterpiece pond turtle shell crown!
+x2
+Cerol Ilidudib has created a masterpiece pond turtle shell figurine of dwarves!
+Shorast Larstukos has become a Stoneworker.
+Cerol Ilidudib has created a masterpiece pond turtle shell amulet!
+Cerol Ilidudib has created a masterpiece pond turtle shell ring!
+Cerol Ilidudib has created a masterpiece pond turtle shell figurine of Monom Picktender!
+Cerol Ilidudib has created a masterpiece pond turtle shell earring!
+Cerol Ilidudib has created a masterpiece pond turtle shell bracelet!
+Cerol Ilidudib has created a masterpiece pond turtle shell figurine of Monom Picktender!
+Olon Nernil has become a Gem Cutter.
+Cerol Ilidudib has created a masterpiece pond turtle shell bracelet!
+RŒsen R†shlogem has become a expedition leader.
+Cerol Ilidudib has created a masterpiece pond turtle shell earring!
+Stopping production: microcline chair
+Cerol Ilidudib has created a masterpiece pond turtle shell figurine of ‹ngiz Gildsoaked!
+Stopping production: microcline table
+Cerol Ilidudib has created a masterpiece pond turtle shell crown!
+Cerol Ilidudib has created a masterpiece pond turtle shell figurine of dwarves!
+Cerol Ilidudib has created a masterpiece pond turtle shell bracelet!
+x2
+Cerol Ilidudib has created a masterpiece pond turtle shell figurine of Monom Picktender!
+Cerol Ilidudib has created a masterpiece pond turtle shell bracelet!
+Cerol Ilidudib has created a masterpiece pond turtle shell earring!
+x2
+Cerol Ilidudib has created a masterpiece pond turtle shell crown!
+Cerol Ilidudib has created a masterpiece pond turtle shell amulet!
+Cerol Ilidudib has created a masterpiece pond turtle shell bracelet!
+Cerol Ilidudib has created a masterpiece pond turtle shell figurine of ‹ngiz Gildsoaked!
+Stopping production: jet door
+Stopping production: wood bin
+It has started raining.
+Cerol Ilidudib has created a masterpiece pond turtle shell bracelet!
+Cerol Ilidudib has created a masterpiece pond turtle shell amulet!
+Cerol Ilidudib has created a masterpiece pond turtle shell earring!
+x2
+Cerol Ilidudib has created a masterpiece pond turtle shell crown!
+Cerol Ilidudib has created a masterpiece pond turtle shell bracelet!
+Cerol Ilidudib has created a masterpiece pond turtle shell amulet!
+x2
+Cerol Ilidudib has created a masterpiece pond turtle shell bracelet!
+Cerol Ilidudib has created a masterpiece pond turtle shell crown!
+Cerol Ilidudib has created a masterpiece pond turtle shell bracelet!
+x2
+x3
+x4
+x5
+Cerol Ilidudib has created a masterpiece pond turtle shell earring!
+Cerol Ilidudib has created a masterpiece pond turtle shell ring!
+x2
+Cerol Ilidudib has created a masterpiece pond turtle shell earring!
+The flying ({-®*bronze bolt*¯-}) strikes the yak cow in the right front leg, chipping the bone!
+A tendon has been torn!
+The flying ({-®*bronze bolt*¯-}) strikes the yak cow in the right front leg, chipping the bone!
+A tendon has been torn!
+The flying ({-®*bronze bolt*¯-}) strikes the yak cow in the upper body, tearing the muscle and tearing the heart!
+A major artery in the heart has been opened by the attack!
+The flying ({-®*bronze bolt*¯-}) strikes the yak cow in the upper body, tearing the muscle, chipping the right true ribs and tearing the left lung!
+A tendon in the right true ribs has been torn!
+The yak cow is having trouble breathing!
+Cerol Ilidudib has created a masterpiece pond turtle shell earring!
+The flying ({-®*bronze bolt*¯-}) strikes the yak bull in the right rear leg, chipping the bone!
+A tendon has been torn!
+Tulon Zaneg–z, broker: I have improved my archery.  That was very satisfying!
+The flying ({-®*bronze bolt*¯-}) strikes the yak bull in the right rear leg, chipping the bone!
+A tendon has been torn!
+The flying ({-®*bronze bolt*¯-}) strikes the yak bull in the right front leg, chipping the bone!
+A tendon has been torn!
+The yak bull falls over.
+The flying ({-®*bronze bolt*¯-}) strikes the yak bull in the right rear leg, chipping the bone!
+A tendon has been torn!
+The flying ({-®*bronze bolt*¯-}) strikes the yak bull in the right rear leg, chipping the bone!
+A tendon has been torn!
+The flying ({-®*bronze bolt*¯-}) strikes the yak bull in the upper body, tearing the muscle and fracturing the middle spine's bone!
+A tendon in the middle spine has been torn!
+The flying ({-®*bronze bolt*¯-}) strikes the yak bull in the left front leg, chipping the bone!
+A tendon has been torn!
+The flying ({-®*bronze bolt*¯-}) strikes the yak bull in the right front leg, chipping the bone!
+A tendon has been torn!
+The flying ({-®*bronze bolt*¯-}) strikes the yak bull in the left rear leg, chipping the bone!
+A tendon has been torn!
+The flying ({-®*bronze bolt*¯-}) strikes the yak bull in the right front leg, chipping the bone!
+A tendon has been torn!
+The flying ({-®*bronze bolt*¯-}) strikes the yak bull in the left front leg, chipping the bone!
+A tendon has been torn!
+The flying ({-®*bronze bolt*¯-}) strikes the yak bull in the upper body, tearing the muscle and tearing the left lung!
+The yak bull is having trouble breathing!
+The flying ({-®*bronze bolt*¯-}) strikes the yak bull in the neck, tearing the muscle and tearing the upper spine's nervous tissue!
+A tendon in the upper spine has been torn!
+The flying ({-®*bronze bolt*¯-}) strikes the yak bull in the left rear leg, chipping the bone!
+A tendon has been torn!
+The flying ({-®*bronze bolt*¯-}) strikes the yak bull in the right front leg, chipping the bone!
+A tendon has been torn!
+The flying ({-®*bronze bolt*¯-}) strikes the yak bull in the left front leg, chipping the bone!
+A tendon has been torn!
+Cerol Ilidudib has created a masterpiece pond turtle shell crown!
+The flying ({-®*bronze bolt*¯-}) strikes the yak bull in the upper body, tearing the muscle and fracturing the middle spine's bone!
+A tendon in the middle spine has been torn!
+The flying ({-®*bronze bolt*¯-}) strikes the yak bull in the left front leg, chipping the bone!
+A tendon has been torn!
+The flying ({-®*bronze bolt*¯-}) strikes the yak bull in the upper body, tearing the muscle and tearing the left lung!
+The yak bull is having more trouble breathing!
+Cerol Ilidudib has created a masterpiece pond turtle shell crown!
+The flying ({-®*bronze bolt*¯-}) strikes the yak bull in the lower body, tearing the muscle and tearing the left kidney!
+The flying ({-®*bronze bolt*¯-}) strikes the yak bull in the left rear leg, chipping the bone!
+A tendon has been torn!
+Tulon Zaneg–z, broker cancels Hunt: No ammunition.
+Tulon Zaneg–z, broker: I must withdraw!
+The flying ({-®*bronze bolt*¯-}) strikes the yak bull in the left rear leg, chipping the bone!
+A tendon has been torn!
+Tulon Zaneg–z, broker: I must withdraw!
+The flying {ðwolverine bone boltð} strikes the yak bull in the right front leg, tearing the muscle!
+The flying {ðwolverine bone boltð} strikes the yak bull in the left rear leg, tearing the fat and bruising the muscle!
+The flying {ðwolverine bone boltð} strikes the yak bull in the left front leg, tearing the fat and bruising the muscle!
+The flying {ðwolverine bone boltð} strikes the yak bull in the left front leg, tearing the muscle!
+The yak bull falls over.
+Cerol Ilidudib has created a masterpiece pond turtle shell amulet!
+The flying {ðwolverine bone boltð} strikes the yak bull in the lower body, tearing the muscle and bruising the guts!
+The yak bull looks sick!
+The yak bull vomits.
+The yak bull retches.
+The flying {ðwolverine bone boltð} strikes the yak bull in the right front leg, tearing the muscle!
+The yak bull vomits.
+The yak bull retches.
+The flying {ðwolverine bone boltð} strikes the yak bull in the upper body, tearing the muscle!
+The yak bull vomits.
+Cerol Ilidudib has created a masterpiece pond turtle shell amulet!
+The flying {*wolverine bone bolt*} strikes the yak bull in the left front leg, tearing the muscle!
+The yak bull vomits.
+The yak bull retches.
+The flying {*wolverine bone bolt*} strikes the yak bull in the lower body, tearing the muscle and bruising the guts!
+The yak bull looks even more sick!
+The yak bull vomits.
+The flying {*wolverine bone bolt*} strikes the yak bull in the left front leg, tearing the muscle!
+Cerol Ilidudib has created a masterpiece pond turtle shell amulet!
+The yak bull retches.
+The flying {*wolverine bone bolt*} strikes the yak bull in the upper body, tearing the muscle!
+The flying {*wolverine bone bolt*} strikes the yak bull in the lower body, tearing the muscle and bruising the guts!
+The yak bull looks even more sick!
+The flying {ðwolverine bone boltð} strikes the yak bull in the lower body, tearing the muscle and bruising the guts!
+The yak bull looks even more sick!
+The yak bull vomits.
+The yak bull retches.
+The flying {ðwolverine bone boltð} strikes the yak bull in the right front leg, tearing the muscle!
+The yak bull retches.
+Cerol Ilidudib has created a masterpiece pond turtle shell ring!
+The flying {ðwolverine bone boltð} strikes the yak bull in the right front leg, tearing the muscle!
+The flying {ðwolverine bone boltð} strikes the yak bull in the lower body, tearing the muscle and bruising the spleen!
+The yak bull vomits.
+The flying {ðwolverine bone boltð} strikes the yak bull in the lower body, tearing the muscle!
+The flying {*yak bone bolt*} strikes the yak bull in the left front leg, tearing the muscle!
+Cerol Ilidudib has created a masterpiece pond turtle shell crown!
+The yak bull vomits.
+The flying {*yak bone bolt*} strikes the yak bull in the right rear leg, tearing the muscle!
+The flying {*yak bone bolt*} strikes the yak bull in the head, tearing the muscle!
+The yak bull has been knocked unconscious!
+The force bends the neck!
+The yak bull vomits.
+The flying {*yak bone bolt*} strikes the yak bull in the left rear leg, tearing the muscle!
+Tulon Zaneg–z, broker cancels Hunt: No ammunition.
+The flying {*yak bone bolt*} strikes the yak bull in the right horn, but the attack glances away!
+The force pulls the head!
+Tulon Zaneg–z, broker: I must withdraw!
+The yak bull vomits.
+Tulon Zaneg–z, broker: I must withdraw!
+The yak bull retches.
+Tulon Zaneg–z, broker: I must withdraw!
+The yak bull vomits.
+Tulon Zaneg–z, broker: I must withdraw!
+The yak bull retches.
+Tulon Zaneg–z, broker: I must withdraw!
+The yak bull vomits.
+The yak bull retches.
+Tulon Zaneg–z, broker: I must withdraw!
+The yak bull vomits.
+Tulon Zaneg–z, broker: I must withdraw!
+The yak bull retches.
+The yak bull regains consciousness.
+Tulon Zaneg–z, broker: I must withdraw!
+The yak bull retches.
+The yak bull vomits.
+The yak bull is no longer stunned.
+The yak bull retches.
+The yak bull vomits.
+The yak bull retches.
+The yak bull vomits.
+The yak bull retches.
+The yak bull vomits.
+The yak bull retches.
+The yak bull vomits.
+The yak bull retches.
+The yak bull vomits.
+The yak bull retches.
+The flying {ðyak bone boltð} strikes the yak bull in the lower body, tearing the muscle and bruising the guts!
+The yak bull looks even more sick!
+The yak bull vomits.
+The flying {ðyak bone boltð} strikes the yak bull in the right rear leg, tearing the muscle!
+The yak bull vomits.
+The flying {ðyak bone boltð} strikes the yak bull in the upper body, tearing the muscle!
+The yak bull retches.
+The flying {ðyak bone boltð} strikes the yak bull in the right rear leg, tearing the muscle!
+The yak bull vomits.
+The yak bull retches.
+The flying {ðyak bone boltð} strikes the yak bull in the lower body, tearing the muscle!
+The yak bull vomits.
+The flying {ðyak bone boltð} strikes the yak bull in the lower body, tearing the muscle and bruising the stomach!
+Zefon Utalmosus has created a masterpiece oaken crossbow!
+The yak bull retches.
+The yak bull vomits.
+The flying {ðyak bone boltð} strikes the yak bull in the left front leg, tearing the muscle!
+The yak bull retches.
+The flying {ðyak bone boltð} strikes the yak bull in the right rear leg, tearing the muscle!
+The yak bull vomits.
+The yak bull retches.
+Cerol Ilidudib has created a masterpiece pond turtle shell crown!
+The yak bull retches.
+The flying {ðyak bone boltð} strikes the yak bull in the mouth, tearing the muscle!
+The {ðyak bone boltð} has lodged firmly in the wound!
+The force twists the head!
+The yak bull vomits.
+The yak bull retches.
+The flying {ðyak bone boltð} strikes the yak bull in the upper body, tearing the muscle and bruising the heart!
+The yak bull vomits.
+The flying {ðyak bone boltð} strikes the yak bull in the right rear leg, tearing the muscle!
+The yak bull vomits.
+The flying {ðyak bone boltð} strikes the yak bull in the left horn, but the attack glances away!
+The force pulls the head!
+The flying {ðyak bone boltð} strikes the yak bull in the right front leg, tearing the muscle!
+The yak bull vomits.
+The yak bull retches.
+The flying {ðyak bone boltð} strikes the yak bull in the neck, tearing the muscle!
+The yak bull vomits.
+The flying {-yak bone bolt-} strikes the yak bull in the right front leg, tearing the muscle!
+The yak bull retches.
+The yak bull vomits.
+The yak bull retches.
+The flying {-yak bone bolt-} strikes the yak bull in the lower body, tearing the muscle and bruising the left kidney!
+The flying {-yak bone bolt-} strikes the yak bull in the left front hoof, but the attack glances away!
+The force twists the left front leg!
+The yak bull vomits.
+The yak bull retches.
+The flying {-yak bone bolt-} strikes the yak bull in the left front leg, tearing the muscle!
+The yak bull vomits.
+The flying {-yak bone bolt-} strikes the yak bull in the right front leg, tearing the muscle!
+The yak bull retches.
+The yak bull vomits.
+The yak bull retches.
+The flying {ðyak bone boltð} strikes the yak bull in the left front leg, tearing the muscle!
+A motor nerve has been severed!
+The yak bull retches.
+The flying {ðyak bone boltð} strikes the yak bull in the left rear leg, tearing the muscle!
+The yak bull vomits.
+The yak bull retches.
+The flying {ðyak bone boltð} strikes the yak bull in the upper body, tearing the muscle and bruising the left lung!
+The yak bull is having trouble breathing!
+The yak bull retches.
+The yak bull vomits.
+The yak bull retches.
+Tulon Zaneg–z, broker cancels Hunt: No ammunition.
+Tulon Zaneg–z, broker: I must withdraw!
+The yak bull retches.
+Tulon Zaneg–z, broker: I must withdraw!
+The yak bull retches.
+Tulon Zaneg–z, broker: I must withdraw!
+The yak bull vomits.
+Tulon Zaneg–z, broker: I must withdraw!
+The yak bull retches.
+Tulon Zaneg–z, broker: I must withdraw!
+The yak bull vomits.
+Tulon Zaneg–z, broker: I must withdraw!
+The yak bull retches.
+Tulon Zaneg–z, broker: I must withdraw!
+The yak bull vomits.
+Tulon Zaneg–z, broker: I must withdraw!
+The yak bull retches.
+Tulon Zaneg–z, broker: I must withdraw!
+The yak bull vomits.
+Cerol Ilidudib has created a masterpiece pond turtle shell earring!
+x2
+The yak bull vomits.
+The yak bull retches.
+The yak bull vomits.
+The yak bull retches.
+The weather has cleared.
+Cerol Ilidudib has created a masterpiece pond turtle shell bracelet!
+Cerol Ilidudib has created a masterpiece pond turtle shell figurine of Monom Picktender!
+The yak bull vomits.
+The yak bull retches.
+The yak bull vomits.
+Cerol Ilidudib has created a masterpiece pond turtle shell amulet!
+Cerol Ilidudib has created a masterpiece pond turtle shell earring!
+The yak bull vomits.
+The yak bull retches.
+The yak bull vomits.
+Cerol Ilidudib has created a masterpiece pond turtle shell ring!
+The yak bull retches.
+The yak bull vomits.
+Cerol Ilidudib has created a masterpiece pond turtle shell figurine of Monom Picktender!
+Cerol Ilidudib has created a masterpiece pond turtle shell crown!
+Cerol Ilidudib has created a masterpiece pond turtle shell earring!
+Cerol Ilidudib has created a masterpiece pond turtle shell crown!
+Cerol Ilidudib has created a masterpiece pond turtle shell earring!
+The flying {yak bone bolt} strikes the yak bull in the lower body, tearing the muscle and bruising the guts!
+The yak bull looks sick!
+The yak bull vomits.
+The yak bull retches.
+The yak bull vomits.
+The flying {yak bone bolt} strikes the yak bull in the head, tearing the muscle!
+The force twists the neck!
+The yak bull retches.
+The yak bull vomits.
+The flying {ðyak bone boltð} strikes the yak bull in the tail, tearing the muscle!
+The yak bull retches.
+The flying {ðyak bone boltð} strikes the yak bull in the right front leg, tearing the muscle!
+The yak bull vomits.
+The flying {ðyak bone boltð} strikes the yak bull in the left front leg, tearing the muscle!
+The yak bull vomits.
+The yak bull retches.
+The flying {ðyak bone boltð} strikes the yak bull in the lower body, tearing the muscle and bruising the guts!
+The yak bull looks even more sick!
+The yak bull vomits.
+The yak bull retches.
+The flying {ðyak bone boltð} strikes the yak bull in the left rear leg, tearing the muscle!
+The yak bull vomits.
+The flying {ðyak bone boltð} strikes the yak bull in the upper body, tearing the muscle!
+The yak bull vomits.
+The flying {ðyak bone boltð} strikes the yak bull in the neck, tearing the muscle!
+The yak bull retches.
+The flying {ðyak bone boltð} strikes the yak bull in the right rear leg, tearing the muscle!
+The yak bull vomits.
+The flying {ðyak bone boltð} strikes the yak bull in the lower body, tearing the muscle and bruising the spleen!
+The yak bull vomits.
+The flying {ðyak bone boltð} strikes the yak bull in the neck, tearing the muscle!
+Cerol Ilidudib has created a masterpiece pond turtle shell crown!
+The yak bull retches.
+The yak bull vomits.
+The yak bull retches.
+The flying {ðyak bone boltð} strikes the yak bull in the lower body, tearing the muscle and bruising the guts!
+The yak bull looks even more sick!
+The yak bull vomits.
+The yak bull retches.
+The flying {ðyak bone boltð} strikes the yak bull in the left front leg, tearing the muscle!
+The flying {ðyak bone boltð} strikes the yak bull in the left rear leg, tearing the muscle!
+Cerol Ilidudib has created a masterpiece pond turtle shell figurine of RŒsen Southroof!
+Cerol Ilidudib has created a masterpiece pond turtle shell earring!
+The yak bull vomits.
+The yak bull retches.
+The yak bull vomits.
+Tulon Zaneg–z, broker cancels Hunt: No ammunition.
+Tulon Zaneg–z, broker: I must withdraw!
+The yak bull retches.
+Tulon Zaneg–z, broker: I must withdraw!
+The yak bull vomits.
+Tulon Zaneg–z, broker: I must withdraw!
+The yak bull retches.
+Tulon Zaneg–z, broker: I must withdraw!
+The yak bull vomits.
+Tulon Zaneg–z, broker: I must withdraw!
+The yak bull retches.
+Tulon Zaneg–z, broker: I must withdraw!
+The yak bull retches.
+Tulon Zaneg–z, broker: I must withdraw!
+The yak bull vomits.
+Tulon Zaneg–z, broker: I must withdraw!
+The yak bull retches.
+Tulon Zaneg–z, broker: I must withdraw!
+The yak bull vomits.
+Tulon Zaneg–z, broker: I must withdraw!
+The yak bull retches.
+The yak bull vomits.
+The yak bull retches.
+The yak bull vomits.
+The yak bull retches.
+The yak bull vomits.
+The yak bull retches.
+The yak bull vomits.
+The yak bull retches.
+The yak bull vomits.
+The yak bull retches.
+The flying {yak bone bolt} strikes the yak cow in the left front leg, tearing the muscle and bruising the bone!
+A tendon has been torn!
+The yak bull vomits.
+The yak bull retches.
+The flying {yak bone bolt} strikes the yak cow in the right front leg, tearing the muscle and bruising the bone!
+A tendon has been torn!
+The yak cow falls over.
+The flying {yak bone bolt} strikes the yak cow in the right rear leg, tearing the muscle and bruising the bone!
+A tendon has been torn!
+The yak bull vomits.
+The yak bull retches.
+The flying {yak bone bolt} strikes the yak cow in the lower body, tearing the muscle and bruising the guts!
+Cerol Ilidudib has created a masterpiece pond turtle shell amulet!
+The flying {yak bone bolt} strikes the yak cow in the left rear leg, tearing the muscle and bruising the bone!
+A tendon has been torn!
+The yak bull vomits.
+The flying {ðyak bone boltð} strikes the yak cow in the left front hoof, but the attack glances away!
+The flying {ðyak bone boltð} strikes the yak cow in the upper body, tearing the muscle and bruising the liver!
+The flying {ðyak bone boltð} strikes the yak cow in the lower body, tearing the muscle and bruising the pancreas!
+Cerol Ilidudib has created a masterpiece pond turtle shell figurine of Monom Picktender!
+The flying {ðyak bone boltð} strikes the yak cow in the right rear leg, tearing the muscle and bruising the bone!
+A tendon has been torn!
+The flying {ðyak bone boltð} strikes the yak cow in the right rear leg, tearing the muscle and bruising the bone!
+A tendon has been torn!
+The flying {ðyak bone boltð} strikes the yak cow in the left front leg, tearing the muscle and bruising the bone!
+A tendon has been torn!
+The flying {ðyak bone boltð} strikes the yak cow in the upper body, tearing the muscle and bruising the right lung!
+The yak cow is having trouble breathing!
+Cerol Ilidudib has created a masterpiece pond turtle shell amulet!
+The flying {ðyak bone boltð} strikes the yak cow in the right front hoof, but the attack glances away!
+The force twists the right front leg!
+The flying {ðyak bone boltð} strikes the yak cow in the upper body, tearing the muscle and bruising the right lung!
+The yak cow is having trouble breathing!
+The flying {ðyak bone boltð} strikes the yak cow in the upper body, tearing the muscle!
+The flying {ðyak bone boltð} strikes the yak cow in the upper body, tearing the muscle and bruising the left lung!
+The yak cow is having trouble breathing!
+The flying {ðyak bone boltð} strikes the yak cow in the upper body, tearing the muscle!
+A tendon in the middle spine has been torn!
+The flying {ðyak bone boltð} strikes the yak cow in the right rear leg, tearing the muscle and bruising the bone!
+A tendon has been torn!
+The flying {ðyak bone boltð} strikes the yak cow in the right front hoof, but the attack glances away!
+The force pulls the right front leg!
+It has started raining.
+The flying {ðyak bone boltð} strikes the yak cow in the left rear hoof, but the attack glances away!
+The force twists the left rear leg!
+The flying {ðyak bone boltð} strikes the yak cow in the lower body, tearing the muscle and bruising the guts!
+The yak cow looks sick!
+The yak cow vomits.
+The flying {ðyak bone boltð} strikes the yak cow in the right rear leg, tearing the muscle and bruising the bone!
+A tendon has been torn!
+The yak cow retches.
+The yak cow vomits.
+The flying {ðyak bone boltð} strikes the yak cow in the right rear leg, tearing the muscle and bruising the bone!
+A sensory nerve has been severed and a tendon has been torn!
+The yak cow retches.
+Tulon Zaneg–z, broker cancels Hunt: No ammunition.
+Tulon Zaneg–z, broker: I must withdraw!
+The flying {ðyak bone boltð} strikes the yak cow in the head, tearing the muscle!
+A tendon in the skull has been torn!
+The yak cow has been stunned!
+The yak cow has been knocked unconscious!
+The force twists the neck!
+Tulon Zaneg–z, broker: I must withdraw!
+The yak cow vomits.
+Tulon Zaneg–z, broker: I must withdraw!
+The yak cow retches.
+Tulon Zaneg–z, broker: I must withdraw!
+The yak cow vomits.
+Tulon Zaneg–z, broker: I must withdraw!
+The yak cow vomits.
+The yak cow retches.
+Tulon Zaneg–z, broker: I must withdraw!
+The yak cow retches.
+Tulon Zaneg–z, broker: I must withdraw!
+The yak cow retches.
+The yak cow vomits.
+Tulon Zaneg–z, broker: I must withdraw!
+The yak cow retches.
+The yak cow regains consciousness.
+The yak cow vomits.
+The yak cow retches.
+The yak cow is no longer stunned.
+The yak cow vomits.
+The yak cow retches.
+The yak cow vomits.
+The yak cow retches.
+The yak cow vomits.
+Cerol Ilidudib has created a masterpiece pond turtle shell ring!
+The yak cow retches.
+The yak cow vomits.
+The flying {yak bone bolt} strikes the yak cow in the left rear leg, tearing the muscle and bruising the bone!
+A tendon has been torn!
+The flying {yak bone bolt} strikes the yak cow in the left front leg, tearing the muscle and bruising the bone!
+A tendon has been torn!
+The flying {yak bone bolt} strikes the yak cow in the left rear leg, tearing the muscle and bruising the bone!
+A tendon has been torn!
+The flying {yak bone bolt} strikes the yak cow in the right rear leg, tearing the muscle and bruising the bone!
+A tendon has been torn!
+The flying {yak bone bolt} strikes the yak cow in the lower body, tearing the muscle and tearing the stomach!
+The flying {ðwolverine bone boltð} strikes the yak cow in the right rear leg, tearing the muscle and bruising the bone!
+A tendon has been torn!
+The flying {ðwolverine bone boltð} strikes the yak cow in the right rear leg, tearing the muscle and bruising the bone!
+A tendon has been torn!
+The flying {ðwolverine bone boltð} strikes the yak cow in the lower body, tearing the muscle and bruising the stomach!
+The flying {wolverine bone bolt} strikes the yak cow in the left rear leg, tearing the muscle and bruising the bone!
+A tendon has been torn!
+The flying {wolverine bone bolt} strikes the yak cow in the right front leg, tearing the muscle and bruising the bone!
+A tendon has been torn!
+The flying {wolverine bone bolt} strikes the yak cow in the left rear leg, tearing the muscle and bruising the bone!
+A tendon has been torn!
+The flying {wolverine bone bolt} strikes the yak cow in the right rear leg, tearing apart the muscle and bruising the bone!
+A tendon has been torn!
+The flying {wolverine bone bolt} strikes the yak cow in the upper body, tearing the muscle!
+A tendon in the right false ribs has been torn!
+The flying {+wolverine bone bolt+} strikes the yak cow in the left front leg, tearing the muscle and bruising the bone!
+A tendon has been torn!
+The flying {+wolverine bone bolt+} strikes the yak cow in the right rear leg, tearing apart the fat and bruising the bone!
+A tendon has been torn!
+The flying {+wolverine bone bolt+} strikes the yak cow in the right front leg, tearing the muscle and bruising the bone!
+A tendon has been torn!
+The flying {+wolverine bone bolt+} strikes the yak cow in the right rear leg, tearing apart the muscle and bruising the bone!
+A tendon has been torn!
+Cerol Ilidudib has created a masterpiece pond turtle shell figurine of Monom Picktender!
+The flying {+wolverine bone bolt+} strikes the yak cow in the left front leg, tearing the muscle and bruising the bone!
+A tendon has been torn!
+The flying {+wolverine bone bolt+} strikes the yak cow in the left rear leg, tearing the muscle and bruising the bone!
+A tendon has been torn!
+The flying {+wolverine bone bolt+} strikes the yak cow in the left rear leg, tearing the muscle and bruising the bone!
+A tendon has been torn!
+The flying {+wolverine bone bolt+} strikes the yak cow in the left rear leg, tearing the muscle and bruising the bone!
+A tendon has been torn!
+The flying {+wolverine bone bolt+} strikes the yak cow in the right rear leg, tearing apart the muscle and bruising the bone!
+A tendon has been torn!
+Tulon Zaneg–z, broker cancels Hunt: No ammunition.
+Tulon Zaneg–z, broker: I must withdraw!
+The flying {+wolverine bone bolt+} strikes the yak cow in the upper body, tearing the muscle and bruising the heart!
+Tulon Zaneg–z, broker: I must withdraw!
+The flying {wolverine bone bolt} strikes the yak bull in the right front leg, tearing the muscle!
+The flying {wolverine bone bolt} strikes the yak bull in the upper body, tearing the muscle and bruising the right lung!
+The yak bull is having trouble breathing!
+The flying {wolverine bone bolt} strikes the yak bull in the right rear leg, tearing the muscle!
+The flying {wolverine bone bolt} strikes the yak bull in the right front leg, tearing the muscle!
+The flying {wolverine bone bolt} strikes the yak bull in the upper body, tearing the muscle and bruising the right lung!
+The yak bull is having trouble breathing!
+The flying {ðwolverine bone boltð} strikes the yak bull in the left front leg, tearing the muscle!
+The flying {ðwolverine bone boltð} strikes the yak bull in the right front leg, tearing the muscle!
+The flying {ðwolverine bone boltð} strikes the yak bull in the lower body, tearing the muscle!
+The flying {ðyak bone boltð} strikes the yak bull in the left front leg, tearing the muscle!
+Cerol Ilidudib has created a masterpiece pond turtle shell earring!
+The flying {ðyak bone boltð} strikes the yak bull in the left front leg, tearing the muscle!
+The flying {ðyak bone boltð} strikes the yak bull in the right front leg, tearing the muscle!
+The flying {ðyak bone boltð} strikes the yak bull in the right rear leg, tearing the muscle!
+A sensory nerve has been severed!
+The flying {*yak bone bolt*} strikes the yak bull in the lower body, tearing the muscle and bruising the guts!
+The yak bull looks sick!
+The yak bull vomits.
+The yak bull retches.
+The flying {*yak bone bolt*} strikes the yak bull in the left rear leg, tearing the muscle!
+The yak bull vomits.
+The yak bull retches.
+The yak bull vomits.
+The flying {*yak bone bolt*} strikes the yak bull in the left rear leg, tearing the muscle!
+The flying {*yak bone bolt*} strikes the yak bull in the left front leg, tearing the muscle!
+The yak bull vomits.
+The yak bull retches.
+The flying {ðyak bone boltð} strikes the yak bull in the upper body, tearing the muscle and bruising the right lung!
+The yak bull is having trouble breathing!
+Tulon Zaneg–z, broker: I have mastered crossbow.  That was very satisfying!
+The yak bull vomits.
+The yak bull retches.
+The flying {ðyak bone boltð} strikes the yak bull in the left front leg, tearing the muscle!
+The yak bull retches.
+Cerol Ilidudib has created a masterpiece pond turtle shell crown!
+The yak bull retches.
+The flying {ðyak bone boltð} strikes the yak bull in the lower body, tearing the muscle and bruising the guts!
+The yak bull looks even more sick!
+The flying {ðyak bone boltð} strikes the yak bull in the tail, tearing the muscle and bruising the bone!
+A tendon has been torn!
+The yak bull vomits.
+Tulon Zaneg–z, broker cancels Hunt: No ammunition.
+Tulon Zaneg–z, broker: I must withdraw!
+The flying {ðyak bone boltð} strikes the yak bull in the upper body, tearing the muscle!
+The yak bull vomits.
+The yak bull retches.
+Tulon Zaneg–z, broker: I must withdraw!
+The yak bull retches.
+Tulon Zaneg–z, broker: I must withdraw!
+Resuming production: biscuits
+The yak bull vomits.
+Tulon Zaneg–z, broker: I must withdraw!
+The yak bull retches.
+Tulon Zaneg–z, broker: I must withdraw!
+The yak bull retches.
+Tulon Zaneg–z, broker: I must withdraw!
+The yak bull vomits.
+Tulon Zaneg–z, broker: I must withdraw!
+The yak bull retches.
+Tulon Zaneg–z, broker: I must withdraw!
+The yak bull vomits.
+Tulon Zaneg–z, broker: I must withdraw!
+The yak bull retches.
+Tulon Zaneg–z, broker: I must withdraw!
+The yak bull vomits.
+The yak bull retches.
+Cerol Ilidudib has created a masterpiece pond turtle shell amulet!
+The yak bull vomits.
+The yak bull retches.
+The yak bull vomits.
+The yak bull retches.
+The yak bull vomits.
+Tulon Zaneg–z, broker: I must withdraw!
+The yak bull retches.
+Tulon Zaneg–z, broker: I must withdraw!
+The yak bull vomits.
+The yak bull retches.
+Tulon Zaneg–z, broker: I must withdraw!
+The yak bull retches.
+Stopping production: biscuits
+The yak bull retches.
+The yak bull vomits.
+The yak bull retches.
+The yak bull vomits.
+The yak bull retches.
+The yak bull vomits.
+The yak bull retches.
+The yak bull vomits.
+The yak bull retches.
+The yak bull vomits.
+The yak bull retches.
+The yak bull vomits.
+The yak bull retches.
+The yak bull vomits.
+The yak bull retches.
+The yak bull vomits.
+The yak bull retches.
+The yak bull vomits.
+The yak bull retches.
+The yak bull vomits.
+The yak bull retches.
+The yak bull vomits.
+The yak bull retches.
+The yak bull vomits.
+The yak bull retches.
+The flying {yak bone bolt} strikes the yak cow in the lower body, tearing the muscle!
+The yak bull vomits.
+The flying {yak bone bolt} strikes the yak cow in the lower body, tearing the muscle!
+The yak bull vomits.
+The flying {yak bone bolt} strikes the yak cow in the right front leg, tearing the muscle!
+Cerol Ilidudib has created a masterpiece pond turtle shell earring!
+The yak bull retches.
+The yak bull vomits.
+The yak bull retches.
+The flying {yak bone bolt} strikes the yak cow in the upper body, tearing the muscle and bruising the liver!
+The yak bull vomits.
+The yak bull retches.
+The flying {yak bone bolt} strikes the yak cow in the right horn, but the attack glances away!
+The force bends the head!
+The flying {yak bone bolt} strikes the yak cow in the left front leg, tearing the muscle!
+The yak cow falls over.
+The flying {*yak bone bolt*} strikes the yak cow in the right rear leg, tearing the muscle!
+The flying {*yak bone bolt*} strikes the yak cow in the right front leg, tearing the muscle!
+The flying {*yak bone bolt*} strikes the yak cow in the right rear leg, tearing the muscle!
+The flying {*yak bone bolt*} strikes the yak cow in the left rear leg, tearing the muscle!
+The flying {*yak bone bolt*} strikes the yak cow in the right front leg, tearing the muscle!
+The flying {*yak bone bolt*} strikes the yak cow in the lower body, tearing the muscle and bruising the guts!
+Cerol Ilidudib has created a masterpiece pond turtle shell crown!
+The flying {*yak bone bolt*} strikes the yak cow in the left rear leg, tearing the muscle!
+The flying {*yak bone bolt*} strikes the yak cow in the right ear, tearing the cartilage!
+The force bends the head!
+The flying {*yak bone bolt*} strikes the yak cow in the left rear leg, tearing the muscle!
+The flying {ðyak bone boltð} strikes the yak cow in the right front leg, tearing the muscle!
+Tulon Zaneg–z, broker cancels Hunt: No ammunition.
+Tulon Zaneg–z, broker: I must withdraw!
+The flying {ðyak bone boltð} strikes the yak cow in the upper body, tearing the muscle and bruising the liver!
+Tulon Zaneg–z, broker: I must withdraw!
+The weather has cleared.
+Tulon Zaneg–z, broker: I must withdraw!
+The flying {+yak bone bolt+} strikes the yak bull in the left front leg, tearing the muscle!
+The flying {+yak bone bolt+} strikes the yak bull in the left rear leg, tearing the muscle!
+The flying {+yak bone bolt+} strikes the yak bull in the lower body, tearing the muscle and bruising the left kidney!
+The flying {+yak bone bolt+} strikes the yak bull in the head, tearing the muscle!
+The yak bull has been knocked unconscious!
+The force pulls the neck!
+The flying {ðyak bone boltð} strikes the yak bull in the right front leg, tearing the muscle!
+The flying {ðyak bone boltð} strikes the yak bull in the right rear leg, tearing the muscle!
+The flying {ðyak bone boltð} strikes the yak bull in the left rear leg, tearing the muscle!
+The flying {ðyak bone boltð} strikes the yak bull in the right rear leg, tearing the muscle!
+Cerol Ilidudib has created a masterpiece pond turtle shell figurine of ‹ngiz Gildsoaked!
+The flying {ðyak bone boltð} strikes the yak bull in the head, tearing the muscle!
+The force bends the neck!
+The flying {ðyak bone boltð} strikes the yak bull in the lower body, tearing the muscle and bruising the right kidney!
+The flying {ðyak bone boltð} strikes the yak bull in the upper body, tearing the muscle!
+The flying {ðyak bone boltð} strikes the yak bull in the left front leg, tearing the muscle!
+The yak bull regains consciousness.
+The flying {ðyak bone boltð} strikes the yak bull in the left front leg, tearing the muscle!
+The flying {ðyak bone boltð} strikes the yak bull in the upper body, tearing the muscle and bruising the right lung!
+The yak bull is no longer stunned.
+The flying {ðyak bone boltð} strikes the yak bull in the lower body, tearing the muscle and bruising the guts!
+The yak bull looks sick!
+The flying {ðyak bone boltð} strikes the yak bull in the lower body, tearing the muscle!
+The yak bull vomits.
+The yak bull retches.
+The flying {ðyak bone boltð} strikes the yak bull in the left front leg, tearing the muscle!
+The flying {ðyak bone boltð} strikes the yak bull in the lower body, tearing the muscle and bruising the guts!
+The yak bull looks even more sick!
+The yak bull vomits.
+The yak bull retches.
+The flying {ðyak bone boltð} strikes the yak bull in the left rear leg, tearing the muscle!
+The yak bull vomits.
+Cerol Ilidudib has created a masterpiece pond turtle shell crown!
+The yak bull retches.
+The yak bull vomits.
+The flying {ðyak bone boltð} strikes the yak bull in the lower body, tearing the muscle and bruising the guts!
+The yak bull retches.
+The yak bull vomits.
+The flying {ðyak bone boltð} strikes the yak bull in the lower body, tearing the muscle and bruising the left kidney!
+The flying {ðyak bone boltð} strikes the yak bull in the upper body, tearing the muscle and bruising the liver!
+Tulon Zaneg–z, broker cancels Hunt: No ammunition.
+Tulon Zaneg–z, broker: I must withdraw!
+The flying {ðyak bone boltð} strikes the yak bull in the right rear leg, tearing the muscle!
+The yak bull vomits.
+The yak bull retches.
+Tulon Zaneg–z, broker: I must withdraw!
+The yak bull retches.
+Tulon Zaneg–z, broker: I must withdraw!
+The yak bull vomits.
+Tulon Zaneg–z, broker: I must withdraw!
+The yak bull vomits.
+Tulon Zaneg–z, broker: I must withdraw!
+The yak bull retches.
+Tulon Zaneg–z, broker: I must withdraw!
+The yak bull vomits.
+Tulon Zaneg–z, broker: I must withdraw!
+The yak bull retches.
+Tulon Zaneg–z, broker: I must withdraw!
+The yak bull retches.
+The yak bull vomits.
+The yak bull retches.
+The yak bull vomits.
+The yak bull retches.
+The yak bull vomits.
+The yak bull retches.
+The yak bull vomits.
+The yak bull retches.
+The yak bull vomits.
+The yak bull retches.
+Cerol Ilidudib has created a masterpiece pond turtle shell crown!
+The yak bull vomits.
+The yak bull retches.
+The flying {yak bone bolt} strikes the yak bull in the left front leg, tearing the muscle!
+Cerol Ilidudib, Bone Carver cancels Make shell Crafts: Needs unrotten shell body part.
+The flying {yak bone bolt} strikes the yak bull in the head, tearing the muscle!
+The yak bull has been stunned!
+The yak bull has been knocked unconscious!
+The force bends the neck!
+The flying {yak bone bolt} strikes the yak bull in the left front leg, tearing the muscle!
+The flying {yak bone bolt} strikes the yak bull in the upper body, tearing the muscle and bruising the left lung!
+The yak bull is having trouble breathing!
+The flying {yak bone bolt} strikes the yak bull in the left front leg, tearing the muscle!
+The flying {yak bone bolt} strikes the yak bull in the right front leg, tearing the muscle!
+The flying {yak bone bolt} strikes the yak bull in the left front leg, tearing the muscle!
+Tulon Zaneg–z, broker cancels Hunt: No ammunition.
+The broker bashes the yak bull in the head with her (®*bronze crossbow*¯), bruising the fat!
+The force twists the neck, bruising the skin!
+Tulon Zaneg–z, broker: I must withdraw!
+Autumn has come.

@@ -1,0 +1,3 @@
+Loading bindings from data/init/interface.txt
+Resetting textures
+dfhack: redirecting stdout to stdout.log (again)
