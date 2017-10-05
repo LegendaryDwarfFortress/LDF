@@ -245,7 +245,7 @@ Starting DF input capture thread.
 Starting the TCP listener.
 DFHack is running.
 Invoking: gui/no-dfhack-init
-UNKNOWN CLASS 'dfhack_lua_viewscreen@DFHack': vtable = 0x7ff9467c55e0
+UNKNOWN CLASS 'dfhack_lua_viewscreen@DFHack': vtable = 0x7ff9426155e0
 Invoking: keybinding add Ctrl-F1 hotkeys
 Invoking: keybinding add Alt-F1 hotkeys
 Invoking: keybinding add Ctrl-W twaterlvl
@@ -373,72 +373,4 @@ Invoking: enable gui/extended-status
 Invoking: view-item-info enable
 Invoking: gui/load-screen enable
 Invoking: sc-script add SC_WORLD_LOADED onLoad.init-example
-Invoking: repeat -name warn-starving -time 10 -timeUnits days -command [ warn-starving ]
-Invoking: warn-starving
-Invoking: repeat -name warn-stuck-trees -time 10 -timeUnits days -command [ warn-stuck-trees ]
-Invoking: warn-stuck-trees
-Invoking: Multilevel
-Multilevel is not a recognized command.
-Invoking: multilevel
-Invoking: multilevel 10
-Invoking: fastdwarf 1 0
-Invoking: warn-starving
-Invoking: warn-stuck-trees
-UNKNOWN CLASS 'ViewscreenStocks': vtable = 0x7ff94ae855e8
-Invoking: warn-starving
-Invoking: warn-stuck-trees
-Invoking: warn-starving
-Invoking: warn-stuck-trees
-Invoking: warn-starving
-Invoking: warn-stuck-trees
-Invoking: reveal
-Invoking: unreveal
-UNKNOWN CLASS 'viewscreen_unitlaborsst': vtable = 0x7ff94e4bff48
-Invoking: warn-starving
-Invoking: warn-stuck-trees
-Invoking: warn-starving
-Invoking: warn-stuck-trees
-Invoking: warn-starving
-Invoking: warn-stuck-trees
-Invoking: warn-starving
-Invoking: warn-stuck-trees
-Invoking: gui/workflow
-Invoking: job-material RHYOLITE
-Invoking: gui/workflow
-Invoking: warn-starving
-Invoking: warn-stuck-trees
-Invoking: gui/workflow
-Invoking: gui/workflow
-Invoking: gui/workflow
-Invoking: gui/workflow
-Invoking: warn-starving
-Invoking: warn-stuck-trees
-Invoking: gui/workflow
-Invoking: warn-starving
-Invoking: warn-stuck-trees
-Invoking: autodump
-Invoking: gui/workflow
-Invoking: warn-starving
-Invoking: warn-stuck-trees
-Invoking: twbt
-Invoking: twbt next
-Invoking: warn-starving
-Invoking: warn-stuck-trees
-Invoking: warn-starving
-Invoking: warn-stuck-trees
-Invoking: warn-starving
-Invoking: warn-stuck-trees
-Forgetting job 8448 (ConstructDoor): holder building lost.
-Forgetting job 7313 (ConstructBin): holder building lost.
-Forgetting job 7098 (ConstructMechanisms): holder building lost.
-Forgetting job 6951 (MakeTotem): holder building lost.
-Forgetting job 6950 (MakeCrafts): holder building lost.
-Forgetting job 6909 (MakeAmmo): holder building lost.
-Forgetting job 6803 (ConstructBed): holder building lost.
-Forgetting job 6527 (PrepareMeal): holder building lost.
-Forgetting job 6526 (PrepareMeal): holder building lost.
-Forgetting job 6525 (PrepareMeal): holder building lost.
-Forgetting job 5920 (ConstructTable): holder building lost.
-Forgetting job 5919 (ConstructThrone): holder building lost.
-Forgetting job 4445 (MakeCrafts): holder building lost.
 Plugin twbt has failed to shutdown!
