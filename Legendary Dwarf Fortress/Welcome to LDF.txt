@@ -1,0 +1,281 @@
+
+################################################################################
+
+        Legendary Dwarf Fortress
+            by
+        Amostubal
+		
+################################################################################
+
+    Welcome to Legendary Dwarf Fortress!
+
+    This is a new Mod Pack from Amostubal.  The goal is to design a set of 
+races, creatures, and items that will be a backbone for adding in various mods
+provided by the community. Features will include 4 factions, 16 Civillizations,
+1000s of specialized gear and weapons, 100+ new buildings, and multiple complex
+game mechanic ideas that completely change the how the game is played.  Welcome 
+to LDF.
+
+################################################################################
+
+
+        Table Of Contents
+		    1. Factions and Civilizations Overview
+			2. Civilized Races
+			    a. Dwarfs of the High Mountains
+				b. Elfs of the Forest
+				c. Humans of the Plains
+				d. Gnomes of the Hills
+			3. Savage Races
+			    a. Orcs of the Tiaga
+				b. Jotun of the Glaciers
+				c. Reptilians of the Desert
+				d. Tiger-men of the Jungles
+			4. Scavanger Races
+			    a. Kobolds of the Caves
+				b. Trolls of the Swamps
+				c. Utinis of the Wastelands
+				d. Ogres of Chasm
+			5. Evil-bound Races
+			    a. Goblins of the Dark Fortress
+				b. Necromancers of the Obelisk
+				c. Succubus of the Underworld
+				d. Xerians of the Dark pits
+			
+
+
+
+
+
+################################################################################
+
+Faction and Civilization Overview
+
+	In LDF the races are seperated into 4 factions.  The Civilized, the Savages,
+the Scavangers, and the Evil-bound.  Inside these factions, the races loosely 
+associate morally, but that doesn't stop them from fighting among themselves.  
+The truth is that even though factions are recognized as opposition to each 
+other, they often don't get along with each other either.
+
+################################################################################
+
+Civilized Races
+
+    The civilized generally like to build large sites, cities, outposts, etc.
+They are known to be more diplomatic toward each other than the other factions.
+Most times the Dwarfs, Elfs, Humans, and Gnomes live in harmony... but that 
+harmony is fragile...
+
+---- Dwarfs of the High Mountains ----
+
+    The Dwarfs of the High Mountains, seek to build massive megastructures and 
+dig deep into the earth to find treasure.  Their cities are often found deep
+under the earthm but sometimes a small group may form a hillock village to bring
+much needed booze to the cities.
+
+    Dwarven society is extremely well structured.  Besides the usually long list
+of nobility, Dwarves also maintain guilds to restrict access to higher knowledge
+and technology.  Each guild requires a contract to completed to provide access 
+and that their secrets be handled by Guild Members only.  In the end Dwarves are
+highly efficeint at producing large quantities of high quality goods for their 
+people's consumption.
+
+---- Elfs of the Forest ----
+
+    The Elfs of the Forest may seem weak to some, but no other group has deeper
+knowledge of the inner workings of nature.  Tree singing, Earth singing, and the 
+ability to call on the many diverse spirits of the wood gives Elves unprecedent
+power when in their own element.  Thier cities are built with the gifts of the
+forest and their step does not disturb it.
+
+---- Humans of the Plains ----
+
+    Humans are an ingenious lot of short lived creatures.  Due to the nature of 
+their short lifes, the live in the now, destroying things around them to build
+their cities, forts, castles, and towers.  Even then they are generally peaceful
+with their non agressive neighbors.
+
+    Most human settlements are based around their need for economic growth, any
+Human town is covered with shops selling everything from weapons and armor to 
+toys and food.  
+
+---- Gnomes of the Hills ----
+
+    Deep in the hill country a very small but intelligent race can be found.  
+The Gnomes of the hills seek knowledge of mechanical glory at every turn.  From
+high tech weapons to robotic assistants, Alchemy miracles to exploding bees can
+be found in the annals of Gnomish History.  This may seem to be an over powered
+race, but its all to offset their issues of bad eyesight and short stature.
+
+################################################################################
+
+Savage Races
+
+    The Savage Races are powerful creatures, bound together with their desire to	
+destroy their enemies.  They are known to kidnap other races, either to use as
+slaves, meat, or both.  Their desire for conquest often times pits themselves 
+against one another.
+
+---- Orcs of the Tiaga ----
+
+    Orcs once were one the military branches used by the Goblins and their Demon
+overlords.  They are massive standing twice as tall as Dwarf and their desire to
+gain ground even in the face of opposition is comendable.  Orcs of the Tiaga are
+descended from these ancient orcs who rebelled against their masters and set out
+to be their own nation.  
+
+    Orcs utilize their captured prey as slave labor and livestock.  They are 
+very efficent at utilizing all the parts of a body for various goods, including
+turning bones into materials as strong as steel.
+
+---- Jotuns of the Glaciers ----
+
+    Jotuns, Ice Giants, a race that can only survive in the extreme cold found
+at the poles of most worlds.  Jotuns will venture out during the coldest months
+of the year, seeking out resources gathered by others and dragging back slaves 
+from those not well protected against their onslaught.
+
+---- Reptilians of the Desert ----
+
+    Slave masters of the Desert, these Reptile-like creatures seek slaves for
+their monumental works.  Some of the structures built with their slave labor are
+as grand as anything dreamed up by the Dwarfs and put together faster than any
+human civ can accomplish.  They are covered in scales and come in multiple 
+varieties some have 2 legs and 2 arms while others have 4 legs and none; there
+is even rumors that certain magi among them have no legs and even some without
+any limbs are revered in their society.  Thier bite contains posions that can
+slow a mans heart, paralyze, and even some say cause extreme pain and suffering.
+
+---- Tiger-men of the Jungles ----
+
+    Wild, feral, some wouldn't even call them a civilization, generally being
+nomadic throughout the jungle, but when they do settle they build tree forts and
+hang their prey on pikes to warn away those who would attempt to approach.
+Nothing is more feared than these sneaky warbands roaming the edges of the 
+jungle waiting for a wandering traveler to get to close.  covered in a fur and
+tough skin these wild beasts generally don't wear armor and their claws are
+a natural weapon usable when no other weapon is close at hand.
+
+################################################################################
+
+Scavanger Races
+
+    The Scavangers are races who hold onto the edge of society by stealth and
+theft.  Even though some are very weak and others are very strong, they all 
+share one similarity... if its shiny and then can grab it, they will.  Though
+they will trade with each other, their trading rarely is expressed as traded
+wealth as every trade is considered a theft from those who they trade with.
+
+---- Kobolds of the Caves ----
+
+    Little rat faced men who live in hovels and caves.  They reproduce, well, 
+like rats literally having litters of 5 to 10 at a time and scavenging the land
+for resources.  They live really short lives and rarely have time to be high 
+skilled at anything, which would probably be a good thing, since they surely
+would overwhelming everyone and destroy the world if they lived any longer.
+
+    Considering their stature, around half the size of a dwarf, they can't wield
+much in the way of weapons, making most of their weapons from wood and building
+thier houses from straw.  Typically they don't dig, but will utilize any form of
+natural formation (caves, cliffs, etc) as a form of shelter if its available.
+Since they are so light they can build huge structures of thatch and live in 
+them for generations.  Many other races dispise them for this.
+
+---- Trolls of the Swamps ----
+
+    In the past trolls were considered the Goblin response to elfs, an agile 
+race that were suppose to be superior to elven archers, able to dodge arrows and
+fire back rapidly... but not so today.  As the years went on and this group was
+slowly forgotten by their masters they became more or less drunks and denigrades
+that hang out in the swamps, building temples to booze and base desires.  Still
+capable of being ferocious, if need be, but usually not.  They do leave their 
+brothels and bars from time to time to seak out more valuables and beer... lots
+of beer.
+
+---- Utinis of the Wastelands ----
+
+    Shrouded figures seeking out the wares of fallen travelers to try and sell
+to others... These are the Utinis and they roam the wastelands seeking all sorts
+of refuse to trade. Utinis claim to be mere fortune makers and traveling 
+merchants but beware they will till to rob you, while selling that statue that 
+looks remarkably like the one your neighbor had last month...
+
+---- Ogres of Chasm ----
+
+    Large Brutes these are, easily twice the size of a human, many seem to fear
+these giants, but truth is they are much more likely to fear you.  In the past
+the ogres have been slaves of just about everyone and used as miners since this
+is what they do best.  The other things they like to do is to run into other
+smaller civs forts and steal food and drink, occasionally taking whoever is
+carrying it with them. Like orcs they like to make things out of bodies, such as
+armor, clothing, and weapons.
+
+################################################################################
+
+Evil-bound Races
+
+    The Evil-bound are those who all the great gods of the heavens and the earth
+have forsaken.  These races therefore worship the dark powers that have come to
+provide for them where others will not.  They desire to break down and destroy
+all that lives upon the world and will go to great strides to accomplish these
+tasks.
+
+---- Goblins of the Dark Fortress ----
+    
+	Like most don't know this but Goblins even though slighly small and lanky
+are actually quite crafty and mischivious.  They have been known to steal babies
+for the purposes of raising eventually deformed versions of other races to add 
+to their military might.  Some even say they are deformed version of dwarfs or 
+men who were perveted at the touch of adamantine... These questions may never be
+discovered.  The goblins fight maintain their position of favor with the demonic
+creatures of the underworld.
+
+---- Necromancers of the Obelisk ----
+
+    Ancient Necromancer spirits seek to return to the lands of the living by 
+possessing the undead bodies that strive to awaken them.  Through long lost arts
+gained in their long dark slumbers they bring about massive armies from the left
+over body parts of their enemies.  They are the Necromancers of the Obelisk and 
+they will turn all they will decay and rot all that they touch.
+
+---- Succubus of the Underworld ----
+
+    These demonic seductresses have escaped from the underworld seeking to drag
+all they see into debauchery.  One look is all that is necessary to turn a weak
+mind into an eternal slave.  Evil creatures of the underworld will be summoned 
+and the ground scorched at their arrival.
+
+---- Xerians of the Dark pits ----
+
+    These nasty things seek to convert the very ground around them into a deep
+dark pit of despair.  they consume everything; plants, animals, rocks, water,
+and even themselves when the time comes; into a sludge from which they build 
+more of themselves and all of the diabolical needs.  Their apparence is that of
+overgrown bugs, spiders, and scorpions yet even this doesn't do them justice.
+Even the Goblins and Necromancers fear this race as its needs to devour 
+everything in sight knows no end.
+
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
