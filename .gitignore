@@ -1,0 +1,16 @@
+DFWIP/Dwarf Fortress/raw/backup
+DFWIP/Dwarf Fortress/gamelog.txt
+DFWIP/Dwarf Fortress/stderr.log
+DFWIP/Dwarf Fortress/stderr.txt
+DFWIP/Dwarf Fortress/stdout.txt
+DFWIP/Dwarf Fortress/data/save/
+DFWIP/Dwarf Fortress/dfhack.history
+DFWIP/Dwarf Fortress/errorlog.txt
+DFWIP/Dwarf Fortress/map_rejection_log.txt
+thumbs.db
+.DS_Store
+*~
+
+DFWIP/Dwarf Fortress/ss_fix.log
+DFWIP/Dwarf Fortress/soundsense_gamelog.txt
+Dwarf Fortress/stderr.log
