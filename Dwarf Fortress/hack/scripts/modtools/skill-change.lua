@@ -58,6 +58,7 @@ args.value = tonumber(args.value)
 if not args.skill then
  error('invalid skill')
 end
+
 if not args.value then
  error('invalid value')
 end
@@ -75,14 +76,14 @@ if not skill then
  utils.insert_sorted(args.unit.status.current_soul.skills,skill,'id')
 end
 
-print('old: ' .. skill.rating .. ': ' .. skill.experience)
+--print('old: ' .. skill.rating .. ': ' .. skill.experience)
 if args.granularity == granularity.experience then
  if args.mode == mode.set then
   skill.experience = args.value
  elseif args.mode == mode.add then
   skill.experience = skill.experience + args.value
  else
-  error 'bad mode'
+  error('bad mode')
  end
 elseif args.granularity == granularity.level then
  if args.mode == mode.set then
@@ -90,11 +91,30 @@ elseif args.granularity == granularity.level then
  elseif args.mode == mode.add then
   skill.rating = args.value + skill.rating
  else
-  error 'bad mode'
+  error('bad mode')
  end
 else
- error 'bad granularity'
+ error('bad granularity')
 end
 
-print('new: ' .. skill.rating .. ': ' .. skill.experience)
+while skill.experience >= ((( skill.rating + 1 ) * 100 ) + 400 ) do
+  skill.rating = skill.rating + 1 
+  skill.experience = skill.experience - (( skill.rating * 100 ) + 400 )
+  if skill.rating >=20 then
+    skill.rating = 20
+    skill.experience = 0
+  end
+end
+
+-- This is inserted twice above inside the rating increase and here after
+-- to catch all the possibilities.  This stops the script from creating
+-- skills above legendary +5.  Additionally this script shouldn't be used
+-- on Combat skills which could go much farther above L+5(20)
+
+if skill.rating >=20 then
+  skill.rating = 20
+  skill.experience = 0
+end
+
+--print('new: ' .. skill.rating .. ': ' .. skill.experience)
 

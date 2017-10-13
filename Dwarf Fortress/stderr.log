@@ -244,8 +244,6 @@ Starting IO thread.
 Starting DF input capture thread.
 Starting the TCP listener.
 DFHack is running.
-Invoking: gui/no-dfhack-init
-UNKNOWN CLASS 'dfhack_lua_viewscreen@DFHack': vtable = 0x7ff9426155e0
 Invoking: keybinding add Ctrl-F1 hotkeys
 Invoking: keybinding add Alt-F1 hotkeys
 Invoking: keybinding add Ctrl-W twaterlvl
@@ -276,15 +274,6 @@ Invoking: keybinding add Alt-P copystock
 Invoking: keybinding add Alt-L@dwarfmode/QueryBuilding/Some/Stockpile "gui/stockpiles -load"
 Invoking: keybinding add Alt-S@dwarfmode/QueryBuilding/Some/Stockpile "gui/stockpiles -save"
 Invoking: keybinding add Ctrl-D job-duplicate
-Invoking: keybinding add Shift-A "job-material ALUNITE"
-Invoking: keybinding add Shift-M "job-material MICROCLINE"
-Invoking: keybinding add Shift-D "job-material DACITE"
-Invoking: keybinding add Shift-R "job-material RHYOLITE"
-Invoking: keybinding add Shift-I "job-material CINNABAR"
-Invoking: keybinding add Shift-B "job-material COBALTITE"
-Invoking: keybinding add Shift-O "job-material OBSIDIAN"
-Invoking: keybinding add Shift-T "job-material ORTHOCLASE"
-Invoking: keybinding add Shift-G "job-material GLASS_GREEN"
 Invoking: keybinding add Alt-Shift-N "sort-units name" "sort-items description"
 Invoking: keybinding add Alt-Shift-R "sort-units arrival"
 Invoking: keybinding add Alt-Shift-T "sort-units profession" "sort-items type material"
@@ -373,4 +362,225 @@ Invoking: enable gui/extended-status
 Invoking: view-item-info enable
 Invoking: gui/load-screen enable
 Invoking: sc-script add SC_WORLD_LOADED onLoad.init-example
+Invoking: multilevel 5
+UNKNOWN CLASS 'dfhack_lua_viewscreen@DFHack': vtable = 0x7ffc095555e0
+Invoking: LDF/LDF-version
+Invoking: :lua print(' ')
+Invoking: :lua print('Running onLoad Initialization.')
+Invoking: :lua print(' ')
+Invoking: :lua print('Initializing water, pay the bills.')
+Invoking: LDF/base/roses-init
+Invoking: base/persist-delay
+Invoking: base/liquids-update
+Invoking: base/flows-update
+Invoking: base/on-death
+Invoking: base/on-time
+Invoking: :lua print(' ')
+Invoking: :lua print('Initializing embark settings.')
+Invoking: points 1274
+Invoking: startdwarf 7
+Invoking: embark-tools anywhere
+Invoking: :lua print(' ')
+Invoking: :lua print('onLoad Initialization Complete!')
+Invoking: repeat -name warn-starving -time 10 -timeUnits days -command [ warn-starving ]
+Invoking: warn-starving
+Invoking: repeat -name warn-stuck-trees -time 10 -timeUnits days -command [ warn-stuck-trees ]
+Invoking: warn-stuck-trees
+Invoking: :lua print(' ')
+Invoking: :lua print('Running onMapLoad Initialization.')
+Invoking: :lua print(' ')
+Invoking: :lua print('onMapLoad Initialization Complete!')
+Invoking: :lua print(' ')
+Invoking: :lua print('Seeking to Initialize your Civilization')
+Invoking: modtools/if-entity -id "MOUNTAIN" -cmd [ script "raw/dwarf_init.txt" ]
+Invoking: modtools/reaction-trigger -reactionName DWARF_UPGRADE_TO_MERCHANT_HALL -command [ building/subtype-change -building \\BUILDING_ID -type DWARF_GUILD_MERCHANT ]
+Invoking: modtools/reaction-trigger -reactionName DWARF_UPGRADE_TO_CARPENTER_HALL -command [ building/subtype-change -building \\BUILDING_ID -type DWARF_GUILD_CARPENTER ]
+Invoking: modtools/reaction-trigger -reactionName DWARF_UPGRADE_TO_MASON_HALL -command [ building/subtype-change -building \\BUILDING_ID -type DWARF_GUILD_MASON ]
+Invoking: modtools/reaction-trigger -reactionName DWARF_UPGRADE_TO_CRAFTER_HALL -command [ building/subtype-change -building \\BUILDING_ID -type DWARF_GUILD_CRAFTER ]
+Invoking: modtools/reaction-trigger -reactionName DWARF_UPGRADE_TO_SMITH_HALL -command [ building/subtype-change -building \\BUILDING_ID -type DWARF_GUILD_SMITH ]
+Invoking: modtools/reaction-trigger -reactionName DWARF_UPGRADE_TO_FARMER_HALL -command [ building/subtype-change -building \\BUILDING_ID -type DWARF_GUILD_FARMER ]
+Invoking: modtools/reaction-trigger -reactionName DWARF_UPGRADE_TO_HEALER_HALL -command [ building/subtype-change -building \\BUILDING_ID -type DWARF_GUILD_HEALER ]
+Invoking: modtools/reaction-trigger -reactionName DWARF_UPGRADE_TO_JEWELER_HALL -command [ building/subtype-change -building \\BUILDING_ID -type DWARF_GUILD_JEWELER ]
+Invoking: modtools/reaction-trigger -reactionName DWARF_UPGRADE_TO_ENGINEER_HALL -command [ building/subtype-change -building \\BUILDING_ID -type DWARF_GUILD_ENGINEER ]
+Invoking: modtools/reaction-trigger -reactionName DWARF_UPGRADE_TO_ALCHEMIST_HALL -command [ building/subtype-change -building \\BUILDING_ID -type DWARF_GUILD_ALCHEMIST ]
+Invoking: modtools/reaction-trigger -reactionName DWARF_UPGRADE_TO_LEGIONNAIRE_HALL -command [ building/subtype-change -building \\BUILDING_ID -type DWARF_GUILD_LEGIONNAIRE ]
+Invoking: modtools/reaction-trigger -reactionName DWARF_UPGRADE_TO_MARKSDWARF_HALL -command [ building/subtype-change -building \\BUILDING_ID -type DWARF_GUILD_MARKSDWARF ]
+Invoking: modtools/reaction-trigger -reactionName DWARF_MERCHANT_TEST -command [ testguild -guild MERCHANT -skills [ PERSUASION NEGOTIATION APPRAISAL JUDGING_INTENT ] -level 5 -unit \\WORKER_ID -race DWARF -anyskill ]
+Invoking: modtools/reaction-trigger -reactionName DWARF_CARPENTER_TEST -command [ testguild -guild CARPENTER -skills [ WOODCUTTING CARPENTRY WOODCRAFT BOWYER ] -level 5 -unit \\WORKER_ID -race DWARF -anyskill ]
+Invoking: modtools/reaction-trigger -reactionName DWARF_MASON_TEST -command [ testguild -guild MASON -skills [ MINING DETAILSTONE MASONRY STONECRAFT DESIGNBUILDING ] -level 5 -unit \\WORKER_ID -race DWARF -anyskill ]
+Invoking: modtools/reaction-trigger -reactionName DWARF_CRAFTER_TEST -command [ testguild -guild CRAFTER -skills [ LEATHERWORK CLOTHESMAKING WOODCRAFT STONECRAFT METALCRAFT BONECARVE POTTERY ] -level 5 -unit \\WORKER_ID -race DWARF -anyskill ]
+Invoking: modtools/reaction-trigger -reactionName DWARF_SMITH_TEST -command [ testguild -guild SMITH -skills [ SMELT FORGE_WEAPON FORGE_ARMOR FORGE_FURNITURE METALCRAFT ] -level 5 -unit \\WORKER_ID -race DWARF -anyskill ]
+Invoking: modtools/reaction-trigger -reactionName DWARF_FARMER_TEST -command [ testguild -guild FARMER -skills [ COOK PLANT BUTCHER BREWING SHEARING TANNER SPINNING ] -level 5 -unit \\WORKER_ID -race DWARF -anyskill ]
+Invoking: modtools/reaction-trigger -reactionName DWARF_HEALER_TEST -command [ testguild -guild HEALER -skills [ DRESS_WOUNDS DIAGNOSE SURGERY SET_BONE SUTURE ] -level 5 -unit \\WORKER_ID -race DWARF -anyskill ]
+Invoking: modtools/reaction-trigger -reactionName DWARF_JEWELER_TEST -command [ testguild -guild JEWELER -skills [ CUTGEM ENCRUSTGEM GLASSMAKER ] -level 5 -unit \\WORKER_ID -race DWARF -anyskill ]
+Invoking: modtools/reaction-trigger -reactionName DWARF_ENGINEER_TEST -command [ testguild -guild ENGINEER -skills [ SIEGECRAFT SIEGEOPERATE MECHANICS OPERATE_PUMP ] -level 5 -unit \\WORKER_ID -race DWARF -anyskill ]
+Invoking: modtools/reaction-trigger -reactionName DWARF_ALCHEMIST_TEST -command [ testguild -guild ALCHEMIST -skills [ ALCHEMY BREWING POTASH_MAKING LYE_MAKING SOAP_MAKING HERBALISM ] -level 5 -unit \\WORKER_ID -race DWARF -anyskill ]
+Invoking: modtools/reaction-trigger -reactionName DWARF_LEGIONNAIRE_TEST -command [ testguild -guild LEGIONNAIRE -unit \\WORKER_ID -race DWARF ]
+Invoking: modtools/reaction-trigger -reactionName DWARF_MARKSDWARF_TEST -command [ testguild -guild MARKSDWARF -unit \\WORKER_ID -race DWARF ]
+Invoking: modtools/reaction-trigger -reactionName DWARF_MERCHANT_TRAINING -command [ trainguild -skills [ PERSUASION NEGOTIATION APPRAISAL JUDGING_INTENT ] -points 500 -unit \\WORKER_ID ]
+Invoking: modtools/reaction-trigger -reactionName DWARF_CARPENTER_TRAINING -command [ trainguild -skills [ WOODCUTTING CARPENTRY WOODCRAFT BOWYER ] -points 500 -unit \\WORKER_ID ]
+Invoking: modtools/reaction-trigger -reactionName DWARF_MASON_TRAINING -command [ trainguild -skills [ MINING DETAILSTONE MASONRY STONECRAFT DESIGNBUILDING ] -points 500 -unit \\WORKER_ID ]
+Invoking: modtools/reaction-trigger -reactionName DWARF_CRAFTER_TRAINING -command [ trainguild -skills [ LEATHERWORK CLOTHESMAKING WOODCRAFT STONECRAFT METALCRAFT BONECARVE POTTERY ] -points 500 -unit \\WORKER_ID ]
+Invoking: modtools/reaction-trigger -reactionName DWARF_SMITH_TRAINING -command [ trainguild -skills [ SMELT FORGE_WEAPON FORGE_ARMOR FORGE_FURNITURE METALCRAFT ] -points 500 -unit \\WORKER_ID ]
+Invoking: modtools/reaction-trigger -reactionName DWARF_FARMER_TRAINING -command [ trainguild -skills [ COOK PLANT BUTCHER BREWING SHEARING TANNER SPINNING ] -points 500 -unit \\WORKER_ID ]
+Invoking: modtools/reaction-trigger -reactionName DWARF_HEALER_TRAINING -command [ trainguild -skills [ DRESS_WOUNDS DIAGNOSE SURGERY SET_BONE SUTURE ] -points 500 -unit \\WORKER_ID ]
+Invoking: modtools/reaction-trigger -reactionName DWARF_JEWELER_TRAINING -command [ trainguild -skills [ CUTGEM ENCRUSTGEM GLASSMAKER ] -points 500 -unit \\WORKER_ID ]
+Invoking: modtools/reaction-trigger -reactionName DWARF_ENGINEER_TRAINING -command [ trainguild -skills [ SIEGECRAFT SIEGEOPERATE MECHANICS OPERATE_PUMP ] -points 500 -unit \\WORKER_ID ]
+Invoking: modtools/reaction-trigger -reactionName DWARF_ALCHEMIST_TRAINING -command [ trainguild -skills [ ALCHEMY BREWING POTASH_MAKING LYE_MAKING SOAP_MAKING HERBALISM ] -points 500 -unit \\WORKER_ID ]
+Invoking: modtools/if-entity -id "KOBOLD" -cmd [ script "raw/kobold_init.txt" ]
+Invoking: modtools/if-entity -id "PLAINS" -cmd [ script "raw/human_init.txt" ]
+Invoking: modtools/if-entity -id "FOREST" -cmd [ script "raw/elf_init.txt" ]
+Invoking: LDF/LDF-version
+Forgetting job 4133 (ConstructDoor): holder building lost.
+Forgetting job 3979 (ConstructThrone): holder building lost.
+Forgetting job 3978 (ConstructTable): holder building lost.
+Forgetting job 3078 (MakeBucket): holder building lost.
+Forgetting job 3077 (MakeBarrel): holder building lost.
+Invoking: repeat -name warn-starving -time 10 -timeUnits days -command [ warn-starving ]
+Invoking: warn-starving
+Invoking: repeat -name warn-stuck-trees -time 10 -timeUnits days -command [ warn-stuck-trees ]
+Invoking: warn-stuck-trees
+Invoking: LDF/LDF-version
+Invoking: :lua print(' ')
+Invoking: :lua print('Running onLoad Initialization.')
+Invoking: :lua print(' ')
+Invoking: :lua print('Initializing water, pay the bills.')
+Invoking: LDF/base/roses-init
+Invoking: base/persist-delay
+Invoking: base/liquids-update
+Invoking: base/flows-update
+Invoking: base/on-death
+Invoking: base/on-time
+Invoking: :lua print(' ')
+Invoking: :lua print('Initializing embark settings.')
+Invoking: points 1274
+Invoking: startdwarf 7
+Invoking: embark-tools anywhere
+Invoking: :lua print(' ')
+Invoking: :lua print('onLoad Initialization Complete!')
+Invoking: repeat -name warn-starving -time 10 -timeUnits days -command [ warn-starving ]
+Invoking: warn-starving
+Invoking: repeat -name warn-stuck-trees -time 10 -timeUnits days -command [ warn-stuck-trees ]
+Invoking: warn-stuck-trees
+Invoking: prospect
+Invoking: prospect
+Invoking: prospect
+Invoking: prospect
+Invoking: prospect
+Invoking: prospect
+Invoking: prospect
+Invoking: prospect
+Invoking: prospect
+Invoking: prospect
+Invoking: prospect
+Invoking: prospect
+Invoking: prospect
+Invoking: prospect
+Invoking: prospect
+Invoking: prospect
+Invoking: prospect
+Invoking: prospect
+Invoking: prospect
+Invoking: prospect
+Invoking: prospect
+Invoking: prospect
+Invoking: prospect
+Invoking: prospect
+Invoking: prospect
+Invoking: prospect
+Invoking: prospect
+Invoking: prospect
+Invoking: prospect
+Invoking: prospect
+Invoking: prospect
+Invoking: prospect
+Invoking: prospect
+Invoking: prospect
+Invoking: prospect
+Invoking: prospect
+Invoking: prospect
+Invoking: prospect
+Invoking: prospect
+Invoking: prospect
+Invoking: prospect
+Invoking: prospect
+Invoking: prospect
+Invoking: prospect
+Invoking: prospect
+Invoking: :lua print(' ')
+Invoking: :lua print('Running onMapLoad Initialization.')
+Invoking: :lua print(' ')
+Invoking: :lua print('onMapLoad Initialization Complete!')
+Invoking: :lua print(' ')
+Invoking: :lua print('Seeking to Initialize your Civilization')
+Invoking: modtools/if-entity -id "MOUNTAIN" -cmd [ script "raw/dwarf_init.txt" ]
+Invoking: modtools/reaction-trigger -reactionName DWARF_UPGRADE_TO_MERCHANT_HALL -command [ building/subtype-change -building \\BUILDING_ID -type DWARF_GUILD_MERCHANT ]
+Invoking: modtools/reaction-trigger -reactionName DWARF_UPGRADE_TO_CARPENTER_HALL -command [ building/subtype-change -building \\BUILDING_ID -type DWARF_GUILD_CARPENTER ]
+Invoking: modtools/reaction-trigger -reactionName DWARF_UPGRADE_TO_MASON_HALL -command [ building/subtype-change -building \\BUILDING_ID -type DWARF_GUILD_MASON ]
+Invoking: modtools/reaction-trigger -reactionName DWARF_UPGRADE_TO_CRAFTER_HALL -command [ building/subtype-change -building \\BUILDING_ID -type DWARF_GUILD_CRAFTER ]
+Invoking: modtools/reaction-trigger -reactionName DWARF_UPGRADE_TO_SMITH_HALL -command [ building/subtype-change -building \\BUILDING_ID -type DWARF_GUILD_SMITH ]
+Invoking: modtools/reaction-trigger -reactionName DWARF_UPGRADE_TO_FARMER_HALL -command [ building/subtype-change -building \\BUILDING_ID -type DWARF_GUILD_FARMER ]
+Invoking: modtools/reaction-trigger -reactionName DWARF_UPGRADE_TO_HEALER_HALL -command [ building/subtype-change -building \\BUILDING_ID -type DWARF_GUILD_HEALER ]
+Invoking: modtools/reaction-trigger -reactionName DWARF_UPGRADE_TO_JEWELER_HALL -command [ building/subtype-change -building \\BUILDING_ID -type DWARF_GUILD_JEWELER ]
+Invoking: modtools/reaction-trigger -reactionName DWARF_UPGRADE_TO_ENGINEER_HALL -command [ building/subtype-change -building \\BUILDING_ID -type DWARF_GUILD_ENGINEER ]
+Invoking: modtools/reaction-trigger -reactionName DWARF_UPGRADE_TO_ALCHEMIST_HALL -command [ building/subtype-change -building \\BUILDING_ID -type DWARF_GUILD_ALCHEMIST ]
+Invoking: modtools/reaction-trigger -reactionName DWARF_UPGRADE_TO_LEGIONNAIRE_HALL -command [ building/subtype-change -building \\BUILDING_ID -type DWARF_GUILD_LEGIONNAIRE ]
+Invoking: modtools/reaction-trigger -reactionName DWARF_UPGRADE_TO_MARKSDWARF_HALL -command [ building/subtype-change -building \\BUILDING_ID -type DWARF_GUILD_MARKSDWARF ]
+Invoking: modtools/reaction-trigger -reactionName DWARF_MERCHANT_TEST -command [ testguild -guild MERCHANT -skills [ PERSUASION NEGOTIATION APPRAISAL JUDGING_INTENT ] -level 5 -unit \\WORKER_ID -race DWARF -anyskill ]
+Invoking: modtools/reaction-trigger -reactionName DWARF_CARPENTER_TEST -command [ testguild -guild CARPENTER -skills [ WOODCUTTING CARPENTRY WOODCRAFT BOWYER ] -level 5 -unit \\WORKER_ID -race DWARF -anyskill ]
+Invoking: modtools/reaction-trigger -reactionName DWARF_MASON_TEST -command [ testguild -guild MASON -skills [ MINING DETAILSTONE MASONRY STONECRAFT DESIGNBUILDING ] -level 5 -unit \\WORKER_ID -race DWARF -anyskill ]
+Invoking: modtools/reaction-trigger -reactionName DWARF_CRAFTER_TEST -command [ testguild -guild CRAFTER -skills [ LEATHERWORK CLOTHESMAKING WOODCRAFT STONECRAFT METALCRAFT BONECARVE POTTERY ] -level 5 -unit \\WORKER_ID -race DWARF -anyskill ]
+Invoking: modtools/reaction-trigger -reactionName DWARF_SMITH_TEST -command [ testguild -guild SMITH -skills [ SMELT FORGE_WEAPON FORGE_ARMOR FORGE_FURNITURE METALCRAFT ] -level 5 -unit \\WORKER_ID -race DWARF -anyskill ]
+Invoking: modtools/reaction-trigger -reactionName DWARF_FARMER_TEST -command [ testguild -guild FARMER -skills [ COOK PLANT BUTCHER BREWING SHEARING TANNER SPINNING ] -level 5 -unit \\WORKER_ID -race DWARF -anyskill ]
+Invoking: modtools/reaction-trigger -reactionName DWARF_HEALER_TEST -command [ testguild -guild HEALER -skills [ DRESS_WOUNDS DIAGNOSE SURGERY SET_BONE SUTURE ] -level 5 -unit \\WORKER_ID -race DWARF -anyskill ]
+Invoking: modtools/reaction-trigger -reactionName DWARF_JEWELER_TEST -command [ testguild -guild JEWELER -skills [ CUTGEM ENCRUSTGEM GLASSMAKER ] -level 5 -unit \\WORKER_ID -race DWARF -anyskill ]
+Invoking: modtools/reaction-trigger -reactionName DWARF_ENGINEER_TEST -command [ testguild -guild ENGINEER -skills [ SIEGECRAFT SIEGEOPERATE MECHANICS OPERATE_PUMP ] -level 5 -unit \\WORKER_ID -race DWARF -anyskill ]
+Invoking: modtools/reaction-trigger -reactionName DWARF_ALCHEMIST_TEST -command [ testguild -guild ALCHEMIST -skills [ ALCHEMY BREWING POTASH_MAKING LYE_MAKING SOAP_MAKING HERBALISM ] -level 5 -unit \\WORKER_ID -race DWARF -anyskill ]
+Invoking: modtools/reaction-trigger -reactionName DWARF_LEGIONNAIRE_TEST -command [ testguild -guild LEGIONNAIRE -unit \\WORKER_ID -race DWARF ]
+Invoking: modtools/reaction-trigger -reactionName DWARF_MARKSDWARF_TEST -command [ testguild -guild MARKSDWARF -unit \\WORKER_ID -race DWARF ]
+Invoking: modtools/reaction-trigger -reactionName DWARF_MERCHANT_TRAINING -command [ trainguild -skills [ PERSUASION NEGOTIATION APPRAISAL JUDGING_INTENT ] -points 500 -unit \\WORKER_ID ]
+Invoking: modtools/reaction-trigger -reactionName DWARF_CARPENTER_TRAINING -command [ trainguild -skills [ WOODCUTTING CARPENTRY WOODCRAFT BOWYER ] -points 500 -unit \\WORKER_ID ]
+Invoking: modtools/reaction-trigger -reactionName DWARF_MASON_TRAINING -command [ trainguild -skills [ MINING DETAILSTONE MASONRY STONECRAFT DESIGNBUILDING ] -points 500 -unit \\WORKER_ID ]
+Invoking: modtools/reaction-trigger -reactionName DWARF_CRAFTER_TRAINING -command [ trainguild -skills [ LEATHERWORK CLOTHESMAKING WOODCRAFT STONECRAFT METALCRAFT BONECARVE POTTERY ] -points 500 -unit \\WORKER_ID ]
+Invoking: modtools/reaction-trigger -reactionName DWARF_SMITH_TRAINING -command [ trainguild -skills [ SMELT FORGE_WEAPON FORGE_ARMOR FORGE_FURNITURE METALCRAFT ] -points 500 -unit \\WORKER_ID ]
+Invoking: modtools/reaction-trigger -reactionName DWARF_FARMER_TRAINING -command [ trainguild -skills [ COOK PLANT BUTCHER BREWING SHEARING TANNER SPINNING ] -points 500 -unit \\WORKER_ID ]
+Invoking: modtools/reaction-trigger -reactionName DWARF_HEALER_TRAINING -command [ trainguild -skills [ DRESS_WOUNDS DIAGNOSE SURGERY SET_BONE SUTURE ] -points 500 -unit \\WORKER_ID ]
+Invoking: modtools/reaction-trigger -reactionName DWARF_JEWELER_TRAINING -command [ trainguild -skills [ CUTGEM ENCRUSTGEM GLASSMAKER ] -points 500 -unit \\WORKER_ID ]
+Invoking: modtools/reaction-trigger -reactionName DWARF_ENGINEER_TRAINING -command [ trainguild -skills [ SIEGECRAFT SIEGEOPERATE MECHANICS OPERATE_PUMP ] -points 500 -unit \\WORKER_ID ]
+Invoking: modtools/reaction-trigger -reactionName DWARF_ALCHEMIST_TRAINING -command [ trainguild -skills [ ALCHEMY BREWING POTASH_MAKING LYE_MAKING SOAP_MAKING HERBALISM ] -points 500 -unit \\WORKER_ID ]
+Invoking: modtools/if-entity -id "KOBOLD" -cmd [ script "raw/kobold_init.txt" ]
+Invoking: modtools/if-entity -id "PLAINS" -cmd [ script "raw/human_init.txt" ]
+Invoking: modtools/if-entity -id "FOREST" -cmd [ script "raw/elf_init.txt" ]
+Invoking: LDF/LDF-version
+Invoking: autolabor enable
+Invoking: fastdwarf 1 0
+Invoking: createitem BAR:NONE INORGANIC:GOLD 450
+Invoking: warn-starving
+Invoking: warn-stuck-trees
+Invoking: warn-starving
+Invoking: warn-stuck-trees
+Invoking: warn-starving
+Invoking: warn-stuck-trees
+hack/scripts/LDF//testguild.lua:88: attempt to index a nil value (global 'arg')
+stack traceback:
+	hack/scripts/LDF//testguild.lua:88: in local 'script_code'
+	...RF FORTRESS-WIP\DFWIP\Dwarf Fortress\hack\lua\dfhack.lua:562: in function 'dfhack.run_script_with_env'
+	(...tail calls...)
+	[C]: in field 'runCommand'
+	...RF FORTRESS-WIP\DFWIP\Dwarf Fortress\hack\lua\dfhack.lua:580: in upvalue '_run_command'
+	...RF FORTRESS-WIP\DFWIP\Dwarf Fortress\hack\lua\dfhack.lua:595: in function 'dfhack.run_command'
+	...warf Fortress/hack/scripts/modtools/reaction-trigger.lua:146: in local 'doAction'
+	...warf Fortress/hack/scripts/modtools/reaction-trigger.lua:186: in function <...warf Fortress/hack/scripts/modtools/reaction-trigger.lua:115>
+Invoking: twaterlvl
+Invoking: warn-starving
+Invoking: warn-stuck-trees
+Invoking: autolabor disable
+UNKNOWN CLASS 'viewscreen_unitlaborsst': vtable = 0x7ffc08e4ff48
+Invoking: warn-starving
+Invoking: warn-stuck-trees
+Invoking: autodump
+Invoking: warn-starving
+Invoking: warn-stuck-trees
+Invoking: warn-starving
+Invoking: warn-stuck-trees
 Plugin twbt has failed to shutdown!

@@ -1,0 +1,4 @@
+item_race_civil_dwarf
+
+[OBJECT:ITEM]
+

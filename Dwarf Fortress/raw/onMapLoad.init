@@ -1,0 +1,19 @@
+#Should load when a map is loaded
+
+:lua print(' ')
+:lua print('Running onMapLoad Initialization.')
+
+:lua print(' ')
+:lua print('onMapLoad Initialization Complete!')
+
+
+#################### Script files for each entity: ####################
+:lua print(' ')
+:lua print('Seeking to Initialize your Civilization')
+modtools/if-entity -id "MOUNTAIN" -cmd [ script "raw/dwarf_init.txt" ]
+modtools/if-entity -id "KOBOLD" -cmd [ script "raw/kobold_init.txt" ]
+modtools/if-entity -id "PLAINS" -cmd [ script "raw/human_init.txt" ]
+modtools/if-entity -id "FOREST" -cmd [ script "raw/elf_init.txt" ]
+
+# A last time telling the player what version of LDF they are on, add CREDITS to this to get a list of contributors.
+LDF/LDF-version

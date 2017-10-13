@@ -1,0 +1,20 @@
+LDF/LDF-version
+
+:lua print(' ')
+:lua print('Running onLoad Initialization.')
+
+#################### Liquid-initiation ###################
+:lua print(' ')
+:lua print('Initializing water, pay the bills.')
+LDF/base/roses-init
+
+#################### embark points and embark group ####################
+:lua print(' ')
+:lua print('Initializing embark settings.')
+points 1274
+startdwarf 7
+embark-tools anywhere
+
+
+:lua print(' ')
+:lua print('onLoad Initialization Complete!')

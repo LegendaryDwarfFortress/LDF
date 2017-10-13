@@ -1,0 +1,47 @@
+
+
+
+#####Dwarf Guild Hall Upgrades
+modtools/reaction-trigger -reactionName DWARF_UPGRADE_TO_MERCHANT_HALL -command [ building/subtype-change -building \\BUILDING_ID -type DWARF_GUILD_MERCHANT ]
+modtools/reaction-trigger -reactionName DWARF_UPGRADE_TO_CARPENTER_HALL -command [ building/subtype-change -building \\BUILDING_ID -type DWARF_GUILD_CARPENTER ]
+modtools/reaction-trigger -reactionName DWARF_UPGRADE_TO_MASON_HALL -command [ building/subtype-change -building \\BUILDING_ID -type DWARF_GUILD_MASON ]
+modtools/reaction-trigger -reactionName DWARF_UPGRADE_TO_CRAFTER_HALL -command [ building/subtype-change -building \\BUILDING_ID -type DWARF_GUILD_CRAFTER ]
+modtools/reaction-trigger -reactionName DWARF_UPGRADE_TO_SMITH_HALL -command [ building/subtype-change -building \\BUILDING_ID -type DWARF_GUILD_SMITH ]
+modtools/reaction-trigger -reactionName DWARF_UPGRADE_TO_FARMER_HALL -command [ building/subtype-change -building \\BUILDING_ID -type DWARF_GUILD_FARMER ]
+modtools/reaction-trigger -reactionName DWARF_UPGRADE_TO_HEALER_HALL -command [ building/subtype-change -building \\BUILDING_ID -type DWARF_GUILD_HEALER ]
+modtools/reaction-trigger -reactionName DWARF_UPGRADE_TO_JEWELER_HALL -command [ building/subtype-change -building \\BUILDING_ID -type DWARF_GUILD_JEWELER ]
+modtools/reaction-trigger -reactionName DWARF_UPGRADE_TO_ENGINEER_HALL -command [ building/subtype-change -building \\BUILDING_ID -type DWARF_GUILD_ENGINEER ]
+modtools/reaction-trigger -reactionName DWARF_UPGRADE_TO_ALCHEMIST_HALL -command [ building/subtype-change -building \\BUILDING_ID -type DWARF_GUILD_ALCHEMIST ]
+modtools/reaction-trigger -reactionName DWARF_UPGRADE_TO_LEGIONNAIRE_HALL -command [ building/subtype-change -building \\BUILDING_ID -type DWARF_GUILD_LEGIONNAIRE ]
+modtools/reaction-trigger -reactionName DWARF_UPGRADE_TO_MARKSDWARF_HALL -command [ building/subtype-change -building \\BUILDING_ID -type DWARF_GUILD_MARKSDWARF ]
+
+
+#####Dwarf Guild Hall Testing
+modtools/reaction-trigger -reactionName DWARF_MERCHANT_TEST -command [ testguild -guild MERCHANT -skills [ PERSUASION NEGOTIATION APPRAISAL JUDGING_INTENT ] -level 5 -unit \\WORKER_ID -race DWARF -anyskill ]
+modtools/reaction-trigger -reactionName DWARF_CARPENTER_TEST -command [ testguild -guild CARPENTER -skills [ WOODCUTTING CARPENTRY WOODCRAFT BOWYER ] -level 5 -unit \\WORKER_ID -race DWARF -anyskill ]
+modtools/reaction-trigger -reactionName DWARF_MASON_TEST -command [ testguild -guild MASON -skills [ MINING DETAILSTONE MASONRY STONECRAFT DESIGNBUILDING ] -level 5 -unit \\WORKER_ID -race DWARF -anyskill ]
+modtools/reaction-trigger -reactionName DWARF_CRAFTER_TEST -command [ testguild -guild CRAFTER -skills [ LEATHERWORK CLOTHESMAKING WOODCRAFT STONECRAFT METALCRAFT BONECARVE POTTERY ] -level 5 -unit \\WORKER_ID -race DWARF -anyskill ]
+modtools/reaction-trigger -reactionName DWARF_SMITH_TEST -command [ testguild -guild SMITH -skills [ SMELT FORGE_WEAPON FORGE_ARMOR FORGE_FURNITURE METALCRAFT ] -level 5 -unit \\WORKER_ID -race DWARF -anyskill ]
+modtools/reaction-trigger -reactionName DWARF_FARMER_TEST -command [ testguild -guild FARMER -skills [ COOK PLANT BUTCHER BREWING SHEARING TANNER SPINNING ] -level 5 -unit \\WORKER_ID -race DWARF -anyskill ]
+modtools/reaction-trigger -reactionName DWARF_HEALER_TEST -command [ testguild -guild HEALER -skills [ DRESS_WOUNDS DIAGNOSE SURGERY SET_BONE SUTURE ] -level 5 -unit \\WORKER_ID -race DWARF -anyskill ]
+modtools/reaction-trigger -reactionName DWARF_JEWELER_TEST -command [ testguild -guild JEWELER -skills [ CUTGEM ENCRUSTGEM GLASSMAKER ] -level 5 -unit \\WORKER_ID -race DWARF -anyskill ]
+modtools/reaction-trigger -reactionName DWARF_ENGINEER_TEST -command [ testguild -guild ENGINEER -skills [ SIEGECRAFT SIEGEOPERATE MECHANICS OPERATE_PUMP ] -level 5 -unit \\WORKER_ID -race DWARF -anyskill ]
+modtools/reaction-trigger -reactionName DWARF_ALCHEMIST_TEST -command [ testguild -guild ALCHEMIST -skills [ ALCHEMY BREWING POTASH_MAKING LYE_MAKING SOAP_MAKING HERBALISM ] -level 5 -unit \\WORKER_ID -race DWARF -anyskill ]
+modtools/reaction-trigger -reactionName DWARF_LEGIONNAIRE_TEST -command [ testguild -guild LEGIONNAIRE -unit \\WORKER_ID -race DWARF ]
+modtools/reaction-trigger -reactionName DWARF_MARKSDWARF_TEST -command [ testguild -guild MARKSDWARF -unit \\WORKER_ID -race DWARF ]
+
+
+#####Dwarf Guild Hall Training
+modtools/reaction-trigger -reactionName DWARF_MERCHANT_TRAINING -command [ trainguild -skills [ PERSUASION NEGOTIATION APPRAISAL JUDGING_INTENT ] -points 500 -unit \\WORKER_ID ]
+modtools/reaction-trigger -reactionName DWARF_CARPENTER_TRAINING -command [ trainguild -skills [ WOODCUTTING CARPENTRY WOODCRAFT BOWYER ] -points 500 -unit \\WORKER_ID ]
+modtools/reaction-trigger -reactionName DWARF_MASON_TRAINING -command [ trainguild -skills [ MINING DETAILSTONE MASONRY STONECRAFT DESIGNBUILDING ] -points 500 -unit \\WORKER_ID ]
+modtools/reaction-trigger -reactionName DWARF_CRAFTER_TRAINING -command [ trainguild -skills [ LEATHERWORK CLOTHESMAKING WOODCRAFT STONECRAFT METALCRAFT BONECARVE POTTERY ] -points 500 -unit \\WORKER_ID ]
+modtools/reaction-trigger -reactionName DWARF_SMITH_TRAINING -command [ trainguild -skills [ SMELT FORGE_WEAPON FORGE_ARMOR FORGE_FURNITURE METALCRAFT ] -points 500 -unit \\WORKER_ID ]
+modtools/reaction-trigger -reactionName DWARF_FARMER_TRAINING -command [ trainguild -skills [ COOK PLANT BUTCHER BREWING SHEARING TANNER SPINNING ] -points 500 -unit \\WORKER_ID ]
+modtools/reaction-trigger -reactionName DWARF_HEALER_TRAINING -command [ trainguild -skills [ DRESS_WOUNDS DIAGNOSE SURGERY SET_BONE SUTURE ] -points 500 -unit \\WORKER_ID ]
+modtools/reaction-trigger -reactionName DWARF_JEWELER_TRAINING -command [ trainguild -skills [ CUTGEM ENCRUSTGEM GLASSMAKER ] -points 500 -unit \\WORKER_ID ]
+modtools/reaction-trigger -reactionName DWARF_ENGINEER_TRAINING -command [ trainguild -skills [ SIEGECRAFT SIEGEOPERATE MECHANICS OPERATE_PUMP ] -points 500 -unit \\WORKER_ID ]
+modtools/reaction-trigger -reactionName DWARF_ALCHEMIST_TRAINING -command [ trainguild -skills [ ALCHEMY BREWING POTASH_MAKING LYE_MAKING SOAP_MAKING HERBALISM ] -points 500 -unit \\WORKER_ID ]
+
+
+
