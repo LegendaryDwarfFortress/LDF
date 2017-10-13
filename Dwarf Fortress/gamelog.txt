@@ -1659,3 +1659,13 @@ It has started raining.
 Fikod Nekutnokim has failed a test to join the alchemist guild.
 The weather has cleared.
 It is now summer.
+*** STARTING NEW GAME ***
+Generating world using parameter set CREATE WORLD NOW = 1111115
+ Seed: zNiwVWmwSoNH3lRB1MlS
+ History Seed: 1E8XOETiKPFYzebOD5Hq
+ Name Seed: ploBP8bbdYPw0VrjTXrg
+ Creature Seed: AJCEGYwq0akZkdqisN5y
+Nothing has arrived on the calendar.
+The weather has cleared.
+Nothing has arrived on the calendar.
+The weather has cleared.
