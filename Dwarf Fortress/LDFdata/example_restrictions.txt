@@ -1,0 +1,18 @@
+<verbose>
+<quiet>
+# This is a comment line
+<race:DWARF:HUMAN:GNOME>
+<caste:MALE:FEMALE>
+<skill:MINING:5:WOODCUTTING:5>
+<announce:UNIT feels like they have gained nothing from doing JOB.>
+# It is used to break up the individual restrictions
+<cancel>
+<race:ALL>
+<caste:ALL>
+<skill:WOODCUTTING:0>
+<turnoff>
+<announce:This is an elf embark, you cannot use SKILLNAME.>
+# rather easily I would say so myself
+<building:CARPENTERS:MAGMAFORGE>
+<skill:CARPENTRY:5:FORGEARMOR:5>
+<announce:UNIT cannot use BUILDING.>

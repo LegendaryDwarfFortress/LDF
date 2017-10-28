@@ -348,28 +348,42 @@ jobCheck.onJobCompleted.LFD_RestrictionCompleted = function(job)
   if VERBOSE then
     verbose(job,"C")
   end
-  if job.job_type and dfhack.job.getWorker(job) then
-    local unit = dfhack.job.getWorker(job)
-    local uRace = tostring(df.global.world.raws.creatures.all[unit.race].creature_id)
-    local uCaste = tostring(df.global.world.raws.creatures.all[unit.race].caste[unit.caste].caste_id)
-    local jSkill = tostring(df.job_skill[df.job_type.attrs[job.job_type].skill])
-    for _i = 1, #RestrictOnCompletedList do
-      thisR = RestrictOnCompletedList[_i]
-      -- if it doesn't have all three its bad in the first place.... should check this before we get here.
-      if thisR.race and thisR.caste and thisR.skill then
-        if ( thisR.race[uRace] or thisR.race[ALL] ) and ( thisR.caste[uCaste] or thisR.caste[ALL] ) and ( thisR.skill[jSkill] ) then
-          local uSkill = getUnitSkill(df.job_skill[jSkill], unit)
-          if uSkill.rating >= tonumber(thisR.skill[jSkill]) then
-            CullSkill( skill, unit.id, tonumber(thisR.skill[jSkill]) )
-            if thisR.announce and not QUIET then
-              local uName = dfhack.TranslateName(dfhack.units.getVisibleName(unit))
-              local sName = tostring(df.job_skill.attrs[df.job_type.attrs[job.job_type].skill].caption) or "no skill name"
-              local jName = tostring(df.job_type.attrs[job.job_type].caption) or "no job name"
-              local bName = getBuildingNameFromJob(job) or "no building"
-              MakeAnnouncement( thisR.announce, uName, sName, jName, bName )
+  if job.job_type then
+    local jName = tostring(df.job_type.attrs[job.job_type].caption)
+    if df.job_skill.attrs[df.job_type.attrs[job.job_type].skill].caption then 
+      local jSkillName = tostring(df.job_skill.attrs[df.job_type.attrs[job.job_type].skill].caption)
+      local jSkill = tostring(df.job_skill[df.job_type.attrs[job.job_type].skill])
+      if dfhack.job.getWorker(job) then
+        local unit = dfhack.job.getWorker(job)
+        local uRace = tostring(df.global.world.raws.creatures.all[unit.race].creature_id)
+        local uCaste = tostring(df.global.world.raws.creatures.all[unit.race].caste[unit.caste].caste_id)
+        for _i = 1, #RestrictOnCompletedList do
+          if RestrictOnCompletedList[_i].race then
+            for race,v0 in pairs( RestrictOnCompletedList[_i].race ) do
+              if race == uRace or race == "ALL" then
+                if RestrictOnCompletedList[_i].caste then
+                  for caste,v1 in pairs( RestrictOnCompletedList[_i].caste ) do
+                    if caste == uCaste or caste == "ALL" then
+                      for skill,level in pairs ( RestrictOnCompletedList[_i].skill ) do
+                        if jSkill == skill then
+                          uSkill= getUnitSkill(df.job_skill[skill], unit)
+                          if uSkill.rating >= tonumber(level) then
+                            CullSkill( skill, unit.id, tonumber(level) )
+                            if RestrictOnCompletedList[_i].announce and not QUIET then
+                              MakeAnnouncement( RestrictOnCompletedList[_i].announce, dfhack.TranslateName(dfhack.units.getVisibleName(unit)), jSkillName, jName, getBuildingNameFromJob(job) )
+                            end
+                            break -- should break out of the skill checks
+                          end
+                        end
+                      end
+                      break -- should break out of the caste checks
+                    end
+                  end        
+                end
+              end
             end
           end
-        end        
+        end
       end
     end
   end

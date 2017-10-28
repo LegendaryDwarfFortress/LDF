@@ -49,7 +49,7 @@ for i,skillname in ipairs(args.skills) do
   end
   
   args.points = args.points - thisIncrease
-  dfhack.run_script('modtools/skill-change', '-skill', skillname, '-mode','add', '-granularity', 'experience', '-unit', unit.id, '-value', thisIncrease )
+  dfhack.run_script('modtools/skill-change', '-skill', skillname, '-mode','add', '-granularity', 'experience', '-unit', unit.id, '-value', thisIncrease, '-max', 5)
 end
 
 

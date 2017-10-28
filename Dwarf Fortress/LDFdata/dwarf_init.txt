@@ -1,5 +1,6 @@
 
-
+#####Call for Dwarf skill restrictions
+skill_restriction LDFdata/dwarf_restrictions.txt
 
 #####Dwarf Guild Hall Upgrades
 modtools/reaction-trigger -reactionName DWARF_UPGRADE_TO_MERCHANT_HALL -command [ building/subtype-change -building \\BUILDING_ID -type DWARF_GUILD_MERCHANT ]
@@ -43,5 +44,5 @@ modtools/reaction-trigger -reactionName DWARF_JEWELER_TRAINING -command [ traing
 modtools/reaction-trigger -reactionName DWARF_ENGINEER_TRAINING -command [ trainguild -skills [ SIEGECRAFT SIEGEOPERATE MECHANICS OPERATE_PUMP ] -points 500 -unit \\WORKER_ID ]
 modtools/reaction-trigger -reactionName DWARF_ALCHEMIST_TRAINING -command [ trainguild -skills [ ALCHEMY BREWING POTASH_MAKING LYE_MAKING SOAP_MAKING HERBALISM ] -points 500 -unit \\WORKER_ID ]
 
-
+CombineReactions -register [ DWARF_STORE_10_STONE DWARF_STORE_100_STONE DWARF_STORE_1000_STONE DWARF_STORE_10_BAR DWARF_STORE_100_BAR DWARF_STORE_1000_BAR]
 
