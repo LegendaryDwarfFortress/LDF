@@ -1,0 +1,794 @@
+Brief descriptions of all playable, civilized Warcraft races, by ZM5.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Naga - snake-like beings, formerly elves. They live in cities, usually made in the wetlands. They will send out snatchers, making them hostile.
+
+Naga caravans can bring two forms of weapons that are rarely found elsewhere - tridents, which use the pike skill, 
+and katars, a type of fist weapon useful mostly for stabbing.
+
+The Naga themselves have several different castes.
+
+Regular male and female naga vary slightly - males have only one pair of arms, whereas females have two. 
+Males have a stronger venomous bite, which can cause intense pain and necrosis - females only cause weaker pain.
+
+Sea Witches are further mutated naga females, having three pairs of arms, and snakes instead of hair.
+Their snake hair provides an additional way to attack - similarly to hydras, they will attack with multiple bits of their snake hair at once.
+Both their regular and snake bites can inject a venom thats more similar to that of the males.
+They also can use some forms of magic - they can shoot frost bolts at up to 3 targets at once, or shoot liquid frost or liquid lightning in order to cause syndromes.
+
+Naga Anomalies are further mutated naga males. They have protective shell-like growths over most of their bodies, including their heads.
+As their eyes are not visible, they cannot be blinded. Their scratches can also inject a powerful venom that can cause intense pain, necrosis, and bleeding.
+
+Naga Brutes are another mutated male form. They have six eyes and an ape-like posture, still possessing their legs. They are the largest of the naga.
+
+All naga swim at a faster speed than most other creatures, and can use a Battle Fury interaction that temporarily increases strength and toughness.
+
+They have access to razor coral weapons - razor coral is a relatively light but very sharp material, perfect for edged weapons.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Orc - large-sized green-skinned humanoids. They live in cities built in the savannas, deserts and shrublands.
+
+Orcs are one of the races with access to japanese-inspired weapons, such as naginatas, katanas, kamas and kusarigamas, which their caravans may occasionally bring.
+
+Orcs have higher innate strength and endurance than most other races - they also can use a berserker rage interaction that temporarily increases strength and agility.
+They are also more fearless, and are less likely to run away from battles.
+
+Orcs are one of the races that can make Arcanite, a highly powerful metal that improves on the qualities of Thorium.
+
+Drinking a volatile brew of strength as an orc will turn them into a Dire Orc, increasing strength and size, but lowering the speed at which they learn skills.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Vrykul - half-giant humanoids, who live in towns in the temperate forests, taigas and mountains.
+
+They have access to several rare weapons, which they may bring in caravans - 
+harpoon launchers, dragonslayers (massive swords which are slow to swing but can do a lot of damage), and bearded axes.
+
+They are less likely to run away from combat, being more brave and excitement seeking. They also learn every combat skill at twice the usual rates.
+
+Vrykul are one of the races that can make Titansteel - a powerful metal that combines and improves on the properties of both Titanium and Steel.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+N'raqi - also called the faceless ones, they are deformed servants of horrifying, elder deities. 
+They live in fortresses found in the taigas, tundras, mountains and temperate coniferous forests.
+
+They will send out snatchers in worldgen, and so are hostile to most other races by default.
+
+They come in several varieties.
+
+Unbroken are the most common and also the smallest caste. They have a single deformed arm and a tentacle instead of the other arm.
+
+Faceless Ones are more rare and larger, but otherwise have the same type of body as the Unbroken.
+
+The C'thrax are a gigantic, rare caste that serve as the military leaders. Instead of tentacles, they have two arms with pincers, and six vestigial arms
+coming from their back. They do not feel pain, and can slam the ground to release a wave of dust that knocks creatures around. They also have a protective layer
+of carapace over most of their body. They have adept striking, kicking, wrestling and fighting, and adequate dodging.
+
+The Starspawn are the largest, and most rare caste, serving as their civilization leaders. They resemble the smaller faceless ones, though they have two tentacles
+instead of a deformed arm and a single tentacle. They have accomplished skill in fighting, striking, wrestling, kicking, and maces, and adept in dodging.
+They can use three different spells - Mind Flay, which causes dizziness and pain, Maddening Whispers, which has a chance of driving a creature to attack everything nearby,
+and also the Destruction Construct's Oblivion spell.
+
+All of the Faceless One castes don't feel fear, and do not need to eat, drink or sleep.
+
+The N'raqi are capable of utilizing Saronite, a material thats extremely powerful all-around.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Draconian - draconic humanoids, living in cities in the forests.
+
+Similarly to the Naga, they have access to tridents, which they may bring occasionally in caravans.
+
+They also have several variations.
+
+Drakonids are the largest, and most common caste. They have a humanoid build, and learn most combat skills at twice the usual rate - with the exception
+of pikes and spears, which they learn at four times the usual rate.
+
+Dragonspawn are the second most common, and are also the second smallest. They have a centauroid build instead, and similarly to the drakonids they learn
+weapon skills at twice the usual rate - with the exception of swords, hammers, axes and maces, which they learn at four times the usual rate.
+
+Dragonkin are as common as the dragonspawn, and are the smallest caste - they have a humanoid build like the drakonids, but also possess a pair of wings that lets them fly.
+Instead of learning combat skills at twice the usual rate, they instead learn nearly all types of manual labors at twice the usual rate.
+
+Drakonar are the rarest and second biggest caste - they have most of the features of the others, including a pair of wings and a centauroid build.
+They can also spit a ball of magma, or breathe a stream of heated gas that can cause melting damage.
+They learn combat skills at twice the usual rates - with spears, pikes, swords, hammers, axes and maces at four times the usual rate.
+
+Similarly to the Vrykul, Draconians can make Titansteel.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Nerubian - spider-like humanoids who live in fortresses in the mountains, taigas, tundras, and temperate coniferous forests.
+
+Standard nerubians can be both male or female - they consist of a humanoid torso on six spider-like legs.
+They can spray a stream of webbing to immobilize their foes, and also use a battle fury self-buff.
+
+Spiderlords are massive, four-legged male nerubians that are more similar to beetles. They possess a tough carapace
+that adds protection, a single horn, and also a pair of scythe-like blades sprouting from their hands that can be devastating in combat.
+They also serve as the sole rulers of nerubian civilizations. They only have 2 eyes, as opposed to the 8 of the regular nerubians,
+and also lack the web spray attack.
+
+Spiderseers are female only, and walk on two pairs of legs. They have two pairs of arms and 6 eyes.
+Aside from the web spray, they can also use Mind Flay similarly to the Starspawn, and also Curse of Fatigue, which lowers speed and strength to 70% of their normal.
+
+All Nerubians are immune to being webbed, and can climb even when missing arms.
+
+Additionally, Nerubians are capable of making Saronite, and are the only way of getting the material without fighting.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Gorian Ogre - large, brutish, horned humanoids living in cities in the savannas, deserts, grasslands and shrublands.
+
+Although they have access to most weapon categories, they mostly prefer blunt weapons and axes.
+They will send out thieves in worldgen, making them hostile to most other races.
+
+Ogres have three varieties - one-headed and two-headed. 
+One-headed ogres can use berserker rage; however they learn most of the precise, non-combat skills, such as medical jobs, at 25% the usual rate.
+
+Two-headed ogres use battle fury instead, and learn precise skills at twice the usual rates, though they do not learn combat skills as fast as the normal ogres - they also are the leaders of ogre civilizations.
+The third ogre type are the Primal Ogres, also known as Ogre Lords - they are cyclopean ogres with three horns made out of stone, and stone-like growths on their backs.
+They are larger than the other ogre types, and learn precise skills at even lesser rates - however, their combat skills are gained extremely quickly.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Draenei - benevolent, hooved humanoids, who live in cities in the grasslands, savannas, and shrublands.
+
+They have access to nearly every type of blunt weapon, and will rarely start wars in worldgen.
+
+Male draenei have facial tentacles, whereas females have a pair of horns instead. 
+A second, mutated variant, called the Broken, lack either of those features - they also learn skills at half the usual rate.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Lost One - further mutated Draenei, who split off from the rest of their civilizations. 
+They live exclusively in forest retreats, in any forests of the world.
+
+They have access to various weaponry, but mostly prefer swords and scythe-like weapons.
+
+They will send out thieves in worldgen, and as such will be hostile to most other civs.
+
+They learn ambusher skill at eight times the normal rate, and can also use shadowmeld in order to instantly enter stealth.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Demon - a race of evil beings, living in cities in the forests and deserts of the world.
+
+They have many different variants that are technically separate races - for the purpose of the game they are considered one "race".
+
+Variants:
+
+Mo'arg - large, humanoid demons - they learn mechanics and siegecrafting at double the usual rate. They can use a berserker rage interaction.
+
+Annihilan - powerful, massive centauroid demons. They have two tusks, and a pair of wings - although, they cannot fly due to being too heavy.
+They can use a berserker rage interaction. They can also use Howl of Terror, which aside from inducing horror and fright in those affected, also cuts
+their strength in half.
+Regular orcs who drink their blood can become fel orcs.
+They learn most melee weapon skills at three times the usual rate. They also have higher innate strength, toughness, and endurance.
+
+Nathrezim - large, humanoid demons with hooves, wings, and a pair of horns.
+They gain various conversational skills at increased rates. 
+Aside from being able to use a battle fury interaction, they can also cast a Sleep spell, Rotting Plague, and Cripple.
+
+Felguard - humanoid demons related to the Mo'arg. They are more combat oriented and learn weapon skills at twice the usual rate.
+They also have a single horn and many spikes sprouting from their back. They can use a berserker rage interaction.
+
+Felbringer (Fel Lord) - an evolved form of the Felguards. They learn pike and axe skills at four times the usual rate, regular combat skills at three times the usual rate,
+and other weapon skills at one and a half times the usual rate. They can use a berserker rage interaction.
+
+Shivarra (female)/Shivan(male) - tall, humanoid demons with six arms. They have a higher innate social awareness than most other races.
+Similarly to the Nathrezim, they learn most conversational skills at highly increased rates. Unlike the Nathrezim, they only use
+a battle fury interaction, and don't possess any innate magical knowledge - however, they learn sword skill at four times the normal rate.
+
+Gan'arg - diminutive demons skilled at mechanics, related to the Felguards and Mo'arg.
+They learn mechanics, siegecrafting and siege operating at four times the usual rate - however, they will often
+flee from combat at the first sign of resistance.
+
+Ered'ruin - large, winged demons with horns and hooves. They can use a battle fury interaction and learn sword and axe skills at four times the usual rate.
+Along with the Annihilan and Nathrezim, they serve as military leaders.
+
+Eredar - medium-sized, demonically corrupted Draenei. They have similar features as the regular Draenei,
+with males having facial tentacles and females having horns. They are offensive spellcasters - they can shoot
+fireballs or bolts of felfire, and also cast Curse of Agony.
+
+Eredar Brute - mutated, male Eredar. They have a pair of sharp horns, and as such their gore attacks can tear muscle and possibly sever limbs.
+Attacks against them have their force halved. As with the regular Eredar, they can use a battle fury interaction, though they lack the spells.
+
+Doom Maiden - mutated, female Eredar. They are larger and have a pair of wings, enabling flight. Their horns have sharpened tips, and
+are capable of piercing vital organs. Like the Eredar brutes, they lack the spellcasting abilities of the regular Eredar.
+
+Terrorfiend - large demons with wings, hooves, and six horns - they appear to have two heads, an eyeless one in its normal
+spot, and one jutting from its torso. Both have maws of fanged teeth, and can bite with both sets of teeth.
+They also learn mace and hammer skills at four times the usual rate. They share similar military duties as the Ered'ruin.
+
+Wyrmtongue - diminutive demons with tails and horns - they are the smallest out of all demon castes.
+Similarly to the Gan'arg, they will run at the first signs of resistance.
+They learn ambushing at four times the usual rate, and most manual labors at 1.5 the usual rate.
+
+Aranasi - tall, spider-like demons with horns and wings. They can spray webbing and themselves are immune to being webbed.
+They also learn strand extraction and weaving at three times the usual rate.
+
+Wrathguard - further mutated Draenei, they lack hooves and instead have clawed feet. They can use a berserker rage self-buff,
+and they learn most weapon skills, along with dodging, at 1.2 the usual rate, fighting, archery, weapon and armor-forging at twice the usual rate,
+and sword skill at three times the usual rate.
+
+Inquisitor - eyeless demons with horns - they are only floating torsos with a spinal cord instead of the lower body.
+They can sense most living creatures even in uncovered areas, similarly to vampires.
+They have two buff spells - Fel Strength and Haste - the first temporarily adds 1500 strength and 300 toughness, the latter increases speed to 120%
+and adds 800 points to agility. 
+They also have an offensive spell, Shadow Word, which has a 25% chance of causing immediate debilitating pain, knocking the target out, and also lowers
+willpower to 90% of what it usually is.
+
+Jailer - floating torso demons with horns - like the Inquisitors, they have several spells, though the Jailer is more offensively minded.
+They can cast Soul Drain, which causes drowsiness and reduces strength, agility and endurance to 90%; Anguish, which has a chance of making a creature
+hostile to everything around it, causes pain in the nervous tissue, and also makes said creature more prone to anger - and Intensify Rage, a buff that prevents nearby demons from feeling fear
+and makes them more violent and prone to anger.
+
+Antaen - colossal, horned demons, almost as large as most giants. Despite this, they are quite intelligent. They learn mechanics and siege engineering at a 1.7 rate,
+and are capable of a berserker rage interaction. They are one of the most rare types of demons.
+
+Demons have access to several types of weapons and tools rarely seen elsewhere - double-bladed polearms, a favoured weapon of the Annihilan, which uses the spear skill,
+Hammer Gauntlets, a large, blunt fist weapon, Pincer Gauntlets, another large fist weapon that uses edged attacks instead, Excavator Gauntlets, which can be used
+as mining picks, and Buzz-saw Gauntlets, which use the axe skill and can be used to chop down trees.
+They also use Rivet Guns and Scrap Guns similar to those of the goblins.
+
+Demons will send out baby snatchers and thieves in world gen, making them hostile to most other races.
+
+They, along with other demonic races, can make Felsteel, a powerful material that is highly effective for sharp weapons.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Iron Guardian - metallic, mechanical constructs. They live in mountain fortresses.
+
+All iron guardian varieties dont feel pain, and do not need to eat, breathe, drink or sleep.
+
+Varieties:
+
+Iron Dwarves - most common caste, they have the same size as regular dwarves, only being made out of different materials.
+They learn mining, stonecrafting, masonry and engraving at twice the usual rate.
+
+Iron Vrykul - third most common caste, they are the same size as the vrykul.
+They learn fighting, archery, glassmaking, leatherworking, gem cutting, gem encrusting, stonecrafting, woodcrafting,
+metalcrafting and bone carving at twice the usual rate.
+
+Mechagnome - second most common caste, also the smallest of all iron guardians. While the other iron guardians
+do not feel fear, the mechagnomes will run at the first sign of opposition.
+They learn architecture, mechanics, siegecrafting and siege operating at twice the usual rate.
+
+Iron Giant - the most rare caste of the iron guardians - they are around the same size as the various wild giants.
+They learn smelting, strand extraction, metalcrafting, architecture, weapon, armor and metalsmithing at twice the usual rate.
+
+Iron guardians have similar weapon loadouts as the dwarves - they prefer flintlocks, muskets and blunderbuses, and don't use crossbows.
+They can also make Titansteel.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Fel Orc - demonically corrupted orcs, living in dark pits in the savannas and temperate forests.
+
+They are bigger than regular orcs, and have many spiky growths all over their bodies. 
+
+They can use a berserker rage buff, and their weapon loadouts are a combination of the demon and orc weapons.
+
+Fel orcs are massively more prone to rage than most other races. They also can make Felsteel.
+
+Drinking a volatile brew of strength as a Fel Orc will turn them into a Dire Fel Orc, increasing strength and size, but lowering the speed at which they learn skills.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Forest/Ice/Jungle/Sand/Dark Troll - put in one category, as they are mostly similar, with the exceptions of size
+and skin colours. They are tall, lanky humanoids with tusks, found inhabiting many different environments.
+
+Forest Trolls live in cities in the temperate forests of the world.
+Dark Trolls live in forest retreats in the temperate marshes of the world.
+Jungle Trolls live in cities in the tropical forests.
+Sand Trolls live in cities in the savannas and deserts.
+Ice Trolls live in cities in the taigas and mountains.
+
+Jungle and Sand trolls are the same size - Forest and Ice trolls also share the same size, being larger than the Jungle/Sand Trolls. 
+Dark Trolls, however, are bigger and also more prone to rage than all other trolls.
+
+Their weapon loadouts all have slight differences - for example, Ice trolls are the only ones to use harpoon launchers.
+Most notably, their shared weapons include edged tonfas and two-bladed swords, both of which are somewhat rare.
+
+Aside from Jungle trolls, all troll types send out thieves in worldgen, making them hostile to most other civs.
+
+Drinking a volatile brew of strength as any Troll will turn them into a Dire Troll, increasing strength and size, but lowering the speed at which they learn skills.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Gorloc - amphibious humanoids, related to the murlocs. They live in forest retreats in the tropical forests.
+
+They are smaller than dwarves, and their civs will most likely be non-hostile.
+
+Similarly to most amphibious races, they swim faster than other creatures, and also have access to tridents.
+Their weapon loadouts are otherwise similar to most primitive races. They also have access to razor coral weaponry.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Tuskarr - peaceful, walrus-like humanoids living in cities in the taigas and temperate coniferous forests.
+
+Highly unlikely to be at war with the players civ - their caravans come during the winter, which may prove useful.
+
+Similarly to other races living in colder regions, they have access to harpoon launchers.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Wolvar - wolverine-like humanoids, rivals of the gorlocs. They live in forest retreats in the tropical forests.
+
+They will send item thieves in worldgen and as such will be hostile to most other races.
+
+With the exception of tonfas, most of their weapon loadout is shared with other primitive races.
+They are a lot more prone to rage than most other races.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Quilboar - boar-like humanoids with spiny backs and four tusks. They live in towns in the savannas and deserts.
+
+Their weapon loadouts are similar to those of the ogres - including most types of maces, axes and hammers.
+
+They are also more prone to rage than most other creatures.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Furbolg - bear-like humanoids, who live in forest retreats in the temperate forests.
+
+They will not scare wildlife, and are more prone to rage.
+
+Furbolgs use mostly various types of primitve, metal weapons - machetes, spiked clubs, etc.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Arakkoa - bird-like humanoids, who come in two variants. They live in cities in the mountains and tropical forests.
+
+There are two types of arakkoa - standard arakkoa, who are smaller and flightless, and the High Arakkoa, who are taller and have wings on their arms
+that enable flight.
+
+Although unlikely, the Arakkoa may be at war with the players civ, due to conflicting ethics. However they do not send thieves or baby snatchers.
+
+Although they have access to most types of weapons, they mostly prefer swords - including the relatively rare
+ceremonial swords.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Drogbar - large, brutish humanoids who live in fortresses in the shrublands, grasslands and mountains.
+
+Slightly more prone to rage than other races - however, they are unlikely to be at war with the players civ.
+They do not send out thieves in worldgen.
+
+Their favoured weapons are mostly large, blunt weapons - they use some types of two-handed swords too, however,
+including dragonslayers.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Tol'vir - centauroid, feline humanoids. They live in cities in the deserts and savannas.
+
+They are the only race to use khopesh swords - aside from that, they have several other types of 
+rare weapons, like war sickles and war scythes.
+
+Like the Iron guardians and Vrykul, they can make Titansteel.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Tauren - peaceful, bovine humanoids with hooves and horns.
+
+They can use a battle fury interaction, however they are benign and will not start fights.
+
+They mostly use larger weapons, like two-handed swords or axes. They also have access to good animals, and may trade them in caravans.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Primal - plant-like beings who live in forest retreats in the forests and wetlands of the world.
+
+Variants:
+
+Podlings - small humanoids - the most common caste. Despite their small size, they enrage easily and can use a berserker rage self-buff.
+
+Botani - medium-sized humanoids. They are mostly made out of wood - as such, their punches and kicks hit noticably harder.
+They have two spells - a Wither spell, that reduces strength and speed to 50%, and a Raise Shambler spell, that turns a single corpse
+into a docile puppet shambler. Puppet shamblers usually wont attack enemies unless they themselves are attacked - they will spread
+spores that can cause nausea, swelling of the lungs, vomiting blood and coughing blood.
+
+Infested - large humanoids infested by a parasitic organism. They have several plant growths on their bodies, and vines
+extending from their lower arms. Using their vines they can either lash or stab - stabs can inject parasitic pods into other creatures -
+this has a possibility of turning the affected creature into an infested shambler, a lesser, crazed version of the infested that will
+lash out at anything nearby.
+
+Genesaur - gargantuan centauroids with two tusks - usually only one per primal civ, serving as the leader of the civilization.
+They can use a Battle Roar interaction that makes nearby friendly creatures not feel fear, and also more violent.
+They can also reanimate a single, friendly primal back to life.
+
+Primal Ancient - a large but relatively rare caste, similar to the Ancients, although far less benevolent.
+They can cast two spells - Accelerate Decay, similarly to the green dragons, and Sunbeam, similarly to the Nature
+Keepers.
+
+Primals can use razor wood in their weapons - a unique material that, while sharing the same density as regular wood, is also a lot more
+sharp. Otherwise they may use standard wooden weapons.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Qiraji - insect-like humanoids, who live in fortresses in the deserts.
+
+They send out babysnatchers in worldgen, and will as such be hostile to most races.
+
+They use more wicked weapons, like war sickles, war scythes, macuahuitls and so on.
+
+All Qiraji can use a battle fury interaction.
+
+Variants:
+
+Standard Qiraji are bipedal, and are covered in a strong carapace, offering some amount of protection.
+Two regular Qiraji will also always be the rulers of a qiraji civ. 
+
+Qiraji Gladiators are giant male Qiraji, and instead of hands have a pair of pincers. They also have a single horn
+and two large mandibles. Similarly to most other Qiraji, they are covered in a tough carapace. They are quite deadly even
+when unarmed.
+
+Qiraji Swarmguards are small, female Qiraji. They have 4 wings, enabling flight, and two scythe-like blades in their arms.
+Unlike the other Qiraji, they aren't as durable due to lacking any form of carapace - however their arm scythes make up for that.
+
+Eight-legged Qiraji (or Qiraji Prophets) are larger, male Qiraji. They are the spellcasters - they also have a strange
+breastplate-like protrusion on their upper body, which also bears a small pincer that can attack.
+They can cast Mind Flay, causing pain and dizziness, Dominate Mind, which has a chance of causing a creature
+to lash out at nearby other creatures, and Terrifying Vision, which makes a creature more likely to flee from combat.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Night Elf - tall humanoids with purple skin, living in towns in tropical forests.
+
+They can use a battle fury interaction, as well as Shadowmeld, which lets them instantly enter stealth.
+
+Additionally, they have access to several rare types of weapons - including war glaives, moon glaives, and umbra
+crescents. Similarly to vanilla DF elves, they don't like being traded wooden goods - unlike the DF elves, they use
+metal equipment and can be rather deadly.
+
+They are the only race that can make Elunite, a lightweight but resistant material, good for edged weapons and decent for armor.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+High Elf - tall humanoids with glowing blue eyes, living in cities in the forests.
+
+They are unlikely to be at war with the player civ, and may be worth trading with. 
+
+They can use a battle fury interaction.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Blood Elf - elves related to high elves - they live in cities in the forests.
+
+Although their values are somewhat different than those of the high elves, they are nonetheless unlikely
+to be at war with the player. They too can use a battle fury interaction.
+
+Blood elves also have access to two-bladed swords and war glaives - it may be worth trading for them.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Fel Elf - demonically corrupted high/blood elves, living in dark pits in the forests.
+
+They send out baby snatchers and thieves during worldgen, making them hostile.
+
+They come in three different variants.
+
+Felblood elves are the most common and "standard" variant - they are larger than regular high and blood elves.
+They also possess a pair of horns and a pair of wings - although, they cannot fly.
+
+The Wretched are elves who overindulged in their magical addiction - they are covered in tumors and they have a
+light blue eye glow. They are smaller than other elves, however they can cast a Drain Energy spell that causes dizziness
+and reduces endurance to 50%.
+
+The Winnowed are a further mutation of the Wretched - their eyes instead glow green, and they are larger.
+Aside from the Energy Drain, they can cast Withering Curse, which reduces toughness to 40% and causes the affected
+creature to cough up blood. 
+They also always secrete black, necrotic drool from their mouths - their bites can spatter it over wounds, causin necrosis
+and swelling.
+
+All variants can use a battle fury self-buff. They can also make felsteel equipment.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Nightborne - relatives of the Night Elves, who live in cities in tropical forests.
+
+They possess a similar battle fury interaction, however they cannot Shadowmeld. They also do not have
+war glaives or umbra crescents, only being able to use moon glaives.
+
+Variants:
+
+Standard Nightborne are the most common caste, and also the second biggest.
+
+Nightfallen are weakened, emaciated nightborne - they are smaller and weaker due to being deprived of their energy.
+
+The Fal'dorei are mutated, spider-like nightborne. Males have ten eyes and three pairs of legs, whereas females have only
+two eyes and two pairs of legs - both are capable of spraying webs at enemy creatures - they themselves are also immune to being webbed.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Satyr - demonically corrupted night elves, who have goat-like features, including hooves and horns.
+They live in forest retreats in tropical forests.
+
+They send out thieves and babysnatchers during worldgen, making them hostile.
+
+In terms of weapons, they favor sword-type weapons, and also weapons with scythe-like blades - including war sickles and war scythes.
+
+All satyrs can use a battle fury interaction.
+
+There are two variants.
+
+Regular satyrs can shadowmeld, instantly going into stealth - they are also bigger than most other elves.
+
+Nightmare Satyrs are rare, large variants which serve as the civilization leaders. They have six protrusions coming from their back,
+ending in scythe-like blades that they can use for attacking.
+They can cast two spells - Bloodlust, which temporarily increases strength by 1700, and increased speed to 140% - additionally,
+it prevents affected creatures from feeling fear. They can also cast Waking Nightmare, which causes severe drowsiness,
+and has a chance of driving the creature insane, potentially having them lash out at nearby friendly creatures.
+
+They can make felsteel.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Gnome - small, wiry humanoids, fond of engineering. They live in mountain fortresses.
+
+They are benign, and learn mechanics, siegecrafting, and siege operating at five times the usual rate.
+
+Gnomes have access to several rare and unique weapons - most notably Steam Hammers, which have a faster attack speed and more velocity, but are also unbalancing -
+they also use Rivet Guns - ranged weapons which fire sharp rivets at a faster velocity than crossbows.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Tinkerer Goblin - small, green humanoids, rivals of the gnomes in terms of technological inventions. They live in cities in tropical forests.
+
+Most goblins are very greedy, and also learn mechanics, siegecrafting, and siege operating at five times the usual rate.
+
+Similarly to gnomes, goblins have access to several rare weapon types - in their case, its Buzz-swords, which have a slower
+"saw" attack that is slower but recovers faster, and a stab attack that is faster but also takes longer to recover from.
+Aside from Rivet Guns, they also use Scrap Guns - ranged weapons that fire balls of scrap metal at a high velocity, dealing blunt impact damage.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Saberon - large, wildcat-like humanoids, living in forest retreats in the tropical forests.
+
+They can use Shadowmeld to instantly enter stealth. They have access to most primitive types of weapons, and also both
+bladed and blunt tonfas.
+
+They will be hostile due to sending thieves out in worldgen.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Worgen - cursed humans, who take the form of wolf-like humanoids. They live in towns in grasslands and shrublands.
+
+Their ethics, values, and weapon sets are similar to those of regular humans.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Ethereal - energy-based beings with characteristic mummy-like wrappings. They live in cities in the grasslands.
+
+They are mostly a non-hostile mercantile race, prone to greediness and excitement seeking.
+
+They can use a battle fury interaction. Their weapon sets are similar to those of goblins and gnomes,
+however instead of buzz-swords or steam hammers they only have two-bladed swords. They learn mechanics,
+siegecrafting and siege operating at five times the usual rate.
+
+Defeating them may be tough, as the only way to kill them is to destroy the soul gem located in their chest.
+They do not feel pain, cannot be blinded, stunned, over-exerted or made nauseous, and don't need to breathe, eat, drink or sleep.
+
+Their unarmed attacks, including their kicks, are all edged and can sever limbs fairly easily.
+
+On death, they dissipate into a burst of energy, leaving only whatever they were carrying at the time.
+
+They take increased damage from Ghost Iron weapons.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Forsaken - undead elves, humans and gnomes who live in cities in the grasslands and shrublands.
+
+Similarly to the demons, they are more of a "faction" that is composed of multiple races.
+
+All variants can use a battle fury interaction.
+
+Forsaken Human - undead humans with glowing yellow eyes. They are the most common variant,
+and learn most melee combat skills at twice the normal rate.
+
+Forsaken Elf - undead elves with glowing red eyes. Slightly less common than the humans.
+They learn ambusher and most ranged combat skills, including throwing, at twice the usual rate.
+
+Forsaken Gnome - undead gnomes. The least common variant, they learn architecture at three times the usual rate,
+and mechanics, siegecrafting and siege operating at five times the usual rate.
+
+Forsaken Banshee - semi-corporeal spirits of elf women. They are as common as the gnomes.
+They consist only of a floating humanoid torso, making them tough to knock down. They have several abilities at their disposal - a Sonic Wave
+projectile that does strong blunt damage, a Scream that induces fear in nearby enemy creatures, Anti-Magic Shell, which makes the creature immune to various forms of magic,
+and Curse, which reduces combat rolls for the affected creature. They take increased damage from Ghost Iron weapons.
+
+The Forsaken caravans come during the winter, and due to having access to evil animals, they may sell them as well.
+Their weapon loadouts are mostly derivated from the human and high elf civs - they also occasionally use war scythes.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Undead - a faction of various undead creatures - damned mortals, spirits, zombified beings, artifical monstrosities, and skeletal monsters. 
+They live in cities in the taigas, tundras, temperate forests, shrublands and mountains. 
+
+They send out babysnatchers and thieves in worldgen, making them hostile to most other races.
+
+The undead factions consist of many different creatures that can be divided into groups.
+
+Cultists and other intelligent undead:
+
+Damned - standard, human cultists - one of the most common castes.
+They are the same size as regular humans, and can only use a battle fury interaction - 
+however, they do not possess any magical knowledge yet.
+
+Plague Cultist - larger cultists, versed in disease magic. They have much higher natural disease resistance.
+They can cast several spells: 
+Rotting Plague, which causes severe nausea and necrosis
+Unstable Affliction, which causes swelling, oozing, and can also make a creature feverish and behave erratically
+Internal Hemorrhage, which causes nausea, vomiting blood, and bleeding from the guts,
+Animate Plaguebearer, which raises corpses as plaguebearer minions.
+
+Unholy Cultists - another type of larger cultist - these ones are versed in necromancy.
+They can raise dead bodies either as regular zombies or as ghoul minions - they can also cast 
+Cripple, which decreases speed and strength to 25%, toughness to 75%, and endurance and agility to 50%;
+and Curse of Agony, which lowers willpower to 40% and causes dizziness - with a slight chance of causing enough pain to instantly
+knock the targetted creature unconscious.
+
+Vargul - undead but still intelligent Vrykul. They learn most ranged and melee combat skills at twice the usual rate.
+They can also use a berserker rage self-buff.
+
+Darkfallen - undead, vampiric elves, often assigned to noble positions.
+They can suck blood from unconscious creatures, and also use a battle fury interaction, cast Hemorrhagic Fever, which causes vomiting blood, a fever,
+and light bleeding - and Blood Boil, which can cause bleeding, swelling, vomiting blood and coughing blood.
+
+Crypt Fiend - undead nerubians. They are similar to their living counterparts, only with advantages of being undead -
+they possess the same web spray and battle fury as the regular nerubians.
+
+Crypt Lord - undead spiderlords. As with the crypt fiends, they are similar to their living counterparts, merely
+possessing the advantages of undeath. They have the same battle fury interaction.
+
+Lich King - half-giant lords of the undead. Usually only one exists per undead civilization - they are always the main
+civilizational leaders. They have talented sword skill by default, and learn it at five times the usual rate - 
+they also learn fighting and archery at twice the usual rate.
+They have many different spells and abilities - they can use a battle fury interaction, raise corpses as either zombies, ghouls, 
+plaguebearers, skeletons, or skeleton mages, they can cast Frost Bolt and Shadow Bolt, both of which do strong blunt damage (shadow bolt can be aimed at multiple targets),
+shoot a bolt of liquid frost that causes blistering and slower speed, Death Coil which can empower the undead, but causes bleeding, necrosis and a reduction in willpower
+in the living, and Frost Shock which can cause pain, blistering, and reduces speed to 30%.
+
+Constructs and mutated zombies.
+Plague Eruptor - mutated zombies covered in pustules. They can enter a berserker rage, spray a stream of plague sludge that can
+cause necrosis, erratic behavior, and potentially drive the creature to attack anything nearby; or breathe a stream of plague gas
+that can cause dizziness, a fever, and coughing up blood. Their bites can spray the plague sludge over wounds.
+
+Ghoul - zombies who ascended into true undeath. They stand upright unlike their feral cousins. Their bites and scratches
+can spray liquid rot over the wound, which can cause nausea, necrosis, and blistering. They can enter a berserker rage.
+
+Flesh Giant - constructs pieced together from the bodies of giants. They can enter a berserker rage.
+They learn architecture, metalcrafting, smelting strand extraction, weapon, armor and metalsmithing at twice the usual rate.
+
+Flesh Titan - gargantuan constructs, with metallic plates covering some bits of their body.
+Aside from a berserker rage, they can shoot a burst of lightning that can cause blistering, bleeding and paralysis,
+or use a Paralyzing Shock that can cause pain and paralysis. Out of all the constructs, they are the most rare, but also
+the largest.
+
+Flesh Beast - strange constructs made out from pieces of various species. They have many redundant, nonfunctional 
+limbs, and eyes in strange places.
+They can enter a berserker rage and either spew a stream of festering goo, which can cause a fever, blisters, necrosis
+and swelling, or release an undirected cloud of vile gas, which can cause a fever, nausea, vomiting blood, and erratic behavior.
+
+Abomination - most common of the constructs, they have two large arms, and a smaller one on their back. 
+They can enter a berserker rage, and also release an undirected disease cloud that can cause dizziness,
+coughing blood, vomiting blood, and nausea. They themselves cannot be made nauseated.
+
+Blight Aberration - one of the most rare forms of the construct, they are a combination of machinery and flesh.
+Their torso, head, and arms are flesh and bone - whereas their entire lowers are made out of metal. 
+Their hands have attachments - one arm has a hammer attachment that can be used for a strong blunt blow,
+and the other has a syringe attachment that can inject living ooze into a creature, causing severe pain, vomiting blood,
+necrosis, blisters, and erratic behavior.
+They too can enter a berserker rage. They also cannot be blinded, as they lack eyes. The metallic canisters and tubes 
+on their body serve as weak spots, and severing them can cause rapid bleeding out.
+
+Spirits - all types are weak to Ghost Iron:
+Banshee - floating, female spirits. They are similar to the forsaken banshees, and have the same unique attacks.
+
+Spectre - male equivalent to the banshees. While they can curse their opponents and utilize the battle fury self-buff same as the banshees,
+they do not possess the banshees screaming attack or their sonic wave, instead they can cast Nightmarish Sickness, which can cause a fever, drowsiness, and dizziness,
+and Chains of Darkness, which temporarily reduces speed to 10%. Like the banshees, on death they dissipate into a burst of energy, leaving behind
+only the objects they had in their possession.
+
+Val'kyr - ascended spirits of vrykul females. They can fly, and are made out of both intangible energy and metallic bits of armor that cover them.
+Their physical attacks mostly count as edged, though they do have a standard punch. They have a weakness in the soul gem in their torso.
+They can use a battle fury, and also resurrect other nearby undead. On death they burst into light, leaving only their possessions behind.
+
+Shade - intangible spirits composed of dark mist.
+They can avoid traps, however they will flee quickly at signs of resistance. Destroying the soul gem in their torso is the only
+way to kill them.
+They only have a jab and scratch attack, both of which cause edged damage. 
+They can cast a blinding spell when fleeing from combat, and also cast Shadow Word, which has a chance of causing severe pain.
+On death, they dissipate into mist.
+
+Skeletal beings:
+Skeleton - one of the most common undead. They do not feel fear, pain, or exertion - destroying their skull is the only way to kill them.
+
+Skeleton Mage - larger and more intelligent, but also less common form of the skeletons. They have a soul gem in their chest that is one of the ways
+to dispose of them. They can cast Slow, reducing the speed of a target creature, hurl a bolt of magma, and cast Polymorph,
+which has a chance of turning a target creature into a defenseless sheep.
+
+Lich - powerful skeletal sorcerers, composed only of a floating torso. Males have horns and tusks - females lack those.
+They can animate dead bodies as skeletons or skeleton mages, hurl multiple bolts of frost that do strong blunt damage,
+breathe a cloud of frost that causes blistering and slowness, and also cast Frost Shock. 
+On death, they dissipate into a cloud of frost that has similar effects to their frost breath.
+
+Bone Wraith - amalgamations of various skeletal remains. They have four skulls serving as their heads, and a pair of wings - otherwise they
+are only a floating torso.
+They learn most melee and ranged weapon skills at twice the usual rate - with the exception of axes, which they learn at four times the usual rate,
+and bows and crossbows, for which they only have a 1.5 modifier.
+
+Bone Golem - large, brutish skeletons. They have two metallic blades attached to their hands, which they can utilize for more powerful melee attacks.
+
+Coldwraith - skeletal magi infused with shadow and frost. Relatively rare, however their magical abilities are powerful.
+They can cast Curse of Weakness, which for a short period cuts the affected creature's strength to 10% and Freezing Wind, which causes strong pain and
+moderate bleeding. They also can hurl a single bolt of frost at a target. Their most deadly ability is a spell that raises dead bodies as more Coldwraiths -
+while it has a long cooldown and is only capable of raising a single dead body at a time, the risen Coldwraith has the same abilities, including the animation spell.
+When unchecked it can potentially spiral out of control.
+
+Universally, all undead do not need to eat, drink, breathe, or sleep.
+
+The undead have many different types of weapons at their disposal - they are one of the few races to use ceremonial swords;
+they are also the only race with access to runeblades.
+
+They can use Saronite - combined with their various castes, this makes them incredibly dangerous.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Frost Vrykul - relatives of the vrykul, who live in cities in the taigas and mountains.
+
+They are more violent and prone to excitement seeking than the regular Vrykul - otherwise they are mostly
+similar in terms of weapon loadouts and so on.
+
+Attacks against them have their velocity reduced by 1/3. They can also make Titansteel equipment.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Taunka - bison-like humanoids related to the Tauren. They live in citis in the mountains, taigas, and temperate
+coniferous forests.
+
+They are less benign than the Tauren - their weapon loadouts are similar, although they also have access to 
+harpoon launchers.
+
+They do not have a battle fury self-buff, however they can enter martial trances when severly outnumbered.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Zandalari Troll - progenitors of the troll races. They live in tropical broadleaf forests, savannas and grasslands.
+
+Their weapon loadouts are slightly different from those of other trolls - they are one of the races that use macuahuitls
+and ceremonial swords.
+
+They can enter a berserker rage, and can also enter a martial trance.
+
+Drinking a volatile brew of strength as a Zandalari Troll will turn them into a Dire Troll, increasing strength and size, but lowering the speed at which they learn skills.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Gnoll - primitive, hyena-like humanoids, who live in cities in the forests, savannas and grasslands.
+
+They learn biting at four times the normal rate, and also won't trample grass, making them more difficult to track.
+
+They send out thieves in worldgen, and so will be hostile.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Murloc - fish-like humanoids, who live in forest retreats in the wetlands, forests, shrublands and grasslands.
+
+Similarly to other amphibious races, they swim faster, and also have access to tridents and razor coral weapons.
+
+They send out thieves in worldgen, and will be hostile.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Trogg - small, violent, hunched-over humanoids. They live in fortresses in the deserts, mountains and temperate forests.
+
+Troggs come in two variants - regular troggs, which are standard fleshy humanoids, and Stone Troggs,
+which are made out of a tough stone-like material - they also can grow very large with age.
+
+They send out thieves in worldgen, and will be hostile.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Rat Kobold - small rat-like humanoids, who live in forest retreats in the mountains, deserts and temperate forests.
+
+They usually flee at the first sign of conflict. 
+
+Some may occasionally use shovels instead of pickaxes.
+
+They are hostile, due to sending out thieves in worldgen.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Centaur - war-like humanoids with human-like torsos and the lower bodies of horses. They live in fortresses
+in the shrublands, deserts and savannas.
+
+They have somewhat more varied weapons than a lot of the other "primitive" races.
+
+They send out thieves in worldgen and will be hostile.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Pandaren - peaceful panda-like humanoids who live in cities in the grasslands and savannas.
+
+They can hold their liquor as well as dwarves do. They are also one of the few races with access to chinese-based weapons.
+
+Their caravans come during the autumn, and they may occasionally bring good animals and plants with them.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Mogu - proud, violent, magical humanoids. They live in cities in the grasslands and savannas.
+
+Similarly to the Pandaren, they have access to chinese-based weapons. Unlike the Pandaren, they are hostile
+and will send out thieves in worldgen.
+
+Their females are much more rare than the males. They have a genderless variant called the Stoneborn - 
+which are artificial beings resembling male Mogu, only made entirely out of stone. They do not feel fear, pain, or exertion,
+cannot be stunned or made nauseous, don't need to eat, breathe, drink or sleep, and cannot overexert.
+
+Male and female Mogu can use a battle fury interaction - the Stoneborn cannot.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Jinyu - fish-like humanoids - an evolved form of Murlocs, who live in cities in the tropical forests and grasslands.
+
+They are peaceful, and can swim faster than most other races.
+
+Unlike similar races, they do not have razor coral weapons - they still have tridents, however, alongside 
+several japanese-themed weapons.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Hozen - mischievous, monkey-like humanoids. They live in forest retreats in the tropical forests.
+
+They can climb even without free hands. 
+
+They will be hostile, as they send out thieves in worldgen.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Yaungol - yak-like humanoids, related to the Tauren. They live in cities in the grasslands and savannas.
+
+They can enter martial trances when severly outnumbered. Additionally, they come in two varieties - standard Yaungol,
+and Flamebound Yaungol, who can throw bolts of magma or shoot a stream of burning gas. They are otherwise the same
+in terms of body build and size.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Mantid - mantis-like humanoids, who serve the same elder deities as the Qiraji and Faceless Ones.
+They live in cities in the grasslands and savannas.
+
+They send out baby snatchers in worldgen, and will be hostile.
+
+Males and females have different body builds - the males have two legs and two arms, a pair of wings,
+and scythes on their lower arms that can be used for slashing - additionally, they also have a pair of vestigial
+arms that end in another pair of blades. They can fly.
+
+Females have two pairs of legs and two pairs of arms - however, they lack wings or arm scythes. They are
+larger than the males.
+
+If they have access to kypari trees, they can turn their wood into refined amber, which is a very sharp and light
+material that they can use for their weapons, nearly all of which have some form of edged attack.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Saurok - primitive, lizard-like humanoids. They live in forest retreats in the grasslands and savannas.
+
+They send out thieves in worldgen, and will be hostile.
+
+They have three different varieties - standard Saurok, which don't have special abilities; Frilled Saurok,
+who have retractable neck frills and can spit globs of acid - their bites will also spatter acid over wounds;
+and lastly, the Primordial Saurok who are gruesomely mutated, with many tumors and bone spikes covering their bodies.
+They are much larger than the other two varieties, and can spew a stream of sludge that can cause necrosis,
+nausea, erratic behavior and vomiting blood. Their bites spatter the same sludge over inflicted wounds.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Dark Dwarves - brethren of the regular dwarves, who worship primal gods of fire.
+
+They are similar to regular dwarves, only they are more prone to rage and violent behavior.
+Their weapon loadouts are similar to the dwarves, though they will also use scourges occasionally. 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Sporelings - small, fungal humanoids. They live in forest retreats in the wetlands.
+
+Non-hostile, they are rather cowardly and will flee at most signs of combat. 
+
+They can make razor wood weapons and armor, and are the only way of getting them via trading.
