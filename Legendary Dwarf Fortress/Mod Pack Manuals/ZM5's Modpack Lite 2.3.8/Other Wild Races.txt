@@ -1,0 +1,43 @@
+Brief descriptions of all non-crossover wild animal creature-like races that are playable but lack civilizations, by ZM5.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Lamia - benign, female humanoids with snake tails instead of legs. Found in savage wetlands and tropical forests.
+
+They can use several songs which grant buffs to friendly creatures nearby - an energizing song that grants two hundred points into both endurance and agility,
+and inspiring song that increases strength and toughness by 200, and a courage song that prevents nearby creatures from feeling fear.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Arachne - female, predatory creatures with a human female's torso and the lower body of a spider. Found underground and in savage tropical forests.
+
+They have sharp chitinous claws instead of hands. 
+
+Aside from being able to spray immobilizing webbing at nearby foes, their bites can also inject a venom that causes paralysis.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Kikimora - nocturnal, female spirits found in savage temperate forests.
+
+They learn ambushing at four times the regular rate of other creatures - their bites are also more deadly owing to their wolf-like heads.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Siren - female humanoids with the feathers, feet and wings of a bird. Found in the savage grasslands and wetlands.
+
+They serve as polar opposites to the lamias - the Siren's songs instead cause various types of debilitations.
+They have a cursed song that reduces strength to 70% and endurance to 60%, a fatal song that decreases combat rolls
+and causes bleeding from the ears and eyes, as well as coughing blood and a strong feeling of sadness, and a sleep song
+that causes dizziness and drowsiness.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Valkyrie - winged, female humanoids found in the mountains.
+
+They learn fighting, spear and shield skills at three times the rate of other creatures. They also have innately
+higher toughness and strength attributes than other creatures.
+
+They are capable of using several types of light magic, including Holy Bolt, Holy Fire, and Protection.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Maenad - pale-skinned nymphs found in good forests. They have a pair of curling horns on their head.
+
+They are mischievous, and will also steal food and booze from your fortress.
+
+They learn brewing, dancing and singing at thrice the normal rate.
+
+Their behavior is rather erratic - if provoked they may enter either a rage or a trance, making them potentially dangerous.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Chort - large, cowardly male demons. Found in any evil biome.
+
+They have hooves and horns, and are larger than humans. They will attempt to pull levers and steal goods, booze or food from your fortress.

@@ -1,0 +1,189 @@
+Brief descriptions of all non-Warcraft civilized races, both OCs and from other crossovers, by ZM5.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Tarkatan - cruel, violent humanoids. They live in cities in the deserts, savannas and shrublands.
+
+They do not have lips, and possess metallic blades in their arms, which they use for stronger unarmed attacks.
+
+Nearly all of their weapons have some form of edged attack.
+
+They will send out thieves in worldgen, and as such will be hostile.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Osh-tekk - tall human-like creatures with glowing eyes. They live in fortresses in the tropical forests.
+
+They can enter martial trances, and are also more prone to rage.
+
+They have access to several aztec-themed weapons. 
+
+Instead of a battle fury interaction, they can use a blood offering, which has a stronger bonus to toughness, strength and agility,
+but also causes bleeding from the chest.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Beastfolk - large, beastial humanoids, distantly related to normal humans. They live in cities in the forests,
+grasslands and shrublands.
+
+They are particularly prone to jealousy and anger, and will enrage more often in battle.
+
+They will be hostile due to sending out thieves in worldgen.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Two-human - bizarre beings, resembling two humans conjoined at their backs. They live in forest retreats
+in any forest of the world.
+
+They have two heads, two pairs of arms and legs, but only a single neck. They use most of the primitive weapon set.
+
+They send out babysnatchers in worldgen, making them hostile.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Corrupted Human - demon-worshipping humans, who live in dark pits in the savannas and temperate forests.
+
+They send out thieves and babysnatchers in worldgen, and will be hostile.
+
+Variants:
+
+Standard corrupted humans are mostly the same as regular humans when it comes to size and body build.
+
+Fel Brutes are the second most common caste - they are also the second largest. They learn skills at half the
+rate of other races, however. They have a tail, a pair of horns, and several spike-like growths on their upper body.
+
+Vile Ones are the third most common caste. They are slightly larger than regular humans. Spiky growths cover most of their bodies.
+
+Felsworn are even larger than the vile ones - in addition to the spiky growths, they now have horns and a tail.
+
+Hellspawn are the most rare caste, and also the largest - they have grown six grasping tentacles from their backs, which they can use for
+lashing attacks, or for holding on to more weapons.
+
+Their weapon loadouts are similar to those of normal humans, with some weapons added on that are also utilized by similar races aligned with
+demons.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Antiquan - humanoids who resemble living statues, with skin of stone. They live in cities in temperate broadleaf forests.
+
+They are larger than regular humans, and while mostly peaceful, they can be formidable, as they do not bleed. 
+
+They have a unique set of classical era-based weapons and armor.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Primal Beast - large, horned humanoids, who live in cities in the forests, grasslands, shrublands, savannas and deserts.
+
+They are powerful and intelligent, but also arrogant. They send out thieves in worldgen and will be hostile to most races.
+
+Varints:
+
+Standard primal beasts are the most common caste - they are simply large humanoids with a single pair of horns.
+
+Flame Beasts, along with the other elemental variants, are the second most common caste and have four horns. They can throw bolts of magma,
+cast a jet of fire, and cast Mark of Flame which increases a target creature's strength to 150%.
+They have a tail with a stinger - attacks with it can inject liquid flame into a creature.
+
+Ice Beasts can progenerate blades of ice from their forearms, which allows them to remain highly dangerous even when unarmed.
+They can shoot bolts of ice which do strong blunt damage, breathe clouds of frost which can cause blistering and slowing,
+and cast Mark of Frost which increases the endurance of a friendly creature to 150%.
+
+Thunder Beasts have wings and can fly - they can shoot bolts of lightning which do strong blunt damage, cast clouds of lightning
+which can cause paralysis, pain and bleeding, and cast Mark of Thunder, which increases agility to 150%.
+
+Earth Beasts have tusks, and a covering of stone on their upper body, arms, hands and fingers - as such they are more protected
+from attacks and do more damage with punches. They can cast the magnaron's Reverberating Pulse, causing pain and dizziness,
+Earth Shatter which can fire rocks at up to three targets, and Mark of Stone which increases toughness to 150%.
+
+Poison Beasts have fangs instead of regular teeth - their bites can inject a venom that causes pain and paralysis.
+They can hurl bolts of acid at their enemies, and also cast Accelerate Decay and Internal Hemorrhage.
+
+Elementium Beasts are the most rare caste, and have six horns - they additionally have the combined features and abilities
+of all the elemental castes.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Malformed - servants of horrific, eldritch deities - most have been forcibly fused with various elements, leading
+to gruesome mutations. They live in towns in the forests, grasslands, shrublands, savannas, and wetlands.
+
+They send out snatchers in worldgen, and will be hostile.
+
+Variants:
+Malformed - they are the largest and most common caste. They have tentacle-like growths on their faces, and two fanged tentacles
+hidden in their wrists that they can use as lashes or for biting attacks. Besides that they do not possess special powers.
+
+Warped - a much smaller caste, however it is still as common as the regular Malformed. They have insectoid features -
+with 8 eyes, a tail with a stinger, and four oviposiotrs. They can climb without using their arms - additionally they
+climb on walls and crawl on the ground faster than other races. Their ovipositor stings can inject a poison that can cause
+intense pain, bleeding and oozing.
+
+Hellborn - one of the elemental castes (all of which are less common than the Malformed and Warped) - they are infused
+with fire and are constantly burning from the inside. They do not feel pain and cannot be stunned. They have two tentacles
+made from their own flesh that hang from their lower arms - they are tipped with barbs that can be used for an edged strike.
+They can throw fireballs and bolts of magma, and also cast Hellfire, which can cause severe pain, bleeding and blistering.
+
+Stormspawn - a caste infused with lightning. They have retractable bone blades in their hands, and a tentacle growing from their back
+that ends with an eye, granting them full vision of their surroundings as long as it remains attached. 
+Their slashes and stabs with their palm blades can cause similar effects to a paralyzing shock. They additionally
+can hurl ball lightning for strong blunt damage, hurl liquid lightning that can cause paralysis and blistering,
+cast Paralyzing Beam which can cause pain, blistering, and paralysis, and Erratic Shock, a self-buff that randomly
+changes their speed every once in a while.
+They do not feel pain and cannot be stunned.
+
+Rotwalker - a caste infused with ill humors. They have a maw going down their torso, with a tentacle inside it - 
+they also have sacs on their wrists and openings in their palms that allow them to spray sludge. 
+Their rot sludge sprays can cause necrosis, coughing blood, vomiting blood, and a fever. They can also
+shoot blobs of acid, and cast Decrepit Fever, which can cause swelling, oozing, coughing blood and a fever.
+They do not feel pain, cannot be stunned, and do not need to breathe; they also cannot be made nauseous
+and feverish.
+
+Darkfiend - a caste infused with darkness. They have an elongated, spiked tongue, and bone blades in its
+wrists and elbows. They can crawl on the ground faster, and also climb on walls much faster than most other creatures.
+They can lash with their tongue, and slash and stab with their elbow and wrist blades. They additionally can use
+Invsibility, which allows them to immediately enter stealth, and can also exhale a black mist that has a chance to cause blindness.
+They can climb without free hands, and even if their eyes are damaged they can still see.
+
+Frostbound - a caste infused with ice. They have icy, crystal-like growths over most of their bodies, and are the second
+largest caste. They can climb faster and their scratches are more effective, due to having a layer of ice instead of regular nails.
+They don't feel pain and cannot be stunned.
+They have several additional attacks, including an elbow, a knee and a headbutt.
+They can hurl bolts of ice for strong blunt damage, and liquid frost, which can cause slowing and blistering.
+Additionally, they can cast Ice Barrier on themselves, which reduces their speed to 70% but increases toughness 
+to 500%.
+
+All of the Malformed do not need to eat, drink or sleep.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Erebian - feathered, lizard-like humanoids who live in cities in the wetlands.
+
+They have many sickle and scythe-like weapons at their disposal. Their caravans come during the summer, and can
+bring evil animals for trading.
+
+Variants:
+
+Erebian - standard Erebi who don't have special abilities or features.
+
+Awakened Erebian - a rare form of Erebi that have innate necromancy abilities - they can raise bodies
+as either regular zombies, skeletons, or skeleton mages. They do not need to eat, breathe, drink or sleep,
+cannot be made feverish, cannot overexert, and can still see even if their eyes get damaged.
+
+Giant Erebian - a rarer form of Erebi that has a massively increased size. They do not feel pain; however,
+their natural lifespawns are a lot shorter than those of other Erebi.
+
+Arachnid Erebi - another rare form of the Erebi - they have six arms, eight eyes, and a pair of mandibles.
+They learn ambushing at four times the normal rate, and can climb without free hands - additionally, their bites
+can inflict a poison that can cause numbness and a speed reduction to 40%.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Vespiran - hornet-like humanoids dedicated to preservation of balance who live in cities in the grasslands. 
+They use good animals, although due to sending thieves and snatchers they will be hostile.
+
+Variants:
+
+Vespiran - the standard, most common caste - they have four wings and can fly. Their stings can inject a venom that causes intense pain, 
+and their bites can spatter acid over the wound. They can also spit the same acid from a distance, and are the only caste to be able to do that.
+
+Vespiran Juggernaut - a rarer form of the Vespirans. They are much larger, and although they lack wings and cannot fly,
+they instead have a tough carapace that shields them from attacks.
+
+Vespiran Seraph - the most rare form of the Vespirans. They are smaller than the Juggernauts, although still bigger than the regular
+Vespirans. They have two pairs of wings and arms, and they have enchanted bone blades in their forearms.
+They can throw bolts of holy energy, dealing strong blunt damage, and also cast Repentance and Holy Fire.
+
+Vespiran Cherub - a smaller off-shot with four arms, four legs and four wings.
+Not as rare as the Juggernauts, they learn most manual labors and also ranged weapon skills at three times
+the usual rate. They can also fire bolts of holy energy as a projectile attack.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Creven - large, eyeless humanoids with bat-like faces - intelligent and benign despite their brutish appearance. 
+They live in fortresses in the taigas, mountains and forests.
+
+They are capable of releasing sonic waves that do strong blunt damage - they can also utilize a supersonic screech
+attack which can cause dizziness and bleeding from the organs (simulating rupturing of them).
+
+They utilize a few similar weapons to more tech-savvy races, like the goblins and gnomes - they also have their unique orb cannons,
+which are large contraptions that fire medium-sized metal orbs. The orbs come in two varieties - regular orbs do blunt damage, whereas
+spiked orbs can cause edged damage.

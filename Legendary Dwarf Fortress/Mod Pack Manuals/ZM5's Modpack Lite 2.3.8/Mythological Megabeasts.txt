@@ -1,0 +1,63 @@
+Brief descriptions of all Mythology/Folklore-based megabeasts, by ZM5.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Animalistic
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Cerberus - three-headed, firebreathing wolf. It breathes shorter-ranged fire jets (potentially in three different directions), and its heads can attack up to
+3 different creatures, similarly to hydra heads.
+
+Gorynych - a three-headed dragon, gargantuan even compared to other dragons. Can breathe dragonfire in up to three different directions - its attack triggers are higher
+than other megabeasts.
+
+Barghest - counts as a semimegabeast - a large dog-like beast with three eyes. Can shoot a bolt of shadow as a ranged attack, and also use Shadow Walk, which slightly
+boosts its agility, and increases its speed to 200%.
+
+Manticore - a quadruped with a humans face, a stinger, and two wings. It can fly and its stinger can inject a venom that causes necrosis, pain, and dizziness.
+
+Sphinx - a quadruped with feathered wings and a human face. They are capable of flight, and inhabit shrines. They do not feel fear or pain and cannot be stunned.
+They can pose a riddle to a single target, which reduces focus to 25%, and has a chance of causing dizziness or erratic behavior.
+
+Orthrus - a two-headed wolf-like beast, related to the Cerberus.
+While smaller, they are capable of breathing two different elements; either frost or lightning.
+
+Orochi - a gargantuan snake-like beast with eight heads and eight tails. Like the hydra, it is capable of attacking with all of its heads at once.
+
+Ladon - a five-headed, two-legged dragonic beast with a pair of wings.
+
+Each of its heads possesses a different breath attack - they can spit balls of fire, liquid lightning, liquid frost, acid, or chunks of stone.
+Cutting off a head will disable one of the breath attacks.
+
+Opinicus - a giant quadruped resembling a cross between a griffin and a dragon. It has both scales and feathers and a toothy beak.
+
+They can either breathe a jet of fire, or spit a ball of magma.
+
+Catoblepas - a gigantic quadruped with the hooved body of a bovine and the head of a hog. It has three horns.
+
+They are capable of breathing a cloud of diseased gas that can cause nausea, dizziness, and swelling of the lungs.
+
+Attacks against them have their velocity reduced by half.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Intelligent
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Medusa - a female creature with snakes for hair and a serpents tail. Can use a petrifying stare, which has a chance of instantly turning a victim into a stone statue.
+Its snake hair can attack potentially multiple limbs or creatures at the same time. Possesses a master skill level in bow and archer skills, and talented in 
+swords, daggers, striking, wrestling, biting, and fighting. Can potentially become a civ leader in worldgen.
+
+Kampe - female half-dragon creature, with a female torso and four legs - has wings, a stinger, snakes for hair, and several animal heads on the lower body.
+The animal heads are non-essential to its functioning - only severing its main head would instantly kill it. Its snake hair has similar properties to that of the Medusa,
+and its venom can cause swelling, necrosis, and potentially pain. It is capable of breathing a jet of fire. Lastly, it has accomplished sword skill, and talented in biting,
+wrestling, striking, and fighting. Despite being considered as semi-megabeasts in-game, resulting in higher numbers, they also have higher attack triggers than other megabeasts.
+
+Scylla - a water nymph. Its lower body diverges into several tentacles. The creatures abdomen has three wolf heads and five serpent heads - both can attack multiple points similarly
+to a hydra. Bites from the serpent heads can inject a poison that causes oozing and vomiting blood, with a high chance of necrosis and swelling. It is also capable of lashing with 
+its tails. However, the nymph herself doesnt attack - as with the Kampe, decapitating the main torso is the only way to kill the creature short of bleeding it out. 
+While more of them will show in worldgen, they have identical attack triggers to regular megabeasts. The Scylla has expert striking, wrestling and biting, and adept fighting.
+
+Hecatoncheir - a colossus with ten arms and five heads. Is immune to fear, pain or stunning, and is talented in striking, kicking, fighting, and skilled in dodging. Will sometimes take over
+civs in worldgen. Can essentially be thought of as an upgraded version of the Ettin.
+
+Gegenes - a giant of earth with six arms. Its body is made out of stone.
+
+They often punch with all six of their fists at once - aside from that they do not have any other gimmicks.
+Their attack triggers are somewhat higher than other megabeasts, and require a hundred citizens to actually have a chance of showing up.
