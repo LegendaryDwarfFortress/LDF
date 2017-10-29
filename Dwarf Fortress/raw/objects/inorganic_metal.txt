@@ -297,7 +297,7 @@ Dwarfoloid picked out a lot of the material numbers here to replace my placehold
 	[SPEC_HEAT:385]
 	[MELTING_POINT:11952]
 	[BOILING_POINT:14611]
-	[ITEMS_HARD]
+	[ITEMS_HARD][ITEMS_DIGGER]
 	[ITEMS_METAL]
 	[ITEMS_BARRED]
 	[ITEMS_SCALED]
