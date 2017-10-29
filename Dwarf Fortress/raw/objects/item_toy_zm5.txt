@@ -1,0 +1,12 @@
+item_toy_zm5
+
+[OBJECT:ITEM]
+
+[ITEM_TOY:ITEM_TOY_STEAM_TONK]
+[NAME:steam tonk:steam tonks]
+[HARD_MAT]
+
+
+[ITEM_TOY:ITEM_TOY_MECHANICAL_COMPANION]
+[NAME:mechanical companion:mechanical companions]
+[HARD_MAT]
