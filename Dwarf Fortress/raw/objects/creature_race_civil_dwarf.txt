@@ -13,6 +13,7 @@ creature_race_civil_dwarf
 
 	[INTELLIGENT]
 	[STRANGE_MOODS]
+	[TRANCES]
 	[BENIGN]
 	[CANOPENDOORS]
 	[PREFSTRING:beards]
@@ -197,50 +198,11 @@ creature_race_civil_dwarf
 
 	[MAXAGE:150:170]
 
-	Attack definitions are formatted as follows:
-
-	[ATTACK:PUNCH:BODYPART:BY_TYPE:GRASP]
-		[ATTACK_SKILL:GRASP_STRIKE]
-		[ATTACK_VERB:punch:punches]
-
-		This means that the attack will use as much of the available tissue as possible, rather than, say, thrusting with a spike.
-
-		[ATTACK_CONTACT_PERC:100]
-		[ATTACK_PREPARE_AND_RECOVER:3:3]
-		[ATTACK_FLAG_WITH]
-		[ATTACK_PRIORITY:MAIN]
-
-	[ATTACK:KICK:BODYPART:BY_TYPE:STANCE]
-		[ATTACK_SKILL:STANCE_STRIKE]
-		[ATTACK_VERB:kick:kicks]
-		[ATTACK_CONTACT_PERC:100]
-		[ATTACK_PREPARE_AND_RECOVER:4:4]
-		[ATTACK_FLAG_WITH]
-		[ATTACK_PRIORITY:SECOND]
-		[ATTACK_FLAG_BAD_MULTIATTACK]
-
-	This causes all of the nails on the finger's of a given grasp to be used.
-
-	[ATTACK:SCRATCH:CHILD_TISSUE_LAYER_GROUP:BY_TYPE:GRASP:BY_CATEGORY:FINGER:NAIL]
-		[ATTACK_SKILL:GRASP_STRIKE]
-		[ATTACK_VERB:scratch:scratches]
-		[ATTACK_CONTACT_PERC:100]
-		[ATTACK_PENETRATION_PERC:100]
-		[ATTACK_FLAG_EDGE]
-		[ATTACK_PREPARE_AND_RECOVER:3:3]
-		[ATTACK_PRIORITY:SECOND]
-
-	This causes all of the teeth on a given head to be used.
-
-	[ATTACK:BITE:CHILD_BODYPART_GROUP:BY_CATEGORY:HEAD:BY_CATEGORY:TOOTH]
-		[ATTACK_SKILL:BITE]
-		[ATTACK_VERB:bite:bites]
-		[ATTACK_CONTACT_PERC:100]
-		[ATTACK_PENETRATION_PERC:100]
-		[ATTACK_FLAG_EDGE]
-		[ATTACK_PREPARE_AND_RECOVER:3:3]
-		[ATTACK_PRIORITY:SECOND]
-		[ATTACK_FLAG_CANLATCH]
+	[APPLY_CREATURE_VARIATION:PUNCH_ATTACK]
+	[APPLY_CREATURE_VARIATION:KICK_ATTACK]
+	[APPLY_CREATURE_VARIATION:NAIL_SCRATCH_ATTACK]
+	[APPLY_CREATURE_VARIATION:TOOTH_BITE_ATTACK]
+	[APPLY_CURRENT_CREATURE_VARIATION]
 
 	Here, GENERAL_BABY_NAME is at the creature level, and BABYNAME is at the caste level.  These names could be gender-specific but aren't right now.
 
@@ -257,18 +219,6 @@ creature_race_civil_dwarf
 	[LOW_LIGHT_VISION:10000]
 
 	This is the new format for making specific unit names for a creature.  Any unit token can be used.  If you want to add a caste-specific profession name, use CASTE_PROFESSION_NAME instead, once the caste has been declared.
-	[PROFESSION_NAME:CRAFTSMAN:craftsdwarf:craftsdwarves]
-	[PROFESSION_NAME:FISHERMAN:fisherdwarf:fisherdwarves]
-	[PROFESSION_NAME:HAMMERMAN:hammerdwarf:hammerdwarves]
-	[PROFESSION_NAME:SPEARMAN:speardwarf:speardwarves]
-	[PROFESSION_NAME:CROSSBOWMAN:marksdwarf:marksdwarves]
-	[PROFESSION_NAME:AXEMAN:axedwarf:axedwarves]
-	[PROFESSION_NAME:SWORDSMAN:swordsdwarf:swordsdwarves]
-	[PROFESSION_NAME:MACEMAN:macedwarf:macedwarves]
-	[PROFESSION_NAME:PIKEMAN:pikedwarf:pikedwarves]
-	[PROFESSION_NAME:BOWMAN:bowdwarf:bowdwarves]
-	[PROFESSION_NAME:MASTER_CROSSBOWMAN:Elite Marksdwarf:Elite Marksdwarves]
-	[PROFESSION_NAME:MASTER_BOWMAN:Elite Bowdwarf:Elite Bowdwarves]
 
 	[SPEECH:dwarf.txt]
 	[HOMEOTHERM:10067]
@@ -365,8 +315,6 @@ creature_race_civil_dwarf
 	# Standard Caste information
 	[SELECT_CASTE:MALE]
 	[SELECT_ADDITIONAL_CASTE:FEMALE]
-		[CASTE_PROFESSION_NAME:STANDARD:Peasant:Peasants]
-		#most people are born as standard members
 		[POP_RATIO:10000]
 		#set all skills to 50% learning
 		[SKILL_LEARN_RATES:50]
@@ -412,6 +360,22 @@ creature_race_civil_dwarf
 		[SKILL_RATE:FLATTERY:100:0:0:0]
 		[SKILL_RATE:CONSOLE:100:0:0:0]
 		[SKILL_RATE:PACIFY:100:0:0:0]
+		[CASTE_PROFESSION_NAME:STANDARD:Peasant:Peasants]
+		[CASTE_PROFESSION_NAME:CRAFTSMAN:craftsdwarf:craftsdwarves]
+		[CASTE_PROFESSION_NAME:FISHERMAN:fisherdwarf:fisherdwarves]
+		[CASTE_PROFESSION_NAME:HAMMERMAN:hammerdwarf:hammerdwarves]
+		[CASTE_PROFESSION_NAME:SPEARMAN:speardwarf:speardwarves]
+		[CASTE_PROFESSION_NAME:CROSSBOWMAN:marksdwarf:marksdwarves]
+		[CASTE_PROFESSION_NAME:AXEMAN:axedwarf:axedwarves]
+		[CASTE_PROFESSION_NAME:SWORDSMAN:swordsdwarf:swordsdwarves]
+		[CASTE_PROFESSION_NAME:MACEMAN:macedwarf:macedwarves]
+		[CASTE_PROFESSION_NAME:BOWMAN:bowdwarf:bowdwarves]
+		[CASTE_PROFESSION_NAME:MASTER_CROSSBOWMAN:Elite Marksdwarf:Elite Marksdwarves]
+		[CASTE_PROFESSION_NAME:MASTER_BOWMAN:Elite Bowdwarf:Elite Bowdwarves]
+		[CASTE_PROFESSION_NAME:PIKEMAN:stavesdwarf:stavesdwarves]
+		[CASTE_PROFESSION_NAME:LASHER:flailsdwarf:flailsdwarves]
+		[CASTE_PROFESSION_NAME:MASTER_PIKEMAN:master stavesdwarf:master stavesdwarves]
+		[CASTE_PROFESSION_NAME:MASTER_LASHER:master flailsdwarf:master flailsdwarves]
 		
 	# initializing skill rates for all guild castes since they are restricted
 	# from working in fields outside their chosen caste.  Later we go back and
@@ -744,6 +708,10 @@ creature_race_civil_dwarf
 		[CASTE_PROFESSION_NAME:MASTER_SWORDSMAN:*Swordmaster*:*Swordmasters*]
 		[CASTE_PROFESSION_NAME:MACEMAN:*Macedwarf*:*Macedwarves*]
 		[CASTE_PROFESSION_NAME:MASTER_MACEMAN:*Mace lord*:*Mace lords*]
+		[CASTE_PROFESSION_NAME:PIKEMAN:*stavesdwarf*:*stavesdwarves*]
+		[CASTE_PROFESSION_NAME:LASHER:*flailsdwarf*:*flailsdwarves*]
+		[CASTE_PROFESSION_NAME:MASTER_PIKEMAN:*master stavesdwarf*:*master stavesdwarves*]
+		[CASTE_PROFESSION_NAME:MASTER_LASHER:*master flailsdwarf*:*master flailsdwarves*]
 		[CASTE_PROFESSION_NAME:RECRUIT:*Legion Recruit*:*Legion Recruits*]
 		[CASTE_PROFESSION_NAME:STANDARD:*Legion Recruit*:*Legion Recruits*]
 
