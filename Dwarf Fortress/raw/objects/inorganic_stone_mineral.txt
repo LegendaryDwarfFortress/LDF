@@ -552,7 +552,6 @@ aluminum can occasionally be found in its free form in environments that like ox
 [INORGANIC:NATIVE_ALUMINUM]
 [ENVIRONMENT:IGNEOUS_EXTRUSIVE:CLUSTER_SMALL:100]
 [ITEM_SYMBOL:'*']
-[METAL_ORE:ALUMINUM:100]
 [STATE_NAME_ADJ:ALL_SOLID:native aluminum]
 [STATE_NAME_ADJ:LIQUID:molten native aluminum]
 [STATE_NAME_ADJ:GAS:boiling native aluminum]
