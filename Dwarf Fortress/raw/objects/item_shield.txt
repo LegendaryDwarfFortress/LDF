@@ -2,16 +2,40 @@ item_shield
 
 [OBJECT:ITEM]
 
-[ITEM_SHIELD:ITEM_SHIELD_SHIELD]
-[NAME:shield:shields]
-[ARMORLEVEL:2]
-[BLOCKCHANCE:20]
-[UPSTEP:2]
-[MATERIAL_SIZE:4]
+Additional shields realy more for flavour than anything. Cant add emcumberement, lower body coverage, boss attacks, etc etc.
+
+
+[ITEM_SHIELD:ITEM_SHIELD_HEATER] 
+	[NAME:target shield:target shields]
+	[ARMORLEVEL:3]
+	[BLOCKCHANCE:22]
+	[UPSTEP:2]
+	[MATERIAL_SIZE:9]
+
+[ITEM_SHIELD:ITEM_SHIELD_KITE]
+	[NAME:kite shield:kite shields]
+	[ARMORLEVEL:2]
+	[BLOCKCHANCE:20]
+	[UPSTEP:3]
+	[MATERIAL_SIZE:9]
+
+[ITEM_SHIELD:ITEM_SHIELD_PAVISE]
+	[NAME:pavise:pavises]
+	[ARMORLEVEL:2]
+	[BLOCKCHANCE:24]
+	[UPSTEP:4]
+	[MATERIAL_SIZE:12]
+	
+[ITEM_SHIELD:ITEM_SHIELD_SHIELD] best name ever
+	[NAME:round shield:round shields]
+	[ARMORLEVEL:1]
+	[BLOCKCHANCE:22]
+	[UPSTEP:1]
+	[MATERIAL_SIZE:3]
 
 [ITEM_SHIELD:ITEM_SHIELD_BUCKLER]
-[NAME:buckler:bucklers]
-[ARMORLEVEL:1]
-[BLOCKCHANCE:10]
-[UPSTEP:1]
-[MATERIAL_SIZE:2]
+	[NAME:buckler:bucklers]
+	[ARMORLEVEL:1]
+	[BLOCKCHANCE:18]
+	[UPSTEP:0]
+	[MATERIAL_SIZE:3]

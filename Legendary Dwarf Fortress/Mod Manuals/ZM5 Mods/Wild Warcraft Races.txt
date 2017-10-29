@@ -1,0 +1,286 @@
+Brief descriptions of all races that are playable, but similarly to animal people, do not have their own civilizations, by ZM5.
+
+-------------------------------------------------------------------------------------------------------------------------------
+Pygmy - diminutive humanoids, found in tropical forests and wetlands.
+
+Half as big as dwarves, they often show up in large groups in the wild. They'll often attempt sneaking into your fortress
+to pull levers - however they have no other special abilities beyond that.
+-------------------------------------------------------------------------------------------------------------------------------
+Sayaad - Succubi and Incubi - demons with wings, horns and hooves that can be found virtually anywhere. Relatively non-hostile.
+
+They have legendary skill in flatterer, pacifier and consoler, master in conversationalist, and accomplished
+comedian, judge of intent, speaker and persuader.
+
+They can give other creatures a lusty stare, which can give a positive moodlet, but doesn't have much effect beyond that.
+-------------------------------------------------------------------------------------------------------------------------------
+Sea Giant - massive humanoids found dwelling in oceans, lakes, moist tropical broadleaf forests and mangrove swamps.
+They are amphibious by nature and swim faster than most other creatures.
+
+They will attempt to steal finished goods and food from your fortress, or drink your booze. Due to their size, they
+may be a major problem - however they only ever show up alone.
+-------------------------------------------------------------------------------------------------------------------------------
+Magnataur - large, violent centauroids with the lower body and tusks of a mammoth. Innately talented at fighting and spear use.
+
+They can be a massive problem due to their size, strength and skill - they also can show up alone, or in groups of up to 5.
+However, they are only found in glaciers, tundras and taigas.
+-------------------------------------------------------------------------------------------------------------------------------
+Makrura - medium-sized amphibious creature. Walks on four legs, and has 2 arms ending in pincers.
+
+Found in lakes, rivers, oceans, tropical moist broadleaf forests and mangrove swamps. They can swim faster than most other creatures.
+
+As a result of their pincers, they have a "snatch" attack which can latch on firmly in addition to a blunt strike.
+They can also headbutt to compensate for their bite being somewhat weaker, as they lack teeth.
+
+Lastly, attacks directed at them have their force reduced by 1/3.
+
+They aren't particularly aggressive and won't try to enter your fortress in order to steal things or drink booze.
+Might spook your dwarves though.
+-------------------------------------------------------------------------------------------------------------------------------
+Mur'gul - cousins of the murlocs - their backs are covered in spikes, and long-lived ones may grow far larger than regular murlocs.
+
+Found in oceans, rivers, lakes, and tropical forests - they possess the same swim-speed advantage as the Makrura and Sea Giants.
+
+They aren't particularly aggressive otherwise - nonetheless they can be a problem due to the size of some of them.
+-------------------------------------------------------------------------------------------------------------------------------
+Storm Giant - rare giants found in taigas and temperate coniferous forests. As with Sea Giants, they only ever show up alone, 
+and they can attempt to steal goods, food, or booze.
+
+Their main advantage is their special abilities - they can cast a Paralyzing Shock that can cause paralysis and pain, shoot a bolt
+of liquid lightning, or shoot a ball of lightning.
+-------------------------------------------------------------------------------------------------------------------------------
+Fire Giant - giants found in taigas, tundras, and in the lowest cavern layers. They have the same needs as other giants.
+
+They can potentially be more dangerous than the other giants, as their abilities can burn objects and dwarves.
+
+They are capable of shooting a glob of magma, casting a stream of fire, or using a blast wave attack similar to that of the black dragon.
+
+Friendly visitor giants can be useful if they apply for citizenship, however - they learn architecture at twice the regular rate,
+and learn smelting, forging items of all kinds, metalcrafting and strand extraction at four times the usual rate.
+They themselves are also immune to fire damage.
+-------------------------------------------------------------------------------------------------------------------------------
+Ice Giant - giants found in taigas, tundras, and glaciers.
+
+Their magical abilities include shooting a glob of liquid frost, shooting a bolt of ice, and casting a Frost Shock that can cause blisters,
+pain, and a speed reduction.
+
+They are immune to any sort of damage from the cold.
+-------------------------------------------------------------------------------------------------------------------------------
+Farah - small, horned, plant-like humanoids found in savage tropical biomes. Slightly more resilient to damage, similarly to the Infested.
+
+They will attempt to steal food from your fortress - otherwise they are non-hostile.
+
+They are at peace with wildlife and will not scare or attack natural creatures.
+-------------------------------------------------------------------------------------------------------------------------------
+Imp - horned demons that come in three different types. Can be found in savage forests, shrublands, savannas, deserts, and grasslands.
+
+Standard Imps are mischievious but cowardly - they will attempt to sneak into your fort to pull levers and steal goods.
+They will also potentially throw bolts of magma at dwarves who try to catch them.
+
+Fel Imps are more rare but also more powerful and slightly bigger (though still smaller than dwarves), can fly. 
+Similarly to standard Imps they will pull levers and steal goods - they will also throw bolts of felfire which cause bleeding and blistering.
+
+Imp Mothers are the most rare of all imps - they also have hooves instead of feet. They are nearly twice as big as humans, unlike the other imps.
+Also unlike the other imps, they are not interested in pulling levers or stealing goods - instead they'll attempt to steal your food and booze.
+They can throw Felfire bolts, and also Felbolts which are an energy projectile that can potentially cause internal injuries.
+-------------------------------------------------------------------------------------------------------------------------------
+Flamewaker - humanoid elemental creatures, somewhat similar in appearance to the Naga, albeit with horns and many spikes covering their bodies.
+They are only found in the lowest cavern layers.
+
+They do not require sleeping, eating or drinking, and are immune to damage from fire.
+
+Their special ability is to shoot a stream of fire.
+-------------------------------------------------------------------------------------------------------------------------------
+Harpy - flying, female-only humanoids from the savage deserts, shrublands, savannas and grasslands.
+
+Their wings are connected to their arms instead of their backs, unlike with most similar creatures. 
+
+Their only additional method of attack is snatching at targets with the talons on their toes - aside from that they
+do not possess particularly remarkable combat abilities.
+-------------------------------------------------------------------------------------------------------------------------------
+Kvaldir - undead, dishonored Vrykul. They are found in the tundras, oceans and lakes. 
+
+They possess a faster swim speed, are amphibious, and do not require eating, drinking, sleeping or breathing.
+
+They may occasionally attempt to enter your fortress to steal food or booze.
+
+As with the Vrykul, they learn most armed and ranged combat skills twice as fast. 
+
+On death, they simply dissipate into mist, leaving behind only whatever equipment they had on their person.
+-------------------------------------------------------------------------------------------------------------------------------
+Cenarians - centauroids found in good forests, shrublands, grasslands and wetlands. They will not attack or frighten natural creatures.
+
+They are composed of two slightly different castes.
+
+Dryads are the smaller, female caste - they are also more common, and learn spear and pike skills twice as fast.
+
+Keepers of the Grove are the bigger, male caste - they are more rare, and don't have the skill learning advantage.
+They have a pair of antlers, and two magical abilities - a Sleep spell, and an Accelerate Decay spell.
+Their hands also have a layer of wood over them, making their punches stronger.
+-------------------------------------------------------------------------------------------------------------------------------
+Shapeless - diminutive, unnatural humanoids, found in taigas, tundras, glaciers, and underground. Relatively docile.
+
+They can grow to very large sizes with age.
+
+They do not fear pain or exertion, and do not require sleep, eating or drinking - which can make them useful as laborers.
+-------------------------------------------------------------------------------------------------------------------------------
+Mountain Giant - giants of stone and flora. They roam in the mountains, taigas, and tropical coniferous forests.
+
+They are benign, and will not attack natural creatures.
+
+They do not feel fear or pain, do not require breathing and cannot be butchered.
+
+As they're benign, they usually won't be a problem for fortresses - fighting one can be very difficult though, due to their stone skin.
+-------------------------------------------------------------------------------------------------------------------------------
+Frost Sprites - cousins of Cenarians, found in good glaciers, tundras and taigas. As with the Cenarians, they do not attack
+natural creatures, and come in 2 variants.
+
+Frost Nymphs are the smaller, more common female caste - they learn sword and spear skills at twice the normal rate.
+
+Frost Keepers are the larger, male caste - they have a pair of antlers and can utilize a Frost Bolt spell and a Frost Shock spell.
+-------------------------------------------------------------------------------------------------------------------------------
+Hobgoblin - mutated, very large goblins, found in tropical forests.
+
+They learn skills at half the usual rates, and are very short-lived (20 to 30 years).
+
+They do not feel fear, and are heavily prone to rage.
+
+Their sweat is acidic, and can cause bleeding and blistering in those who get covered with it.
+
+Races with access to them may use them as mounts or pets.
+-------------------------------------------------------------------------------------------------------------------------------
+Ancient - massive, powerful treants, found in good forests, wetlands, grasslands and shrublands. They come in several varieties.
+
+All varieties do not require eating, drinking, sleeping, or breathing, do not feel fear or pain, cannot be stunned or made feverish.
+
+Ancient Protectors are humanoid in build, are naturally skilled in wrestling, fighting, and striking.
+They also can hurl boulders, as a strong ranged attack.
+
+Ancients of War have a similar build, in addition to having two tusks. They are innately proficient in all melee combat skills, and are legendary
+teachers.
+
+Ancients of Wind are more bird-like, having a beak instead of a mouth with teeth.
+They are legendary teachers, and can use two spells - Cyclone, which causes dizziness and reduces speed to 30%;
+and Faerie Fire, which reduces toughness and focus to 25%.
+
+Ancients of Lore are more similar to Ancient Protectors in build - again, they are legendary teachers.
+They have two beneficial spells - Bark Skin, which increases toughness to 500%, and Mark of the Wild,
+which increases Strength, Agility, Willpower and Focus to 150%.
+
+Trees of Life have four legs instead of two - they can resurrect creatures from the dead, and can also
+cast Regrowth, which increases recuperation to 500%.
+
+Ancients of Wonders are humanoid, and have more layers of stone covering them than other Ancients.
+They have natural legendary skill in most crafting jobs, and also architecture, masonry, engraving,
+gem cutting/setting, and strand extraction.
+-------------------------------------------------------------------------------------------------------------------------------
+Grummle - small humanoids, only slightly bigger than pygmies, found in the mountains, savannas and grasslands.
+
+They learn conversation, judging intent and speaking at three times the usual rate, and appraisal, persuasion and negotiation at 
+five times the usual rate.
+
+They are also benign and will not attempt to start fights.
+-------------------------------------------------------------------------------------------------------------------------------
+Geist - one-eyed human-sized undead, found underground and in any evil biome.
+
+They are natural legendary climbers by default, naturally competent in fighting, adequate in biting and striking and can climb much faster than most other creatures. 
+They also don't require hands for climbing. On top of that, they have higher base natural agility than most other creatures.
+
+They have most of the advantages of regular undead - they do not feel fear or pain, do not need to eat, breathe, sleep or drink, and cannot
+become nauseous. They also do not require connective tissues for movement.
+
+Their bites can spatter liquid rot on the targetted limb - this can cause blisters, necrosis and nausea.
+-------------------------------------------------------------------------------------------------------------------------------
+Wight - large undead with metallic implants in its neck, found underground and in evil biomes.
+
+They have the same immunities as the Geists, and are also naturally stronger than most other races.
+
+They are naturally competent in biting and striking, and skilled in fighting.
+
+They can use a Paralyzing Shock attack, which can cause paralysis and large amounts of pain.
+-------------------------------------------------------------------------------------------------------------------------------
+Hill Ettin - large, two-headed giants, found in the shrublands, grasslands and mountains.
+
+While they do not have innate skills or special abilities, they learn weapon/armor/blacksmithing and smelting
+at five times the usual rate.
+-------------------------------------------------------------------------------------------------------------------------------
+Corrupted Ancient - corrupted versions of the ancients, found in evil forests, wetlands, grasslands and shrublands.
+They are more prone to rage and violence than uncorrupted ancients.
+
+Corrupted Ancient Protectors, Ancients of War and Ancients of Wonder are more or less the same as their uncorrupted versions, only more aggressive.
+
+Corrupted Ancients of Wind, instead of using Cyclone and Faerie Fire, use Cutting Wind and Insect Swarm - the former causes bleeding, but it also
+doesn't cause as much of a speed reduction as Cyclone - to 70% of normal; Insect Swarm causes pain in most parts of the body and lowers focus to 25% of normal.
+
+Corrupted Ancients of Lore can cast a Paranoia spell that induces negative emotions in a target, reduces their bravery, and also
+makes them prone to erratic behavior - with a chance to make them lash out at other nearby creatures. They also can use Accelerate Decay.
+
+Corrupted Trees of Life can spread a poison gas that can cause vomiting blood, bleeding from the lungs, a fever, and dizziness.
+They also can raise dead bodies as violent, powerful zombies without a reduction in speed.
+-------------------------------------------------------------------------------------------------------------------------------
+Pale Orc - gangly, sickly orcs found in the first two underground layers.
+
+They have less innate strength and much less innate empathy than regular orcs, but are also more agile. They are also
+more prone to anger, rage and violent behavior than their uncorrupted brethren.
+They have perfect night vision, and climb on walls much faster than most other creatures. 
+They have three spells at their disposal - Shadow Bolt, Curse of Fatigue and Mind Flay.
+
+There are also Dire Pale Orcs, who are larger and much stronger, but less agile, and can use Berserker Rage on top of having the
+same spells. While they show up naturally, regular Pale Orcs can turn themselves into Dire Orcs by drinking a volatile brew
+of strength.
+-------------------------------------------------------------------------------------------------------------------------------
+Deep Murloc - relatives of the murlocs, found in the oceans.
+
+They grow larger than the normal murlocs, though not as large as the mur'gul.
+
+Their teeth are sharper than those of the mur'gul or the murlocs however, which makes their biting attacks a fair bit deadlier.
+-------------------------------------------------------------------------------------------------------------------------------
+Corrupted Cenarian - demonically corrupted cenarians, found in evil forests, wetlands, grasslands and shrublands.
+
+They do not feel fear and are much more violent than their uncorrupted cousins.
+
+Corrupted Keepers can cast Waking Nightmare, similarly to the Nightmare Satyrs - they also can cast Nightmare Plague,
+which can cause fevers, vomiting blood, necrosis and bleeding from the mouth.
+-------------------------------------------------------------------------------------------------------------------------------
+Ogron - one-eyed, giant relatives of the ogres with spiral growths on their shoulders. They can be found in nearly ever savage biome.
+
+They can enter a berserker rage. 
+-------------------------------------------------------------------------------------------------------------------------------
+Ancient of the Arcane - ancients found in good forests and taigas. They have crystalline growths on their bodies.
+
+They can cast Moonfire, Slow and Polymorph - otherwise they are similar to the non-corrupted ancients.
+-------------------------------------------------------------------------------------------------------------------------------
+Molten Giant - giants of molten rock and stone, similar in appearance to the Mountain Giants.
+Found in the savage deserts and mountains.
+
+They are much more violent and cruel than the mountain giants, and more prone to rage.
+
+They can throw bolts of magma, shoot streams of fire, or create a pool of magma on the floor.
+-------------------------------------------------------------------------------------------------------------------------------
+Rock Giant - giants of stone found in savage taigas, tundras, and temperate coniferous forests.
+
+They have a large, spiked boulder affixed to their right hand, which they can use for a more powerful melee attack.
+-------------------------------------------------------------------------------------------------------------------------------
+Fjord Giant - giants found in savage tundras, taigas, glaciers and arctic oceans. They have plant growths on their heads and
+upper bodies.
+
+Similarly to the sea giants, they swim faster than most other creatures. They also steal booze, food and goods from fortresses.
+-------------------------------------------------------------------------------------------------------------------------------
+Frost Giant - frost-covered giants in the savage taigas, tundras and glaciers.
+
+Their nails are made of ice, making their scratch attacks much more deadly. Like the Fjord giants, they are more violent and
+will steal booze, food and goods. Attacks against them also have their velocity reduced by half.
+-------------------------------------------------------------------------------------------------------------------------------
+Crystal Giant - giants made out of jagged crystals, found in savage glaciers, tundras and taigas.
+
+They have skull-like heads with only a single eye. They are more resistant to damage due to being made out of crystal, and their
+attacks are deadlier as well.
+-------------------------------------------------------------------------------------------------------------------------------
+Earthen - humanoids that resemble dwarves made out of stone. Found underground, in the taigas, tundras, glaciers and mountains.
+
+They are non-hostile, and do not require drinking, eating or sleeping. They are otherwise similar to normal dwarves.
+-------------------------------------------------------------------------------------------------------------------------------
+Dark Keeper - smaller, demonically corrupted Titanic Watchers. Found rarely in evil deserts, savannas and shrublands.
+
+They are capable of shooting bolts of magma, releasing a stream of fire, and casting Curse of Fatigue.
+
+They can pose a major threat, although are rare.

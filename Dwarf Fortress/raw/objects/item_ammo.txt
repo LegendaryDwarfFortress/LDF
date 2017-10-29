@@ -1,24 +1,70 @@
 item_ammo
 
 [OBJECT:ITEM]
+╔═╗ ╔╗  ╦ ╔╦╗ ╦   ╔═╗ ╔═╗ ║╔═ ╔═╗ ╗ ╔═╗   ╗ ╔ ╦ ╔═╗ ╔╦╗ ╔═╗ ╔╗  ╦ ╔═╗   ╔═╗ ╔╗  ╔╦╗ ╔═╗    ╔╗   ╔═╗ ╔╗  ╔╦╗ ╔═╗ ╔╗ 
+║╠╗ ╠╩╗ ║ ║║║ ║   ║ ║ ║   ╠╩╗ ╠╣    ╚═╗   ╠═╣ ║ ╚═╗  ║  ║ ║ ╠╩╗ ║ ║     ╠═╣ ╠╩╗ ║║║ ╚═╗   ╔╩╣   ╠═╣ ╠╩╗ ║║║ ║ ║ ╠╩╗
+╚═╝ ║ ║ ╩ ║╩║ ╚═╝ ╚═╝ ╚═╝ ║ ║ ╚═╝   ╚═╝   ╝ ╚ ╩ ╚═╝  ║  ╚═╝ ║ ║ ╩ ╚═╝   ║ ║ ║ ║ ║╩║ ╚═╝   ╚═╬   ║ ║ ║ ║ ║╩║ ╚═╝ ║ ║
+Revision 6a
+
+Bay12 forum thread: http://www.bay12forums.com/smf/index.php?topic=146737.0
+
 
 [ITEM_AMMO:ITEM_AMMO_BOLTS]
-[NAME:bolt:bolts]
-[CLASS:BOLT]
-[SIZE:150]
-[ATTACK:EDGE:5:1000:stab:stabs:NO_SUB:1000]
-	[ATTACK_PREPARE_AND_RECOVER:3:3]
+	[NAME:bolt:bolts]
+	[CLASS:BOLT]
+	[SIZE:55]
+	[ATTACK:EDGE:8:3000:stab:stabs:NO_SUB:400]
+
+[ITEM_AMMO:ITEM_AMMO_BOLTS_HEAVY]
+	[NAME:heavy bolt:heavy bolts]
+	[CLASS:BOLT]
+	[SIZE:130]
+	[ATTACK:EDGE:8:3000:stab:stabs:NO_SUB:400]
+	
+[ITEM_AMMO:ITEM_AMMO_BOLTS_BROADHEAD]
+	[NAME:broadhead bolt:broadhead bolts]
+	[CLASS:BOLT]
+	[SIZE:60]
+	[ATTACK:EDGE:20:6500:stab:stabs:NO_SUB:400]
+
+[ITEM_AMMO:ITEM_AMMO_BOLTS_BLUNT]
+	[NAME:blunt bolt:blunt bolts]
+	[CLASS:BOLT]
+	[SIZE:40]
+	[ATTACK:EDGE:38:8:stab:stabs:NO_SUB:400]
+
+[ITEM_AMMO:ITEM_AMMO_ARROWS_BODKIN]
+	[NAME:bodkin arrow:bodkin arrows]
+	[CLASS:ARROW]
+	[SIZE:75]
+	[ATTACK:EDGE:9:3500:stab:stabs:NO_SUB:400]
 
 [ITEM_AMMO:ITEM_AMMO_ARROWS]
-[NAME:arrow:arrows]
-[CLASS:ARROW]
-[SIZE:150]
-[ATTACK:EDGE:5:1000:stab:stabs:NO_SUB:1000]
-	[ATTACK_PREPARE_AND_RECOVER:3:3]
+	[NAME:broadhead arrow:broadhead arrows]
+	[CLASS:ARROW]
+	[SIZE:81]
+	[ATTACK:EDGE:22:7000:stab:stabs:NO_SUB:400]
+
+[ITEM_AMMO:ITEM_AMMO_ARROWS_SWALLOWTAIL]
+	[NAME:swallowtail arrow:swallowtail arrows]
+	[CLASS:ARROW]
+	[SIZE:83]
+	[ATTACK:EDGE:26:10000:stab:stabs:NO_SUB:400]
+
+[ITEM_AMMO:ITEM_AMMO_ARROWS_FORKHEAD]
+	[NAME:forkhead arrow:forkhead arrows]
+	[CLASS:ARROW]
+	[SIZE:85]
+	[ATTACK:EDGE:40:6000:stab:stabs:NO_SUB:400]
+
+[ITEM_AMMO:ITEM_AMMO_ARROWS_BLUNT]
+	[NAME:blunt arrow:blunt arrows]
+	[CLASS:ARROW]
+	[SIZE:50]
+	[ATTACK:EDGE:40:8:stab:stabs:NO_SUB:400]
 
 [ITEM_AMMO:ITEM_AMMO_BLOWDARTS]
-[NAME:blowdart:blowdarts]
-[CLASS:BLOWDART]
-[SIZE:20]
-[ATTACK:EDGE:1:50:stick:sticks:NO_SUB:1000]
-	[ATTACK_PREPARE_AND_RECOVER:3:3]
+	[NAME:blowdart:blowdarts]
+	[CLASS:BLOWDART]
+	[SIZE:5]
+	[ATTACK:EDGE:1:50:stick:sticks:NO_SUB:185]
