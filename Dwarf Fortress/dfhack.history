@@ -1,3 +1,6 @@
+grrr
+grr
+grrr
 autodump
 autolabor disable
 createitem BAR:NONE INORGANIC:GOLD 450
@@ -94,7 +97,3 @@ gui/
 autolabor enable
 fastdwarf 1 1
 getplants -a -t
-fastdwarf 1 1
-autolabor enable
-prospect all
-die
