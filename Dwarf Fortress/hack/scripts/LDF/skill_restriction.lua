@@ -360,7 +360,7 @@ jobCheck.onJobCompleted.LFD_RestrictionCompleted = function(job)
         if ( thisR.race[uRace] or thisR.race[ALL] ) and ( thisR.caste[uCaste] or thisR.caste[ALL] ) and ( thisR.skill[jSkill] ) then
           local uSkill = getUnitSkill(df.job_skill[jSkill], unit)
           if uSkill.rating >= tonumber(thisR.skill[jSkill]) then
-            CullSkill( skill, unit.id, tonumber(thisR.skill[jSkill]) )
+            CullSkill( jSkill, unit.id, tonumber(thisR.skill[jSkill]) )
             if thisR.announce and not QUIET then
               local uName = dfhack.TranslateName(dfhack.units.getVisibleName(unit))
               local sName = tostring(df.job_skill.attrs[df.job_type.attrs[job.job_type].skill].caption) or "no skill name"
