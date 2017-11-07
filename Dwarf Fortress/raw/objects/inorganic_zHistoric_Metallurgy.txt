@@ -36,6 +36,11 @@ inorganic_zHistoric_Metallurgy
 	[IS_STONE]
 	[MELTING_POINT:12115]
 	[MATERIAL_REACTION_PRODUCT:iron:INORGANIC:PIG_IRON]
+
+# These ores have been modified for LDF buildings to utilize properly... Also
+# since only LDF buildings designed for a race are available for smelting then
+# these inorganics have had their METAL_ORE tags returned in the ones needed.
+# -from Amostubal
 	
 [INORGANIC:BOG_IRON] Various ores, mostly goethite.
 	[USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
@@ -68,7 +73,10 @@ inorganic_zHistoric_Metallurgy
 	[SOLID_DENSITY:3800]
 	[MATERIAL_VALUE:8]
 	[IS_STONE]
-	[MATERIAL_REACTION_PRODUCT:iron:INORGANIC:PIG_IRON]
+	[METAL_ORE:IRON:100]
+	[REACTION_CLASS:UNREFINED_ORE]
+	[MATERIAL_REACTION_PRODUCT:iron:INORGANIC:IRON]
+	[MATERIAL_REACTION_PRODUCT:refined_ore:INORGANIC:REFINED_BOG_IRON]
 
 [INORGANIC:SIDERITE]
 	[USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
@@ -81,7 +89,10 @@ inorganic_zHistoric_Metallurgy
 	[SOLID_DENSITY:3960]
 	[MATERIAL_VALUE:10]
 	[IS_STONE]
+	[METAL_ORE:IRON:100]
+	[REACTION_CLASS:UNREFINED_ORE]
 	[MATERIAL_REACTION_PRODUCT:iron:INORGANIC:IRON]
+	[MATERIAL_REACTION_PRODUCT:refined_ore:INORGANIC:REFINED_SIDERITE]
 
 [INORGANIC:FLINT] flint is a type of chert, which was allready in the game. Just assume that the chert stone is any chert that's not flint.
 	[USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]

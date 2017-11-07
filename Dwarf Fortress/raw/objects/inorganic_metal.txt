@@ -708,9 +708,9 @@ bismuth itself is brittle, but you can alloy it with tin/copper to make a light-
 
 [INORGANIC:PLATINUM]
 	[USE_MATERIAL_TEMPLATE:METAL_TEMPLATE]
-	[STATE_NAME_ADJ:ALL_SOLID:small-silver]
-	[STATE_NAME_ADJ:LIQUID:molten small-silver]
-	[STATE_NAME_ADJ:GAS:boiling small-silver]
+	[STATE_NAME_ADJ:ALL_SOLID:platinum]
+	[STATE_NAME_ADJ:LIQUID:molten platinum]
+	[STATE_NAME_ADJ:GAS:boiling platinum]
 	[DISPLAY_COLOR:7:7:1]
 	[BUILD_COLOR:7:7:1]
 	[MATERIAL_VALUE:40]

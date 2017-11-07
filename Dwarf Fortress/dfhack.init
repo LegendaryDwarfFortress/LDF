@@ -282,3 +282,5 @@ sc-script add SC_WORLD_LOADED onLoad.init-example
 
 multilevel 5
 
+#lets tell them who we are:
+LDF-version CREDITS

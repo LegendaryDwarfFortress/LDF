@@ -46,3 +46,7 @@ modtools/reaction-trigger -reactionName DWARF_ALCHEMIST_TRAINING -command [ trai
 
 CombineReactions -register [ DWARF_STORE_10_STONE DWARF_STORE_100_STONE DWARF_STORE_1000_STONE DWARF_STORE_10_BAR DWARF_STORE_100_BAR DWARF_STORE_1000_BAR]
 
+#####Dwarf Vanilla Buildings changes
+modtools/change-build-menu start
+modtools/change-build-menu remove SMELTER FURNACES
+modtools/change-build-menu remove MAGMA_SMELTER FURNACES

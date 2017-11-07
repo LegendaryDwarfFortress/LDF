@@ -15,8 +15,10 @@ DFVersion="43.05 x64"
 
 LDFContributors={
  "Dead elves everywhere",
- "ZM5!",
- "Khaos"
+ "ZM5 - for WC, DD, and cave Revamp",
+ "Khaos - Launch creator",
+ "Grimlocke - grimlocke's historical arms",
+ "Bear - LDF Cherrywood Graphics",
 }
 
 dfhack.color(11)
