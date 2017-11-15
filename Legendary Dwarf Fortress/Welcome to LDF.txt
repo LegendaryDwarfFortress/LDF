@@ -28,21 +28,17 @@ to LDF.
 				d. Gnomes of the Hills
 			3. Savage Races
 			    a. Orcs of the Tiaga
-				b. Jotun of the Glaciers
-				c. Reptilians of the Desert
-				d. Tiger-men of the Jungles
 			4. Scavanger Races
 			    a. Kobolds of the Caves
 				b. Trolls of the Swamps
-				c. Utinis of the Wastelands
-				d. Ogres of Chasm
+				c. Ogres of Chasm
 			5. Evil-bound Races
 			    a. Goblins of the Dark Fortress
 				b. Necromancers of the Obelisk
 				c. Succubus of the Underworld
 				d. Xerians of the Dark pits
 			
-
+More will be added to this list later.
 
 
 
@@ -128,34 +124,6 @@ to be their own nation.
 very efficent at utilizing all the parts of a body for various goods, including
 turning bones into materials as strong as steel.
 
----- Jotuns of the Glaciers ----
-
-    Jotuns, Ice Giants, a race that can only survive in the extreme cold found
-at the poles of most worlds.  Jotuns will venture out during the coldest months
-of the year, seeking out resources gathered by others and dragging back slaves 
-from those not well protected against their onslaught.
-
----- Reptilians of the Desert ----
-
-    Slave masters of the Desert, these Reptile-like creatures seek slaves for
-their monumental works.  Some of the structures built with their slave labor are
-as grand as anything dreamed up by the Dwarfs and put together faster than any
-human civ can accomplish.  They are covered in scales and come in multiple 
-varieties some have 2 legs and 2 arms while others have 4 legs and none; there
-is even rumors that certain magi among them have no legs and even some without
-any limbs are revered in their society.  Thier bite contains posions that can
-slow a mans heart, paralyze, and even some say cause extreme pain and suffering.
-
----- Tiger-men of the Jungles ----
-
-    Wild, feral, some wouldn't even call them a civilization, generally being
-nomadic throughout the jungle, but when they do settle they build tree forts and
-hang their prey on pikes to warn away those who would attempt to approach.
-Nothing is more feared than these sneaky warbands roaming the edges of the 
-jungle waiting for a wandering traveler to get to close.  covered in a fur and
-tough skin these wild beasts generally don't wear armor and their claws are
-a natural weapon usable when no other weapon is close at hand.
-
 ################################################################################
 
 Scavanger Races
@@ -191,14 +159,6 @@ that hang out in the swamps, building temples to booze and base desires.  Still
 capable of being ferocious, if need be, but usually not.  They do leave their 
 brothels and bars from time to time to seak out more valuables and beer... lots
 of beer.
-
----- Utinis of the Wastelands ----
-
-    Shrouded figures seeking out the wares of fallen travelers to try and sell
-to others... These are the Utinis and they roam the wastelands seeking all sorts
-of refuse to trade. Utinis claim to be mere fortune makers and traveling 
-merchants but beware they will till to rob you, while selling that statue that 
-looks remarkably like the one your neighbor had last month...
 
 ---- Ogres of Chasm ----
 
