@@ -153,7 +153,8 @@ material_template_default
 	[ITEMS_ARMOR]
 	[ITEMS_SIEGE_ENGINE]
 	This general material classifier determines various in-game behaviors.  There are several others below.
-	[WOOD]
+	[WOOD][REACTION_CLASS:WOOD]
+	[BLOCK_NAME:plank:planks]
 
 [MATERIAL_TEMPLATE:SKIN_TEMPLATE]
 	[STATE_COLOR:ALL_SOLID:GRAY]

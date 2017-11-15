@@ -1,6 +1,6 @@
 inorganic_LDF_stone_mineral
 
-	[OBJECT:INORGANIC]
+[OBJECT:INORGANIC]
 
 # These refined ores if processed at a normal smelter would just produce normal
 # quantities of metal.  their tags are designed for LDF buildings... which
