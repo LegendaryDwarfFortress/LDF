@@ -1,22 +1,22 @@
 --attack based functions, version 42.06a
 --[[
- addAttack(unit,defender_id,body_id,target_id,item_id,attack_id,hitchance,velocity,delay) - Add an attack to unit targeting defender_id's target_id body part. If a body part attack will use body_id, if an item attack will use item_id.
- getAttack(unit,main_type,sub_type) - Get attack information (material, momentum, contact area, penetration, and sharpness)
- checkCoverage(unit,bp_id,inventory_item) - Checks if a given item provides coverage for the specified body part. Returns true if it does, false if it does not.
- getDefense(unit,main_type,sub_type) - Get defense information (layers, tissues, items, materials, and body part)
- getAttackItem(unit,item,attack) - Called by getAttack for handling item attacks
- getAttackItemMaterial(item) - Called by getAttackItem, returns the item material
- getAttackItemMomentum(unit,velocity,weight) - Called by getAttackItem, returns the attack momentum
- getAttackItemVelocity(unit,attack,weight) - Called by getAttackItem, returns the attack velocity
- getAttacKItemWeight(unit,item,material) - Called by getAttackItem, returns the items actual and effective weights
- getAttackUnit(unit,bp_id,attack) - Called by getAttack for handling unit body part attacks
- getAttackUnitMaterial(unit,bp_id) - Called by getAttackUnit, returns the body part material
- getAttackUnitMomentum(unit,velocity,weight) - Called by getAttackUnit, returns the attack momentum
- getAttackUnitVelocity(unit,attack) - Called by getAttackUnit, returns the attack velocity
- getAttackUnitWeight(unit,bp_id,material) - Called by getAttackUnit, returns the body parts actual and effective weights
- computeAttackValues(attacker,defender,attack_type,attack_subtype,defense_type,defense_subtype) - Calculates momentum deduction for items and layers, returns two momentum deduction values
- computeAttackValuesItems(attacker,defender,attack,target) - Called by computeAttackValues, returns momentum deduction for passing through items
- computeAttackValuesLayers(attacker,defender,attack,target) - Called by computeAttackValues, returns momentum deduction for passing through tissue layers
+ addAttack(unit,defender_id,body_id,target_id,item_id,attack_id,hitchance,velocity,delay)
+ getAttack(unit,main_type,sub_type)
+ checkCoverage(unit,bp_id,inventory_item)
+ getDefense(unit,main_type,sub_type)
+ getAttackItem(unit,item,attack)
+ getAttackItemMaterial(item)
+ getAttackItemMomentum(unit,velocity,weight)
+ getAttackItemVelocity(unit,attack,weight)
+ getAttacKItemWeight(unit,item,material)
+ getAttackUnit(unit,bp_id,attack)
+ getAttackUnitMaterial(unit,bp_id)
+ getAttackUnitMomentum(unit,velocity,weight)
+ getAttackUnitVelocity(unit,attack)
+ getAttackUnitWeight(unit,bp_id,material)
+ computeAttackValues(attacker,defender,attack_type,attack_subtype,defense_type,defense_subtype)
+ computeAttackValuesItems(attacker,defender,attack,target)
+ computeAttackValuesLayers(attacker,defender,attack,target)
  NOTE: All computed values are based on Urist DaVinci's work.
 ]]
 ---------------------------------------------------------------------------------------
@@ -27,17 +27,17 @@ function addAttack(unit,defender_id,body_id,target_id,item_id,attack_id,hitchanc
  unit.next_action_id = unit.next_action_id + 1
  action.type = 1
  attack_action = action.data.attack
- attack_action.target_unit_id = defender_id
- attack_action.attack_item_id = item_id
- attack_action.target_body_part_id = target_id
- attack_action.attack_body_part_id = body_id
- attack_action.attack_velocity = velocity
- attack_action.attack_id = attack_id
- attack_action.attack_accuracy = hitchance
- attack_action.timer1 = delay
- attack_action.timer2 = delay
+ attack_action.target_unit_id = math.floor(tonumber(defender_id))
+ attack_action.attack_item_id = math.floor(tonumber(item_id)) or -1
+ attack_action.target_body_part_id = math.floor(tonumber(target_id)) or -1
+ attack_action.attack_body_part_id = math.floor(tonumber(body_id)) or -1
+ attack_action.attack_velocity = math.floor(tonumber(velocity)) or 0
+ attack_action.attack_id = math.floor(tonumber(attack_id)) or 0
+ attack_action.attack_accuracy = math.floor(tonumber(hitchance)) or 0
+ attack_action.timer1 = math.floor(tonumber(delay)) or 0
+ attack_action.timer2 = math.floor(tonumber(delay)) or 0
  -- Unknown values
- attack_action.flags = 7
+ --attack_action.flags = 7 --flags are now a table of true/false for things like quick/heavy/etc... Will need to be included
  attack_action.unk_28 = 1
  attack_action.unk_2c = 1
  attack_action.unk_38 = 1

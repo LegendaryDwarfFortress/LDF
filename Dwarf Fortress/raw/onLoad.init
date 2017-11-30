@@ -3,11 +3,6 @@ LDF-version
 :lua print(' ')
 :lua print('Running onLoad Initialization.')
 
-#################### Liquid-initiation ###################
-:lua print(' ')
-:lua print('Initializing water, pay the bills.')
-base/roses-init
-
 #################### embark points and embark group ####################
 :lua print(' ')
 :lua print('Initializing embark settings.')

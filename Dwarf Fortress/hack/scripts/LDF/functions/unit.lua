@@ -1,56 +1,62 @@
 --unit based functions, version 42.06a
 --[[
- trackCore(unit,strname,kind,Table,func,change,value,syndrome,alter) - Base tracking script that is called by all the other tracking scripts and does the actual heavy lifting
- trackAttribute(unit,kind,current,change,value,dur,alter,syndrome,cb_id) - Track changes in the units attributes. Multpile changes can be tracked at the same time
- trackResistance(unit,kind,current,change,value,dur,alter,syndrome,cb_id) - Track changes in the units resistances. Multpile changes can be tracked at the same time
- trackSkill(unit,kind,current,change,value,dur,alter,syndrome,cb_id) - Track changes in the units skills. Multpile changes can be tracked at the same time
- trackStat(unit,kind,current,change,value,dur,alter,syndrome,cb_id) - Track changes in the units stats. Multpile changes can be tracked at the same time
- trackTrait(unit,kind,current,change,value,dur,alter,syndrome,cb_id) - Track changes in the units traits. Multpile changes can be tracked at the same time
- trackCreate(unit,summoner,dur,alter,syndrome,cb_id) - Track and link any created units with their "summoner"
- trackSide(unit,civ_id,pop_id,inv_id,trn,regx,regy,regp,pet,stype,dur,alter,syndrome,cb_id) - Track the allegiance of a unit
- trackTransform(unit,race,caste,dur,alter,syndrome,cb_id) - Track the transformations undergone by a unit
+ trackCore(unit,strname,kind,Table,func,change,value,syndrome,alter)
+ trackAttribute(unit,kind,current,change,value,dur,alter,syndrome,cb_id)
+ trackResistance(unit,kind,current,change,value,dur,alter,syndrome,cb_id)
+ trackSkill(unit,kind,current,change,value,dur,alter,syndrome,cb_id)
+ trackStat(unit,kind,current,change,value,dur,alter,syndrome,cb_id)
+ trackTrait(unit,kind,current,change,value,dur,alter,syndrome,cb_id)
+ trackCreate(unit,summoner,dur,alter,syndrome,cb_id)
+ trackSide(unit,civ_id,pop_id,inv_id,trn,regx,regy,regp,pet,stype,dur,alter,syndrome,cb_id)
+ trackTransform(unit,race,caste,dur,alter,syndrome,cb_id)
 
- changeAttribute(unit,attribute,change,dur,track,syndrome,cb_id) - Change the attributes of a unit and allow tracking and linking to a syndrome
- changeCounter(unit,counter,change,dur) - Change the counters of a unit (i.e. pain, stunned, hunger, etc...)
- changeResistance(unit,resistance,change,dur,track,syndrome,cb_id) - Change the resistances of a unit and allow tracking and linking to a syndrome
- changeSkill(unit,skill,change,dur,track,syndrome,cb_id) - Change the skills of a unit and allow tracking and linking to a syndrome
- changeStat(unit,stat,change,dur,track,syndrome,cb_id) - Change the stats of a unit and allow tracking and linking to a syndrome
- changeTrait(unit,trait,change,dur,track,syndrome,cb_id) - Change the traits of a unit and allow tracking and linking to a syndrome
- changeBody(unit,part,changeType,change,dur) - Alter the body parts of a unit, note that because most body information is stored by creature and not unit there is very little you can actual change
- changeLife(unit,corpsepart,change,reference,regrow,syndrome,dur) - Brings a unit back to life, either fully or as a zombie
- changeWound(unit,bp_id,gl_id,regrow) - Remove and add wounds to a unit, regrow lost body parts
- changeEmotion(unit,thought,subthought,emotion,strength,severity,task,number,dur,syndrome,cb_id) - Change the thoughts and emotions of a unit
- changeFlag(unit,flag,clear) - Change the various boolean flags of a unit. NOTE: Changing these flags will cause crashes frequently if you don't know what you are doing
- changeSide(unit,side,side_type,dur,track,syndrome,civ_id,pop_id,inv_id,trn,regx,regy,regp,cb_id) - Change the allegiance of a unit
- changeSyndrome(unit,syndromes,change,dur) - Remove/Add syndromes to a unit, relies heavily on modtools/add-syndrome, but provides additional functionality
- transform(unit,race,caste,dur,track,syndrome,cb_id) - Transform a unit's caste and creature
- move(unit,location) - Move a unit
- removal(unit,remType) - Remove a unit based on certain criteria
+ changeAttribute(unit,attribute,change,dur,track,syndrome,cb_id)
+ changeCounter(unit,counter,change,dur)
+ changeResistance(unit,resistance,change,dur,track,syndrome,cb_id)
+ changeSkill(unit,skill,change,dur,track,syndrome,cb_id)
+ changeStat(unit,stat,change,dur,track,syndrome,cb_id)
+ changeTrait(unit,trait,change,dur,track,syndrome,cb_id)
+ changeBody(unit,part,changeType,change,dur)
+ changeLife(unit,corpsepart,change,reference,regrow,syndrome,dur)
+ changeWound(unit,bp_id,gl_id,regrow)
+ changeEmotion(unit,thought,subthought,emotion,strength,severity,task,number,dur,syndrome,cb_id)
+ changeFlag(unit,flag,clear)
+ changeSide(unit,side,side_type,dur,track,syndrome,civ_id,pop_id,inv_id,trn,regx,regy,regp,cb_id)
+ changeSyndrome(unit,syndromes,change,dur)
+ transform(unit,race,caste,dur,track,syndrome,cb_id)
+ move(unit,location)
+ removal(unit,remType)
 
- checkClass(unit,class) - Check if the unit has either the SYN_CLASS or CREATURE_CLASS class, returns true/false
- checkClassCreature(unit,class) - Check if the unit has the CREATURE_CLASS class, returns true/false
- checkClassSyndrome(unit,class) - Check if the unit has the SYN_CLASS class, returns true/false
- checkCreatureRace(unit,creature) - Checks if the unit is the correct CREATURE:CASTE or CREATURE:ALL combo, returns true/false
- checkCreatureToken(unit,token) - Checks if the unit has the desired token (e.g. AMPHIBIOUS, MEGABEAST, etc...), returns true/false
- checkDistance(unit,location,distance) - Checks if the unit is with a certain distance of desired location, returns true/false
+ checkClass(unit,class)
+ checkClassCreature(unit,class)
+ checkClassSyndrome(unit,class)
+ checkCreatureRace(unit,creature)
+ checkCreatureToken(unit,token)
+ checkDistance(unit,location,distance)
 
- getUnit(unit,strType,strKind) - Get a unit's attributes, resistances, skills, stats, or traits. The values are split into their type of change, returns five numbers (total, base, class_change, item_change, syndrome_change)
- getAttack(unit,attack_type) - Get a unit's attack id, either with attack_type RANDOM or a specific attack token (e.g. BITE), returns a number (attack id)
- getBodyRandom(unit) - Get a random body part weighted for relative size, returns a number (body part id)
- getBodyCategory(unit,category) - Get all body parts with the specified category, returns a table of numbers (body part ids)
- getBodyFlag(unit,flag) - Get all body parts with the specified flag, returns a table of numbers (body part ids)
- getBodyToken(unit,token) - Get all body parts with the specified token, returns a table of numbers (body part ids)
- getBodyConnectedParts(unit,parts) - Get all body parts connected to the specified part, returns a table of numbers (body part ids)
- getBodyPartGlobalLayers(unit,part) - Get all the global layer ids of the specified part, returns a table of numbers (global layer id)
- getBodyCorpseParts(unit) - Get all the corpseparts belonging to the unit, returns a table with three components, the unit id, the corpse id, and a list of corpsepart ids
- getEmotion(unit,emotion,thought) - Get the thought and emotion ids associted with the thought/emotion combo, returns a table of numbers (emotion ids)
- getSyndrome(unit,class,what) - Get the syndrome name and ids of syndromes based on their SYN_NAME or SYN_CLASS, returns two tables, one of strings (syndrome names) and one of numbers (syndrome ids)
- getInventoryType(unit,item_type) - Get all items in the units inventory that match the item_type, returns a table of numbers (item ids)
- getCounter(unit,counter) - Get the counter (i.e. pain, stunned, hunger, etc...) of the unit, returns a number
+ getUnit(unit,strType,strKind)
+ getAttack(unit,attack_type)
+ getBodyRandom(unit)
+ getBodyCategory(unit,category)
+ getBodyFlag(unit,flag)
+ getBodyToken(unit,token)
+ getBodyConnectedParts(unit,parts)
+ getBodyPartGlobalLayers(unit,part)
+ getBodyCorpseParts(unit)
+ getEmotion(unit,emotion,thought)
+ getSyndrome(unit,class,what)
+ getInventoryType(unit,item_type)
+ getCounter(unit,counter)
 
- create(location,raceID,casteID,refUnit,side,name,dur,track,syndrome,cb_id) - Create a unit, relies heavily on modtools/create-unit, but provides additional functionality
- makeProjectile(unit,velocity) - Turns a unit into a projectile with the given velocity
- findUnit(search) - Find a unit on the map from the declared search parameters. See the find functions ReadMe for more information regarding search strings.
+ create(location,raceID,casteID,refUnit,side,name,dur,track,syndrome,cb_id)
+ createHistFig()
+ createName()
+ createNemesis()
+ createUnit()
+
+ makeProjectile(unit,velocity)
+
+ findUnit(search)
 ]]
 ---------------------------------------------------------------------------------------
 ----------- Track changes in the persist-table and handle termination -----------------
@@ -63,12 +69,12 @@ function trackCore(unit,strname,kind,Table,func,change,value,syndrome,dur,alter)
    typeTable.Change = tostring(typeTable.Change + change)
    local statusNumber = #statusTable._children -- If the change has a duration add a status effect to the StatusEffects table
    statusTable[tostring(statusNumber+1)] = {}
-   statusTable[tostring(statusNumber+1)].End = tostring(1200*28*3*4*df.global.cur_year + df.global.cur_year_tick + dur)
-   statusTable[tostring(statusNumber+1)].Change = tostring(change)
+   statusTable[tostring(statusNumber+1)].End = tostring(math.floor(1200*28*3*4*df.global.cur_year + df.global.cur_year_tick + dur))
+   statusTable[tostring(statusNumber+1)].Change = tostring(math.floor(change))
    statusTable[tostring(statusNumber+1)].Linked = 'False'
    if syndrome then -- If the change has an associated syndrome, link the StatusEffects table and the SyndromeTrack table together
     trackTable = unitTable[tostring(unit.id)].SyndromeTrack
-    statusTable[tostring(statusNumber+1)].Linked = 'True'
+    statusTable[tostring(math.floor(statusNumber+1))].Linked = 'True'
     if not trackTable[syndrome] then
      trackTable[syndrome] = {}
     end
@@ -78,16 +84,16 @@ function trackCore(unit,strname,kind,Table,func,change,value,syndrome,dur,alter)
     if not trackTable[syndrome][strname][kind] then
      trackTable[syndrome][strname][kind] = {}
     end
-    trackTable[syndrome][strname][kind].Number = tostring(statusNumber+1)
+    trackTable[syndrome][strname][kind].Number = tostring(math.floor(statusNumber+1))
     trackTable[syndrome][strname][kind].CallBack = tostring(cb_id)
    end
   else
-   typeTable.Base = tostring(value) -- No need for associating syndromes with permanent changes, if requested can add at a later time.
+   typeTable.Base = tostring(math.floor(value)) -- No need for associating syndromes with permanent changes, if requested can add at a later time.
   end 
  elseif alter == 'end' then -- If the change ends naturally, revert the change
   typeTable = Table[kind]
   statusTable = typeTable.StatusEffects
-  typeTable.Change = tostring(typeTable.Change - change)
+  typeTable.Change = tostring(math.floor(typeTable.Change - change))
   for i = #statusTable._children,1,-1 do -- Remove any naturally ended effects
    if statusTable[i] then
     if tonumber(statusTable[i].End) <= 1200*28*3*4*df.global.cur_year + df.global.cur_year_tick then
@@ -110,7 +116,7 @@ function trackCore(unit,strname,kind,Table,func,change,value,syndrome,dur,alter)
      statusTable = typeTable.StatusEffects
      local statusNumber = trackTable[name][strname][kindA].Number
      local callback = trackTable[name][strname][kindA].CallBack
-     typeTable.Change = tostring(typeTable.Change - statusTable[statusNumber].Change)
+     typeTable.Change = tostring(math.floor(typeTable.Change - statusTable[statusNumber].Change))
      func(unit.id,kindA,-tonumber(statusTable[statusNumber].Change),0,nil,nil)
      dfhack.timeout_active(callback,nil)
      dfhack.script_environment('persist-delay').environmentDelete(callback)
@@ -144,10 +150,10 @@ function trackCore(unit,strname,kind,Table,func,change,value,syndrome,dur,alter)
   end
  elseif alter == 'class' then -- Track changes associated with a class
   typeTable = Table[kind]
-  typeTable.Class = tostring(change + typeTable.Class)
+  typeTable.Class = tostring(math.floor(change + typeTable.Class))
  elseif alter == 'item' then -- Track changes associated with an item
   typeTable = Table[kind]
-  typeTable.Item = tostring(change + typeTable.Item)
+  typeTable.Item = tostring(math.floor(change + typeTable.Item))
  end
 end
 
@@ -176,7 +182,7 @@ function trackAttribute(unit,kind,current,change,value,dur,alter,syndrome,cb_id)
  trackCore(unit,'Attribute',kind,unitTable.Attributes,changeAttribute,change,value,syndrome,dur,alter)
 end
 
-function trackResistance(unit,kind,change,dur,alter,syndrome,cb_id)
+function trackResistance(unit,kind,change,value,dur,alter,syndrome,cb_id)
  persistTable = require 'persist-table'
  if not persistTable.GlobalTable.roses then
   return
@@ -221,7 +227,7 @@ function trackSkill(unit,kind,current,change,value,dur,alter,syndrome,cb_id)
  trackCore(unit,'Skill',kind,unitTable.Skills,changeSkill,change,value,syndrome,dur,alter)
 end
 
-function trackStat(unit,kind,change,dur,alter,syndrome,cb_id)
+function trackStat(unit,kind,change,value,dur,alter,syndrome,cb_id)
  -- Make sure base/roses-init is loaded
  persistTable = require 'persist-table'
  if not persistTable.GlobalTable.roses then
@@ -237,7 +243,7 @@ function trackStat(unit,kind,change,dur,alter,syndrome,cb_id)
   dfhack.script_environment('functions/tables').makeUnitTable(unit.id)
  end
  unitTable = persistTable.GlobalTable.roses.UnitTable[tostring(unit.id)]
- if not unitTable[tostring(unit.id)].Stats[kind] then
+ if not unitTable.Stats[kind] then
   dfhack.script_environment('functions/tables').makeUnitTableSecondary(unit.id,'Stats',kind)
  end
  -- Track!
@@ -269,7 +275,7 @@ function trackTrait(unit,kind,current,change,value,dur,alter,syndrome,cb_id)
 end
 
 -------------- Complex Tracking (Create, Side, Transform) -------------------
-function trackCreate(unit,summoner,dur,alter,syndrome,cb_id)
+function trackCreate(unit,summoner,dur,syndrome,cb_id)
  persistTable = require 'persist-table'
  if not persistTable.GlobalTable.roses then
   return
@@ -652,9 +658,7 @@ function changeCounter(unit,counter,change,dur)
      or counter == 'pain' or counter == 'nausea' or counter == 'dizziness' or counter == 'suffocation') then
   location = unit.counters
  elseif (counter == 'paralysis' or counter == 'numbness' or counter == 'fever' or counter == 'exhaustion'
-         or counter == 'hunger' or counter == 'thirst' or counter == 'sleepiness' or oounter == 'hunger_timer'
-         or counter == 'thirst_timer' or counter == 'sleepiness_timer') then
-  if (counter == 'hunger' or counter == 'thirst' or counter == 'sleepiness') then counter = counter .. '_timer' end
+         or counter == 'hunger_timer' or counter == 'thirst_timer' or counter == 'sleepiness_timer') then
   location = unit.counters2
  elseif counter == 'blood' or counter == 'infection' then
   location = unit.body
@@ -673,6 +677,7 @@ function changeCounter(unit,counter,change,dur)
   return  
  else
   print('Invalid counter token declared')
+  print(counter)
   return
  end
  current = location[counter]
@@ -695,10 +700,12 @@ function changeResistance(unit,resistance,change,dur,track,syndrome,cb_id)
  -- Add/Subtract given amount from resistance of a unit.
  if tonumber(unit) then unit = df.unit.find(tonumber(unit)) end
  dfhack.script_environment('functions/enhanced').enhanceCreature(unit)
--- For if Toady ever implements actual in game resistances 
+-- For if Toady ever implements actual in game resistances
+ value = change
+--
  if syndrome and not track == 'end' then changeSyndrome(unit,syndrome,'add') end 
  if dur > 0 then cb_id = dfhack.script_environment('persist-delay').environmentDelay(dur,'functions/unit','changeResistance',{unit.id,resistance,-change,0,'end',syndrome,nil}) end
- if track then trackResistance(unit.id,resistance,change,dur,track,syndrome,cb_id) end
+ if track then trackResistance(unit.id,resistance,change,value,dur,track,syndrome,cb_id) end
 end
 
 function changeSkill(unit,skill,change,dur,track,syndrome,cb_id)
@@ -764,14 +771,79 @@ function changeSkill(unit,skill,change,dur,track,syndrome,cb_id)
  if track then trackSkill(unit.id,skill,current,change,value,dur,track,syndrome,cb_id) end
 end
 
+function changeSkillExperience(unit,skill,change,dur,track,syndrome,cb_id)
+ -- Add/Subtract given amount from declared skill of a unit.
+ if tonumber(unit) then unit = df.unit.find(tonumber(unit)) end
+ utils = require 'utils'
+ dfhack.script_environment('functions/enhanced').enhanceCreature(unit)
+ change = change or 0
+ 
+ local skills = unit.status.current_soul.skills
+ local skillid = df.job_skill[skill]
+ local value = 0
+ local found = false
+ local current = 0
+ if skillid then
+  for i,x in ipairs(skills) do
+   if x.id == skillid then
+    found = true
+    token = x
+    current = token.experience
+    break
+   end
+  end
+  if not found then
+   utils.insert_or_update(unit.status.current_soul.skills,{new = true, id = skillid, rating = 0},'id')
+   skills = unit.status.current_soul.skills
+   for i,x in ipairs(skills) do
+    if x.id == skillid then
+     found = true
+     token = x
+     current = token.experience
+     break
+    end
+   end
+  end
+ else
+  persistTable = require 'persist-table'
+  if not persistTable.GlobalTable.roses then
+   print('Invalid skill id')
+   return
+  end
+  if persistTable.GlobalTable.roses.BaseTable.CustomSkills[skill] then
+   _,current = getUnit(unit,'Skills',skill)
+   token = {}
+  else
+   print('Invalid skill id')
+   return
+  end
+ end
+  
+ value = math.floor(current+change)
+ if value > 20 then
+  change = 20 - current
+  value = 20
+ end
+ if value < 0 then
+  change = current
+  value = 0
+ end
+ token.rating = value
+ if syndrome and not track == 'end' then changeSyndrome(unit,syndrome,'add') end 
+ if dur > 0 then cb_id = dfhack.script_environment('persist-delay').environmentDelay(dur,'functions/unit','changeSkill',{unit.id,skill,-change,0,'end',syndrome,nil}) end
+ if track then trackSkill(unit.id,skill,current,change,value,dur,track,syndrome,cb_id) end
+end
+
 function changeStat(unit,stat,change,dur,track,syndrome,cb_id)
  -- Add/Subtract given amount from a stat of a unit.
  if tonumber(unit) then unit = df.unit.find(tonumber(unit)) end
  dfhack.script_environment('functions/enhanced').enhanceCreature(unit)
--- For if Toady ever implements actual in game stats  
+-- For if Toady ever implements actual in game stats
+ value = change
+--
  if syndrome and not track == 'end' then changeSyndrome(unit,syndrome,'add') end 
  if dur > 0 then cb_id = dfhack.script_environment('persist-delay').environmentDelay(dur,'functions/unit','changeStat',{unit.id,stat,-change,0,'end',syndrome,nil}) end
- if track then trackStat(unit.id,stat,change,dur,track,syndrome,cb_id) end
+ if track then trackStat(unit.id,stat,change,value,dur,track,syndrome,cb_id) end
 end
 
 function changeTrait(unit,trait,change,dur,track,syndrome,cb_id)
@@ -808,14 +880,14 @@ function changeBody(unit,part,changeType,change,dur)
    unit.flags3.body_temp_in_range = not unit.flags3.body_temp_in_range
    change = 'Fire'
   else
-   unit.status2.body_part_temperature[part].whole=unit.status2.body_part_temperature[part].whole + change
+   unit.status2.body_part_temperature[part].whole=math.floor(tonumber(unit.status2.body_part_temperature[part].whole + change))
   end
  elseif changeType == 'Size' then
-  unit.body.size_info.size_cur = unit.body.size_info.size_cur + change
+  unit.body.size_info.size_cur = math.floor(tonumber(unit.body.size_info.size_cur + change))
  elseif changeType == 'Area' then
-  unit.body.size_info.area_cur = unit.body.size_info.area_cur + change
+  unit.body.size_info.area_cur = math.floor(tonumber(unit.body.size_info.area_cur + change))
  elseif changeType == 'Length' then
-  unit.body.size_info.length_cur = unit.body.size_info.length_cur + change
+  unit.body.size_info.length_cur = math.floor(tonumber(unit.body.size_info.length_cur + change))
  end
 
  if dur > 0 then
@@ -1074,7 +1146,7 @@ function changeEmotion(unit,thought,subthought,emotion,strength,severity,task,nu
                        thought=thought,
                        subthought=subthought,
                        severity=severity,
-                       flags=0,
+                       --flags=0,
                        unk7=0,
                        year=df.global.cur_year,
                        year_tick=df.global.cur_year_tick
@@ -1155,7 +1227,7 @@ function changeSide(unit,side,side_type,dur,track,syndrome,civ_id,pop_id,inv_id,
  save_civ = unit.civ_id
  save_pop = unit.population_id
  save_inv = unit.invasion_id
- save_id = unit.relations.pet_owner_id
+ save_id = unit.relationship_ids.Pet
  save_trn = unit.training_level
  save_regx = unit.animal.population.region_x
  save_regy = unit.animal.population.region_y
@@ -1179,7 +1251,7 @@ function changeSide(unit,side,side_type,dur,track,syndrome,civ_id,pop_id,inv_id,
  unit.animal.population.region_x = regx
  unit.animal.population.region_y = regy
  unit.animal.population.population_idx = regp
- unit.relations.pet_owner_id = -1
+ unit.relationship_ids.Pet = -1
  unit.flags1.tame = false 
  if side_type == 'Civilian' then
 -- Civilian Changes
@@ -1203,7 +1275,7 @@ function changeSide(unit,side,side_type,dur,track,syndrome,civ_id,pop_id,inv_id,
   unit.population_id = -1
   unit.flags1.tame = true
   unit.training_level = 7
-  unit.relations.pet_owner_id = side_id
+  unit.relationship_ids.Pet = side_id
  elseif side_type == 'Domestic' then
   unit.population_id = -1
   unit.flags1.tame = true
@@ -1281,7 +1353,7 @@ function changeSyndrome(unit,syndromes,change,dur) -- references modtools/add-sy
    for _,syn in pairs(unit.syndromes.active) do
     if syndrome == df.global.world.raws.syndromes.all[syn.type].syn_name then
      current_ticks = syn.ticks
-     new_ticks = current_ticks - dur
+     new_ticks = current_ticks + dur
      if new_ticks < 0 then new_ticks = 0 end
      syn.ticks = new_ticks
      for _,symptom in pairs(syn.symptoms) do
@@ -1298,7 +1370,7 @@ function changeSyndrome(unit,syndromes,change,dur) -- references modtools/add-sy
     for _,syn in pairs(unit.syndromes.active) do
      if id == df.global.world.raws.syndromes.all[syn.type].id then
       current_ticks = syn.ticks
-      new_ticks = current_ticks - dur
+      new_ticks = current_ticks + dur
       if new_ticks < 0 then new_ticks = 0 end
       syn.ticks = new_ticks
       for _,symptom in pairs(syn.symptoms) do
@@ -1451,6 +1523,22 @@ function checkCreatureRace(unit,creature) -- Returns true if unit is given creat
  return false
 end
 
+function checkCreatureSyndrome(unit,syndrome)
+ if tonumber(unit) then unit = df.unit.find(tonumber(unit)) end
+ if type(syndrome) ~= 'table' then syndrome = {syndrome} end
+ 
+ local actives = unit.syndromes.active
+ local syndromes = df.global.world.raws.syndromes.all
+ for _,x in ipairs(actives) do
+  for _,y in ipairs(syndrome) do
+   if syndromes[x.type].syn_name == y then
+    return true
+   end
+  end
+ end
+ return false
+end
+
 function checkCreatureToken(unit,token) -- Returns true if unit has the given token (e.g. AMPHIBIOUS, LARGE_PREDATOR, MEGABEAST, etc...)
  if tonumber(unit) then unit = df.unit.find(tonumber(unit)) end
  if type(token) ~= 'table' then token = {token} end
@@ -1519,6 +1607,7 @@ function getUnit(unit,strType,strKind,initialize)
  syndrome = 0
  persistTable = require 'persist-table'
  if not persistTable.GlobalTable.roses then
+  typeTable = {}
   if strType == 'Attributes' then
    if df.physical_attribute_type[strkind] then
     if unit.curse.attr_change then
@@ -1545,8 +1634,8 @@ function getUnit(unit,strType,strKind,initialize)
    -- No Stat in the base game
   elseif strType == 'Traits' then
    typeTable = unitTable.Traits
-   if unit.status.current_soul.preferences.traits[strKind] then
-    total = unit.status.current_soul.preferences.traits[strKind]
+   if unit.status.current_soul.personality.traits[strKind] then
+    total = unit.status.current_soul.personality.traits[strKind]
    end
   end
   base = total - syndrome
@@ -1587,8 +1676,8 @@ function getUnit(unit,strType,strKind,initialize)
    typeTable = unitTable.Stats
    total = 'ADD'
   elseif strType == 'Traits' then
-   if unit.status.current_soul.preferences.traits[strKind] then
-    total = unit.status.current_soul.preferences.traits[strKind]
+   if unit.status.current_soul.personality.traits[strKind] then
+    total = unit.status.current_soul.personality.traits[strKind]
    else
     total = 'ADD'
    end
@@ -1596,6 +1685,7 @@ function getUnit(unit,strType,strKind,initialize)
   --
   if not typeTable[strKind] then
 --   dfhack.script_environment('functions/table').makeUnitTableSecondary(unit,strTable,strKind)
+   if total == 'ADD' then total = 0 end
    base = total-syndrome
    change = change
    class = class
@@ -1613,12 +1703,7 @@ function getUnit(unit,strType,strKind,initialize)
  return total,base,change,class,item,syndrome
 end
 
-function getAttack(unit,attack_type) -- Renamed function checkAttack, used for backwards compatability
- attack, bodypart = checkAttack(unit,attack_type)
- return attack,bodypart
-end
-function checkAttack(unit,attack_type) -- Returns an attack number for either a random attack or a given attack and the body part id associated with the attack
--- print('Old function detected: checkAttack. Please switch to new function getAttack')
+function getAttack(unit,attack_type) -- Returns an attack number for either a random attack or a given attack and the body part id associated with the attack
  if tonumber(unit) then unit = df.unit.find(tonumber(unit)) end
  if attack_type == 'Random' then
   local rand = dfhack.random.new()
@@ -1657,11 +1742,7 @@ function checkAttack(unit,attack_type) -- Returns an attack number for either a 
  return attack, unit.body.body_plan.attacks[attack].body_part_idx[0]
 end
 
-function getBodyRandom(unit) -- Renamed function checkBodyRandom, used for backwards compatability
- return checkBodyRandom(unit)
-end
-function checkBodyRandom(unit) -- Returns random body part number weighted for relative size of body parts
--- print('Old function detected: checkBodyRandom. Please switch to new function getBodyRandom')
+function getBodyRandom(unit) -- Returns random body part number weighted for relative size of body parts
  if tonumber(unit) then unit = df.unit.find(tonumber(unit)) end
  local rand = dfhack.random.new()
  local totwght = 0
@@ -1686,11 +1767,7 @@ function checkBodyRandom(unit) -- Returns random body part number weighted for r
  return target
 end
 
-function getBodyCategory(unit,category)  -- Renamed function checkBodyCategory, used for backwards compatability
- return checkBodyCategory(unit,category)
-end
-function checkBodyCategory(unit,category) -- Returns a table of body part numbers for body parts that match given category
--- print('Old function detected: checkBodyCategory. Please switch to new function getBodyCategory')
+function getBodyCategory(unit,category) -- Returns a table of body part numbers for body parts that match given category
  -- Check a unit for body parts that match a given category(s)
  if tonumber(unit) then unit = df.unit.find(tonumber(unit)) end
  if type(category) == 'string' then category = {category} end
@@ -1708,11 +1785,7 @@ function checkBodyCategory(unit,category) -- Returns a table of body part number
  return parts
 end
 
-function getBodyToken(unit,token) -- Renamed function checkBodyToken, used for backwards compatability
- return checkBodyToken(unit,token)
-end
-function checkBodyToken(unit,token) -- Returns a table of body part numbers for body parts that match given token
--- print('Old function detected: checkBodyToken. Please switch to new function getBodyToken')
+function getBodyToken(unit,token) -- Returns a table of body part numbers for body parts that match given token
  -- Check a unit for body parts that match a given token(s).
  if tonumber(unit) then unit = df.unit.find(tonumber(unit)) end
  if type(token) == 'string' then token = {token} end
@@ -1731,11 +1804,7 @@ function checkBodyToken(unit,token) -- Returns a table of body part numbers for 
  return parts
 end
 
-function getBodyFlag(unit,flag) -- Renamed function checkBodyFlag, used for backwards compatability
- return checkBodyFlag(unit,flag)
-end
-function checkBodyFlag(unit,flag) -- Returns a table of body part numbers for body parts that match given flag
--- print('Old function detected: checkBodyFlag. Please switch to new function getBodyFlag')
+function getBodyFlag(unit,flag) -- Returns a table of body part numbers for body parts that match given flag
  -- Check a unit for body parts that match a given flag(s).
  if tonumber(unit) then unit = df.unit.find(tonumber(unit)) end
  if type(flag) == 'string' then flag = {flag} end
@@ -1754,11 +1823,7 @@ function checkBodyFlag(unit,flag) -- Returns a table of body part numbers for bo
  return parts
 end
 
-function getBodyConnectedParts(unit,parts)
- return checkBodyConnectedParts(unit,parts)
-end
-function checkBodyConnectedParts(unit,parts) -- Returns a table of body part numbers for body parts connected to the given body part (contains the given body part)
--- print('Old function detected: checkBodyConnectedParts. Please switch to new function getBodyConnectedParts')
+function getBodyConnectedParts(unit,parts) -- Returns a table of body part numbers for body parts connected to the given body part (contains the given body part)
  if tonumber(unit) then unit = df.unit.find(tonumber(unit)) end
  if type(parts) ~= 'table' then parts = {parts} end
  for i,x in pairs(parts) do
@@ -1772,10 +1837,6 @@ function checkBodyConnectedParts(unit,parts) -- Returns a table of body part num
 end
 
 function getBodyPartGlobalLayers(unit,part)
- return checkBodyPartGlobalLayers(unit,part)
-end
-function checkBodyPartGlobalLayers(unit,part)
--- print('Old function detected: checkBodyPartGlobalLayers. Please switch to new function getBodyPartGlobalLayers')
  if tonumber(unit) then unit = df.unit.find(tonumber(unit)) end
  global_layers = {}
  for i,x in pairs(unit.body.body_plan.layer_part) do
@@ -1784,11 +1845,7 @@ function checkBodyPartGlobalLayers(unit,part)
  return global_layers
 end
 
-function getBodyCorpseParts(unit)
- return checkBodyCorpseParts(unit)
-end
-function checkBodyCorpseParts(unit) -- Returns a table with three components, Unit, Corpse, and Parts. Unit is the unit id of the unit. Corpse is the item id of the units item_corpsest (i.e. it's upper body). Parts is a table of the item id's of the units item_corpsepartsst (i.e. non upper body parts)
--- print('Old function detected: checkBodyCorpseParts. Please switch to new function getBodyCorpseParts')
+function getBodyCorpseParts(unit) -- Returns a table with three components, Unit, Corpse, and Parts. Unit is the unit id of the unit. Corpse is the item id of the units item_corpsest (i.e. it's upper body). Parts is a table of the item id's of the units item_corpsepartsst (i.e. non upper body parts)
  if df.item_corpsest:is_instance(unit) then
   unit = df.unit.find(unit.unit_id)
  elseif df.item_corpsepiecest:is_instance(unit) then
@@ -1808,11 +1865,7 @@ function checkBodyCorpseParts(unit) -- Returns a table with three components, Un
  return corpseparts
 end
 
-function getEmotion(unit,emotion,thought)
- return checkEmotion(unit,emotion,thought)
-end
-function checkEmotion(unit,emotion,thought) -- Returns a table of emotion numbers that match given emotion/thought
--- print('Old function detected: checkEmotion. Please switch to new function getEmotion')
+function getEmotion(unit,emotion,thought) -- Returns a table of emotion numbers that match given emotion/thought
  if tonumber(unit) then unit = df.unit.find(tonumber(unit)) end
  thought = df.unit_thought_type[thought]
  emotion = df.emotion_type[emotion]
@@ -1845,11 +1898,7 @@ function checkEmotion(unit,emotion,thought) -- Returns a table of emotion number
  return list
 end
 
-function getSyndrome(unit,class,what)
- return checkSyndrome(unit,class,what)
-end
-function checkSyndrome(unit,class,what) -- Returns table of syndrome names and ids matching given SYN_CLASS or SYN_NAME
--- print('Old function detected: checkSyndrome. Please switch to new function getSyndrome')
+function getSyndrome(unit,class,what) -- Returns table of syndrome names and ids matching given SYN_CLASS or SYN_NAME
  if tonumber(unit) then unit = df.unit.find(tonumber(unit)) end
  if type(class) ~= 'table' then class = {class} end
 
@@ -1857,29 +1906,38 @@ function checkSyndrome(unit,class,what) -- Returns table of syndrome names and i
  local syndromes = df.global.world.raws.syndromes.all
  local names = {}
  local ids = {}
+ local ida = {}
  i = 0
  if what == 'class' then
-  for _,x in ipairs(actives) do
+  for j,x in pairs(actives) do
    local synclass=syndromes[x.type].syn_class
    for _,y in ipairs(synclass) do
     for _,z in ipairs(class) do
      if z == y.value then
       i = i + 1
       names[i] = syndromes[x.type].syn_name
-      id[i] = syndromes[x.type].id
+      ids[i] = syndromes[x.type].id
+      ida[i] = j
      end
     end
    end
   end
-  return names,ids
+ elseif what == 'name' then
+  for j,x in pairs(actives) do
+   for _,y in ipairs(class) do
+    if syndromes[x.type].syn_name == y then
+     i = i + 1
+     names[i] = y
+     ids[i] = syndromes[x.type].id
+     ida[i] = j
+    end
+   end
+  end
  end
+ return names, ids, ida
 end
 
-function getInventoryType(unit,item_type)
- return checkInventoryType(unit,item_type)
-end
-function checkInventoryType(unit,item_type) -- Returns table of item ids for items of a given type
--- print('Old function detected: checkInventoryType. Please switch to new function getInventoryType')
+function getInventoryType(unit,item_type) -- Returns table of item ids for items of a given type
  -- Check a unit for any inventory items of a given type(s).
  if tonumber(unit) then unit = df.unit.find(tonumber(unit)) end
  if type(item_type) == 'string' then item_type = {item_type} end
@@ -1892,6 +1950,38 @@ function checkInventoryType(unit,item_type) -- Returns table of item ids for ite
    if df.item_type[x.item:getType()] == y or y == 'ALL' then
     items[a] = x.item.id
     a = a + 1
+   end
+  end
+ end
+ return items
+end
+
+function getInventoryBodyPart(unit,bodyPart) -- Returns a table of item ids currently equipped to a given body part number
+ if tonumber(unit) then unit = df.unit.find(tonumber(unit)) end
+ if type(bodyPart) ~= 'table' then bodyPart = {bodyPart} end
+ 
+ local items = {}
+ local inventory = unit.inventory
+ for _,x in ipairs(inventory) do
+  for _.y in ipairs(bodyPart) do
+   if x.body_part_id == y then
+    items[#items+1] = x.item.id
+   end
+  end
+ end
+ return items
+end
+
+function getInventoryMode(unit,mode) -- Returns a table of item ids currently equipped with the given mode
+ if tonumber(unit) then unit = df.unit.find(tonumber(unit)) end
+ if type(mode) ~= 'table' then mode = {mode} end
+
+ local items = {}
+ local inventory = unit.inventory
+ for _,x in ipairs(inventory) do
+  for _.y in ipairs(mode) do
+   if x.mode == y then
+    items[#items+1] = x.item.id
    end
   end
  end
@@ -1938,54 +2028,517 @@ end
 ------ The following function just reference modtools/create-unit, this allows --------
 ------ me to change certain features of that code without altering it directly --------
 ---------------------------------------------------------------------------------------
-function create(location,raceID,casteID,refUnit,side,name,dur,track,syndrome,cb_id)
- if tonumber(refUnit) then refUnit = df.unit.find(tonumber(refUnit)) end
+function create(pos,creature,options)
+ script = require 'gui.script'
 
- id = dfhack.script_environment('modtools/create-unit').createUnit(raceID,casteID)
- unit = df.unit.find(id)
- 
- civ_id,group_id = changeSide(unit,refUnit,side,0)
- dur = tonumber(dur) or 0
- if side == 'Civilian' then
-  dfhack.script_environment('modtools/create-unit').createNemesis(unit,civ_id,group_id)
- elseif side == 'Ally' then
-  dfhack.script_environment('modtools/create-unit').createNemesis(unit,civ_id,-1)
+ options = options or {}
+ number = options.number or 1
+ reference = options.reference or 'LOCAL'
+ side = options.side or 'NEUTRAL'
+ name = options.name
+ dur = options.duration or 0
+ track = options.track
+ syndrome = options.syndrome
+ equip = options.equipment
+ skills = options.skills
+ classes = options.classes
+
+ persistTable = require 'persist-table'
+ roses = persistTable.GlobalTable.roses
+ -- Get location for unit placement (either x,y,z coordinates or a special position token)
+ local location = {}
+ if pos == 'EDGE' then
+  -- So far let's just assume it's an x,y,z coordinate
+  return
+ else
+  location.x = pos.x or pos[1]
+  location.y = pos.y or pos[2]
+  location.z = pos.z or pos[3]
  end
- 
- if name then
-  entities = {}
-  for i,x in pairs(df.global.world.raws.entities) do
-   entities[x.code] = true
-  end
-  if name == 'Random' then
-   entityRaw = dfhack.script_environment('functions/misc').permute(entities)[1]
-   dfhack.script_environment('modtools/create-unit').nameUnit(id, entityRaw, civ_id)
-  elseif entities[name] then
-   dfhack.script_environment('modtools/create-unit').nameUnit(id, name, civ_id)
-  else
-   unit.name.first_name = name
-   unit.name.has_name = true
-   unit.status.current_soul.name.first_name = name
-   unit.status.current_soul.name.has_name = true
-   if unit.hist_figure_id ~= -1 then
-    local histfig = df.historical_figure.find(unit.hist_figure_id)
-    histfig.name.first_name = name
-    histfig.name.has_name = true
+
+ -- Get creature's race and caste
+ local race = nil
+ local caste = nil
+ if creature then
+  race_token = split(creature,':')[1]
+  caste_token = split(creature,':')[2]
+  for i,x in ipairs(df.global.world.raws.creatures.all) do
+   if x.creature_id == race_token then
+    raceID = i
+    race = x
+    break
    end
   end
+  if not race then
+   print('Invalid race')
+   return
+  end
+  if caste_token == 'RANDOM' then
+   caste = dfhack.script_environment('functions/misc').permute(race.caste)[1]
+   casteID = caste.id
+   casteIDs = {}
+   for i,x in pairs(race.caste) do
+    casteIDs[i] = x.id
+   end
+  else
+   for i,x in ipairs(race.caste) do
+    if x.caste_id == caste_token then
+     casteID= i
+     caste = x
+     break
+    end
+   end
+  end
+  if not caste then
+   print('Invalid caste')
+   return
+  end
  else
-  unit.name.has_name = false
-  if unit.status.current_soul then
-    unit.status.current_soul.name.has_name = false
+  print('No unit declared')
+  return
+ end
+
+ -- Get civ_id and group_id (actually do that per unit basis)
+ local civ_id = -1
+ local group_id = -1
+
+ -- Start to create units
+ function createMultiple()
+  for n = 1, number do
+   df.global.pause_state = true
+   -- Create Unit
+   local id
+   if caste_token == 'RANDOM' then
+    local index = math.random(0,#casteIDs-1)
+    id = createUnit(raceID,casteIDs[index],location)
+   else
+    id = createUnit(raceID,casteID,location)
+   end
+   unit = df.unit.find(id)
+   -- Assign ids (e.g. civ_id, population_id, etc...)
+   civ_id, group_id = changeSide(unit,reference,side,0)
+   if civ_id ~= -1 then
+    createNemesis(unit,civ_id,group_id)
+   end
+   -- Assign unit a name
+   if name then
+    createName(unit,name)
+   end
+   -- Equip unit with items
+   if equip then
+    items,parts,modes = createEquipment(unit,equip)
+    for i,item in pairs(items) do
+     dfhack.script_environment('functions/item').equip(item,unit,parts[i],modes[i])
+    end
+   end
+   -- Add skills to unit
+   if skills then
+    skill, level = createSkills(unit,skills)
+    for i,x in pairs(skill) do
+     changeSkill(unit,x,level[i])
+    end
+   end
+   -- Assign a class to unit (based on the Class System)
+   if classes then
+    class, level = createClass(unit,classes)
+    if class then dfhack.script_environment('functions/class').changeClass(class,level) end
+   end
+   -- Enhance unit (based on the Enhanced System)
+   if roses then
+    if safe_index(roses,'EnhancedCreatureTable') then
+     dfhack.script_environment('functions/enhanced').enhanceCreature(unit)
+    end
+   end
+   -- Add a syndrome, set up a duration, and track changes
+   if syndrome then changeSyndrome(unit,syndrome,'add') end
+   if dur > 0 then cb_id = dfhack.script_environment('persist-delay').environmentDelay(dur,'functions/unit','removal',{unit.id,'created',nil}) end
+   if track then trackCreate(unit,reference,dur,syndrome,cb_id) end
+ 
+   df.global.pause_state = false
+   script.sleep(5,'ticks')
+  end
+ end
+
+ script.start(createMultiple)
+ return
+end
+
+function createClass(unit,classes)
+ local class = nil
+ local level = nil
+
+ utils = require 'utils'
+ split = utils.split_string
+ class = split(class,':')
+ if class[1] == 'CIVILIZATION' then
+  -- Classes avaiable to the civilization (using Civilization System) will go here
+ elseif class[1] == 'ITEMS' then
+  -- Classes based on equipped items will be chosen
+ elseif class[1] == 'RANDOM' then
+  -- A random class will be chosen
+ elseif class[1] == 'TEMPLATE' then
+  -- Classes from a template file will go here
+ else
+  -- A specific class will go here
+ end
+
+ return class, level
+end
+
+function createEquipment(unit,equip)
+ utils = require 'utils'
+ split = utils.split_string
+
+ equipment = split(equip,':')
+ items = {}
+ parts = {}
+ modes = {}
+
+ entities = {}
+ for _,x in pairs(df.global.world.raws.entities) do
+  entities[x.code] = x
+ end
+ if entities[equipment[1]] then
+  -- Item Options: Based off of entity raws
+  -- Mat Options: Random
+  raw = entities[equipment[1]]
+  availItems = {weapon=raw.weapon_id,armor=raw.armor_id,helm=raw.helm_id,gloves=raw.gloves_id,
+				shoes=raw.shoes_id,pants=raw.pants_id,shield=raw.shield_id,ammo=raw.ammo_id}
+  value = tonumber(equipment[2])
+ elseif equipment[1] == 'CIV' then
+  -- Item Options: Items available to the units civ
+  -- Mat Options: Materials available to the units civ
+  civ = df.historic_entity.find(unit.civ_id)
+  rsr = civ.resources
+  mtl = civ.resources.metal
+  availItems = {weapon=rsr.weapon_type,armor=rsr.armor_type,helm=rsr.helm_type,gloves=rsr.gloves_type,
+                shoes=rsr.shoes_type,pants=rsr.pants_type,shield=rsr.ammo_type,ammo=rsr.ammo_type}
+  availMats  = {weapon=mtl.weapon,armor=mtl.armor,ammo=mtl.ammo,leather=rsr.organic.leather,cloth=rsr.organic.fiber}
+  value = tonumber(equipment[2])
+ elseif equipment[1] == 'TEMPLATE' then
+  -- Item Options: Items read from a template
+  -- Mat Options: Materials read from a template
+  template = equipment[2]
+  persistTable = require 'persist-table'
+  roses = persistTable.GlobalTable.roses
+  if safe_index(roses,'EquipmentTemplates',template) then
+   tmp = roses.EquipmentTemplates[template]
+   availItems = {weapon=tmp.Weapons,armor=tmp.Armor,helm=tmp.Helms,gloves=tmp.Gloves,
+                 shoes=tmp.Shoes,pants=tmp.Pants,shield=tmp.Shields,ammo=tmp.Ammo}
+   availMats  = {weapon=tmp.WeaponMats,armor=tmp.ArmorMats,ammo=tmp.AmmoMats,leather=tmp.Leathers,cloth=tmp.Cloths}
+   value = tmp.Value
+  else
+   return items, parts, modes
+  end
+ elseif equipment[1] == 'RANDOM' then
+  -- Item Options: Random
+  -- Mat Options: Random
+  value = tonumber(equipment[2])
+ elseif equipment[1] == 'UNIFORM' then -- Unsure if this will actually work
+  -- Item Options: Items from a uniform
+  -- Mat Options: Materials from a uniform
+  value = 0
+ end
+
+ return items, parts, modes 
+end
+
+function createHistFig(unit,he,he_group) --Taken from modtools/create-unit
+ if tonumber(unit) then unit = df.unit.find(tonumber(unit)) end
+
+ local hf=df.historical_figure:new()
+ hf.id=df.global.hist_figure_next_id
+ hf.race=unit.race
+ hf.caste=unit.caste
+ hf.profession = unit.profession
+ hf.sex = unit.sex
+ df.global.hist_figure_next_id=df.global.hist_figure_next_id+1
+ hf.appeared_year = df.global.cur_year
+
+ hf.born_year = unit.birth_year
+ hf.born_seconds = unit.birth_time
+ hf.curse_year = unit.curse_year
+ hf.curse_seconds = unit.curse_time
+ hf.birth_year_bias = unit.birth_year_bias
+ hf.birth_time_bias = unit.birth_time_bias
+ hf.old_year = unit.old_year
+ hf.old_seconds = unit.old_time
+ hf.died_year = -1
+ hf.died_seconds = -1
+ hf.name:assign(unit.name)
+ hf.civ_id = unit.civ_id
+ hf.population_id = unit.population_id
+ hf.breed_id = -1
+ hf.unit_id = unit.id
+
+ df.global.world.history.figures:insert("#",hf)
+
+ hf.info = df.historical_figure_info:new()
+ hf.info.unk_14 = df.historical_figure_info.T_unk_14:new() -- hf state?
+ unk_14.region_id = -1; unk_14.beast_id = -1; unk_14.unk_14 = 0
+ hf.info.unk_14.unk_18 = -1; hf.info.unk_14.unk_1c = -1
+ -- set values that seem related to state and do event
+ --change_state(hf, dfg.ui.site_id, region_pos)
+
+ --lets skip skills for now
+ --local skills = df.historical_figure_info.T_skills:new() -- skills snap shot
+ -- ...
+ -- note that innate skills are automaticaly set by DF
+ hf.info.skills = {new=true}
+
+
+ he.histfig_ids:insert('#', hf.id)
+ he.hist_figures:insert('#', hf)
+ if he_group then
+  he_group.histfig_ids:insert('#', hf.id)
+  he_group.hist_figures:insert('#', hf)
+  hf.entity_links:insert("#",{new=df.histfig_entity_link_memberst,entity_id=he_group.id,link_strength=100})
+ end
+ unit.flags1.important_historical_figure = true
+ unit.flags2.important_historical_figure = true
+ unit.hist_figure_id = hf.id
+ unit.hist_figure_id2 = hf.id
+
+ hf.entity_links:insert("#",{new=df.histfig_entity_link_memberst,entity_id=unit.civ_id,link_strength=100})
+
+ --add entity event
+ local hf_event_id=df.global.hist_event_next_id
+ df.global.hist_event_next_id=df.global.hist_event_next_id+1
+ df.global.world.history.events:insert("#",{new=df.history_event_add_hf_entity_linkst,year=unit.birth_year,
+                                            seconds=unit.birth_time,id=hf_event_id,civ=hf.civ_id,histfig=hf.id,
+                                            link_type=0})
+ return hf
+end
+
+function createName(unit,name) -- Taken from modtools/create-unit
+ if tonumber(unit) then unit = df.unit.find(tonumber(unit)) end
+
+ entityRaws = nil
+ if name == 'Random' then
+  -- Take a random entity and assign a name based off of that entity
+  local index = math.random(0,#df.global.world.raws.entities-1)
+  entityRaws = df.global.world.raws.entities[index]
+ elseif name == 'Animal' then
+  -- For now don't name animals
+  return
+ else
+  -- Pick name from specific entity or from current civs entity 
+  entities = {}
+  for i,x in pairs(df.global.world.raws.entities) do
+   entities[x.code] = x
+  end
+  if entities[name] then
+   entityRaws = entities[name]
+  elseif name == 'Civ' then
+   if unit.civ_id ~= -1 then
+    entityRaws = df.historical_entity.find(unit.civ_id).entity_raw
+   else
+    --No civ to assign name based on
+    return
+   end
   end
  end
  
- if location then move(id,location) end
- if syndrome then changeSyndrome(unit,syndrome,'add') end
- if dur > 0 then cb_id = dfhack.script_environment('persist-delay').environmentDelay(dur,'functions/unit','removal',{unit.id,'created',nil}) end
- if track then trackCreate(unit,refUnit,dur,alter,syndrome,cb_id) end
- 
- return unit
+ -- If an entity_raw was found for the declared name variable then use that
+ -- Else assume the name variable represents an actual name (e.g. "John Robert Smith")
+ if entityRaws then
+  translation = entityRaws.translation
+  translationIndex = -1
+  for i,x in ipairs(df.global.world.raws.language.translations) do
+   if x.name == translation then
+    translationIndex = i
+    break
+   end
+  end
+  local language_word_table = entityRaws.symbols.symbols1[0]
+  function randomWord()
+   local index = math.random(0, #language_word_table.words[0] - 1)
+   return index
+  end
+  local firstName = randomWord()
+  local lastName1 = randomWord()
+  local lastName2 = randomWord()
+  local language = nil
+  for _,lang in pairs(df.global.world.raws.language.translations) do
+   if lang.name == entityRaws.translation then
+    language = lang
+   end
+  end
+  if language then
+   first = language.words[firstName].value
+  else
+   first = df.language_word.find(language_word_table.words[0][firstName]).forms[language_word_table.parts[0][firstName]]
+  end
+  word0 = language_word_table.words[0][lastName1]
+  part0 = language_word_table.parts[0][lastName1]
+  word1 = language_word_table.words[0][lastName2]
+  part1 = language_word_table.words[0][lastName2]
+ else
+  utils = require 'utils'
+  split = utils.split_string
+  nameTable = split(name,' ')
+  first = nameTable[1] or ''
+  word0 = nameTable[2] or ''
+  part0 = 'Noun'
+  word1 = nameTable[3] or ''
+  part1 = 'Noun'
+  translationIndex = -1
+ end
+
+ local name = unit.status.current_soul.name
+ name.words[0] = word0
+ name.parts_of_speech[0] = part0
+ name.words[1] = word1
+ name.parts_of_speech[1] = part1
+ name.first_name = first
+ name.has_name = true
+ name.language = translationIndex
+ unit.name:assign(name)
+ if unit.hist_figure_id ~= -1 then
+  local histfig = df.historical_figure.find(unit.hist_figure_id)
+  histfig.name:assign(name)
+ end
+end
+
+function createNemesis(unit,civ_id,group_id) -- Taken from modtools/create-unit
+ if tonumber(unit) then unit = df.unit.find(tonumber(unit)) end
+
+ local function  allocateNewChunk(hist_entity)
+  hist_entity.save_file_id=df.global.unit_chunk_next_id
+  df.global.unit_chunk_next_id=df.global.unit_chunk_next_id+1
+  hist_entity.next_member_idx=0
+  print("allocating chunk:",hist_entity.save_file_id)
+ end
+
+ local function allocateIds(nemesis_record,hist_entity)
+  if hist_entity.next_member_idx==100 then
+    allocateNewChunk(hist_entity)
+  end
+  nemesis_record.save_file_id=hist_entity.save_file_id
+  nemesis_record.member_idx=hist_entity.next_member_idx
+  hist_entity.next_member_idx=hist_entity.next_member_idx+1
+ end
+
+ local id=df.global.nemesis_next_id
+ local nem=df.nemesis_record:new()
+
+ nem.id=id
+ nem.unit_id=unit.id
+ nem.unit=unit
+ nem.flags:resize(4)
+  --not sure about these flags...
+ --[[
+ nem.flags[4]=true
+ nem.flags[5]=true
+ nem.flags[6]=true
+ nem.flags[7]=true
+ nem.flags[8]=true
+ nem.flags[9]=true
+ --]]
+ --[[for k=4,8 do
+ nem.flags[k]=true
+ end]]
+ nem.unk10=-1
+ nem.unk11=-1
+ nem.unk12=-1
+ df.global.world.nemesis.all:insert("#",nem)
+ df.global.nemesis_next_id=id+1
+ unit.general_refs:insert("#",{new=df.general_ref_is_nemesisst,nemesis_id=id})
+ unit.flags1.important_historical_figure=true
+
+ nem.save_file_id=-1
+
+ local he=df.historical_entity.find(civ_id)
+ he.nemesis_ids:insert("#",id)
+ he.nemesis:insert("#",nem)
+ local he_group
+ if group_id and group_id~=-1 then
+  he_group=df.historical_entity.find(group_id)
+ end
+ if he_group then
+  he_group.nemesis_ids:insert("#",id)
+  he_group.nemesis:insert("#",nem)
+ end
+ allocateIds(nem,he)
+ nem.figure=createHistFig(unit,he,he_group)
+end
+
+function createSkills(unit,skills)
+ local skill = {}
+ local level = {}
+
+ utils = require 'utils'
+ split = utils.split_string
+ table = split(skills,':')
+ if table[1] == 'TEMPLATE' then
+  -- Skills from a template file will go here
+ elseif table[1] == 'ITEMS' then
+  -- Skills based on equipped items will go here
+ elseif table[1] == 'RANDOM' then
+  -- Random skills will go here
+ else
+  -- A specific skill will go here
+ end
+
+ return skill, level
+end
+
+function createUnit(race_id,caste_id,location) -- Taken from modtools/create-unit
+ local view_x = df.global.window_x
+ local view_y = df.global.window_y
+ local view_z = df.global.window_z
+
+ local curViewscreen = dfhack.gui.getCurViewscreen()
+ local dwarfmodeScreen = df.viewscreen_dwarfmodest:new()
+ curViewscreen.child = dwarfmodeScreen
+ dwarfmodeScreen.parent = curViewscreen
+ local oldMode = df.global.ui.main.mode
+ df.global.ui.main.mode = df.ui_sidebar_mode.LookAround
+
+ local gui = require 'gui'
+
+ if not dfhack.world.isArena() then
+  --This is already populated in arena mode, so don't clear it then (#994)
+  df.global.world.arena_spawn.race:resize(0)
+  df.global.world.arena_spawn.race:insert(0,race_id)
+
+  df.global.world.arena_spawn.caste:resize(0)
+  df.global.world.arena_spawn.caste:insert(0,caste_id)
+
+  df.global.world.arena_spawn.creature_cnt:resize(0)
+  df.global.world.arena_spawn.creature_cnt:insert(0,0)
+ end
+
+ local old_gametype = df.global.gametype
+ df.global.gametype = df.game_type.DWARF_ARENA
+ gui.simulateInput(dwarfmodeScreen, 'D_LOOK_ARENA_CREATURE')
+
+ -- move cursor to location instead of moving unit later, corrects issue of missing mapdata when moving the created unit.
+ if location then
+  df.global.cursor.x = tonumber(location[1])
+  df.global.cursor.y = tonumber(location[2])
+  df.global.cursor.z = tonumber(location[3])
+ end
+
+ local spawnScreen = dfhack.gui.getCurViewscreen()
+ if dfhack.world.isArena() then
+  -- Just modify the current screen in arena mode (#994)
+  spawnScreen.race:insert(0, race_id)
+  spawnScreen.caste:insert(0, caste_id)
+ end
+ gui.simulateInput(spawnScreen, 'SELECT')
+
+ df.global.gametype = old_gametype
+
+ curViewscreen.child = nil
+ dwarfmodeScreen:delete()
+ df.global.ui.main.mode = oldMode
+
+ local id = df.global.unit_next_id-1
+ df.global.window_x = view_x
+ df.global.window_y = view_y
+ df.global.window_z = view_z
+ return id
 end
 
 ---------------------------------------------------------------------------------------

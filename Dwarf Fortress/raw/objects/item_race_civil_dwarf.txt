@@ -99,3 +99,10 @@ item_race_civil_dwarf
 	[VALUE:1]
 	[TILE:167]
 	[SIZE:1]
+
+[ITEM_TOOL:DWARF_GLASS_SHEET]
+	[NAME:Sheet:Sheets]
+	[DESCRIPTION:This is a large sheet of glass, such things can be cut into windows or used to create blocks, furniture, and other items.]
+	[VALUE:10]
+	[TILE:199]
+	[SIZE:10]

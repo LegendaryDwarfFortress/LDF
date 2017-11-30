@@ -1,9 +1,9 @@
 -- Functions for the Event System
 --[[
- checkRequirements(event,effect,verbose) - Checks if the requirements for a specific event/effect combo have been reached
- triggerEvent(event,effect,verbose) - Triggers an event/effect combo
- checkEvent(event,method,verbose) - Checks an event and all of it's effects to see if they should be triggered
- queueCheck(event,method,verbose) - Sets up the callback to check the event again after a certain time
+ checkRequirements(event,effect,verbose)
+ triggerEvent(event,effect,verbose)
+ checkEvent(event,method,verbose)
+ queueCheck(event,method,verbose)
 ]]
 ------------------------------------------------------------------------
 function checkRequirements(event,effect,verbose)
@@ -21,9 +21,11 @@ function checkRequirements(event,effect,verbose)
  else
   check = event.Effect[tostring(effect)].Required
   chance = tonumber(event.Effect[tostring(effect)].Chance)
+  if not chance then chance = tonumber(event.Chance) end
  end
  if not check then return false end
 -- Check for chance occurance
+ if not chance then chance = 0 end
  local rand = dfhack.random.new()
  local rnum = rand:random(100)
  if rnum > chance then
@@ -455,7 +457,6 @@ function checkEvent(event,method,verbose)
  local persistTable = require 'persist-table'
  local eventTable = persistTable.GlobalTable.roses.EventTable[event]
  local triggered = {}
- if verbose then print(checkRequirements(event,0,verbose)) end
  if checkRequirements(event,0,verbose) then
   triggered[0] = true
   for _,i in pairs(eventTable.Effect._children) do
@@ -464,7 +465,7 @@ function checkEvent(event,method,verbose)
     if triggered[contingency] then
      triggered[tonumber(i)] = true
      triggerEvent(event,tonumber(i),verbose)
---     if verbose then print('Event effect triggered '..event) end
+     if verbose then print('Event effect triggered '..event) end
     end
    end
   end

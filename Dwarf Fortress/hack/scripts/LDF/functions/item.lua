@@ -1,18 +1,18 @@
 -- Item based functions, version 42.06a
 --[[
- trackMaterial(itemID,change,dur,alter) - Tracks the changes to an items material, can track multiple changes
- trackQuality(itemID,change,dur,alter) - Tracks the changes to an items quality, can track multiple changes
- trackSubtype(itemID,change,dur,alter) - Tracks the changes to an items subtype, can track multiple changes
- changeMaterial(item,material,dur,track) - Changes the items material
- changeQuality(item,quality,dur,track) - Changes the items quality
- changeSubtype(item,subtype,dur,track) - Changes the items subtype
- checkAttack(item,attack) - Checks if an item has a specified attack, will return false if no attack is found, will return the attack id if found
- create(item,material,options) - Creates an item of the given material in format ITEM_TYPE:ITEM_SUBTYPE, MATERIAL_TYPE:MATERIAL_SUBTYPE
- equip(item,unit,bodyPart,mode) - Equips an item to a units body
- makeProjectileFall(item,origin,velocity) - Turns an item into a falling projectile
- makeProjectileShoot(item,origin,target,options) - Turns an item into a shooting projectile
- removal(item) - Removes an item from the game
- findItem(search) - Find an item based on the search parameters. See the find functions ReadMe for more information regarding search strings.
+ trackMaterial(itemID,change,dur,alter)
+ trackQuality(itemID,change,dur,alter)
+ trackSubtype(itemID,change,dur,alter)
+ changeMaterial(item,material,dur,track)
+ changeQuality(item,quality,dur,track)
+ changeSubtype(item,subtype,dur,track)
+ checkAttack(item,attack)
+ create(item,material,options)
+ equip(item,unit,bodyPart,mode)
+ makeProjectileFall(item,origin,velocity)
+ makeProjectileShoot(item,origin,target,options)
+ removal(item)
+ findItem(search)
 ]]
 ---------------------------------------------------------------------------------------
 function trackMaterial(itemID,change,dur,alter)
@@ -182,7 +182,7 @@ function create(item,material,a,b,c) --from modtools/create-item
  quality = b or 0
  creatorID = a or -1
  if creatorID == -1 then
-  creator = df.unit.find(df.global.world.units.active[0])
+  creator = df.global.world.units.active[0]
   creatorID = creator.id
  else
   creator = df.unit.find(tonumber(creatorID))
@@ -208,13 +208,14 @@ end
 
 function equip(item,unit,bodyPart,mode) --from modtools/equip-item
   --it is assumed that the item is on the ground
-  --taken from expwnent
+  --taken from expwnent and modified
+  if tonumber(item) then item = df.item.find(tonumber(item)) end
+  if tonumber(unit) then unit = df.unit.find(tonumber(unit)) end
   item.flags.on_ground = false
   item.flags.in_inventory = true
   local block = dfhack.maps.getTileBlock(item.pos)
   local occupancy = block.occupancy[item.pos.x%16][item.pos.y%16]
   for k,v in ipairs(block.items) do
-    --local blockItem = df.item.find(v)
     if v == item.id then
       block.items:erase(k)
       break
@@ -236,6 +237,26 @@ function equip(item,unit,bodyPart,mode) --from modtools/equip-item
   inventoryItem.mode = mode
   inventoryItem.body_part_id = bodyPart
   unit.inventory:insert(#unit.inventory,inventoryItem)
+end
+
+function unequip(item,unit) --basically just reveresed modtools/equip-item
+ if tonumber(item) then item = df.item.find(tonumber(item)) end
+ if tonumber(unit) then unit = df.unit.find(tonumber(unit)) end
+ local slot = -1
+ for i,x in pairs(unit.inventory) do
+  if x.item.id == item.id then
+    slot = i
+    break
+  end
+ end
+ if slot < 0 then return end
+ unit.inventory:erase(slot)
+ item.flags.in_inventory = false
+ item.flags.on_ground = true
+ local block = dfhack.maps.getTileBlock(unit.pos)
+ block.items:insert(#block.items,item.id)
+ local occupancy = block.occupancy[unit.pos.x%16][unit.pos.y%16]
+ occupancy.item = true
 end
 
 function makeProjectileFall(item,origin,velocity)
