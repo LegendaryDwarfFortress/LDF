@@ -1,13 +1,17 @@
 -- Functions to be used with the Civilization System, v42.06a
 --[[
- changeLevel(entity,amount,verbose) - Changes the level of the entity
- changeStanding(civ1,civ2,amount,verbose) - Changes the diplomacy standing of the two entities
- checkEntity(id,method,verbose) - Checks if the entity has leveled up
- checkRequirements(entityID,verbose) - Called by checkEntity, returns true if the entity meets the conditions for leveling up
- queueCheck(id,method,verbose) - Sets up the next time check to see if an entity has leveled up
+ changeLevel(entity,amount,verbose)
+ changeStanding(civ1,civ2,amount,verbose)
+ checkEntity(id,method,verbose)
+ checkRequirements(entityID,verbose)
+ queueCheck(id,method,verbose)
 ]]
 function changeLevel(entity,amount,verbose)
- if tonumber(entity) then civ = df.global.world.entities.all[civid] end
+ if tonumber(entity) then 
+  civ = df.global.world.entities.all[tonumber(entity)]
+ else
+  civ = entity
+ end
  key = tostring(civ.id)
 
  local persistTable = require 'persist-table'
@@ -16,7 +20,7 @@ function changeLevel(entity,amount,verbose)
   dfhack.script_environment('functions/tables').makeEntityTable(key)
  end
  entityTable = persistTable.GlobalTable.roses.EntityTable[key]
- entity = df.global.world.entities.all[civid].entity_raw.code
+ entity = df.global.world.entities.all[civ.id].entity_raw.code
  civilizationTable = persistTable.GlobalTable.roses.CivilizationTable[entity]
  if civilizationTable then
   if civilizationTable.Level then
@@ -24,41 +28,54 @@ function changeLevel(entity,amount,verbose)
    nextLevel = currentLevel + amount
    if nextLevel > tonumber(civilizationTable.Levels) then nextLevel = tonumber(civilizationTable.Levels) end
    if nextLevel < 0 then nextLevel = 0 end
+   currentLevel = math.floor(currentLevel)
+   nextLevel = math.floor(nextLevel)
+   entityTable.Civilization.Level = tostring(nextLevel)
    if amount > 0 then
     for i = currentLevel+1,nextLevel,1 do
      if civilizationTable.Level[tostring(i)] then
-      for _,mtype in pairs(civilizationTable.Level[tostring(i)].Remove._children) do
-       depth1 = civilizationTable.Level[tostring(i)].Remove[mtype]
-       for _,stype in pairs(depth1._children) do
-        depth2 = depth1[stype]
-        for _,mobj in pairs(depth2._children) do
-         sobj = depth2[mobj]
-         dfhack.script_environment('functions/entity').changeResources(key,mtype,stype,mobj,sobj,-1,verbose)
+      if civilizationTable.Level[tostring(i)].Remove then
+       for _,mtype in pairs(civilizationTable.Level[tostring(i)].Remove._children) do
+        depth1 = civilizationTable.Level[tostring(i)].Remove[mtype]
+        for _,stype in pairs(depth1._children) do
+         depth2 = depth1[stype]
+         for _,mobj in pairs(depth2._children) do
+          sobj = depth2[mobj]
+          dfhack.script_environment('functions/entity').changeResources(key,mtype,stype,mobj,sobj,-1,verbose)
+         end
         end
        end
       end
-      for _,mtype in pairs(civilizationTable.Level[tostring(i)].Add._children) do
-       depth1 = civilizationTable.Level[tostring(i)].Add[mtype]
-       for _,stype in pairs(depth1._children) do
-        depth2 = depth1[stype]
-        for _,mobj in pairs(depth2._children) do
-         sobj = depth2[mobj]
-         dfhack.script_environment('functions/entity').changeResources(key,mtype,stype,mobj,sobj,1,verbose)
+      if civilizationTable.Level[tostring(i)].Add then
+       for _,mtype in pairs(civilizationTable.Level[tostring(i)].Add._children) do
+        depth1 = civilizationTable.Level[tostring(i)].Add[mtype]
+        for _,stype in pairs(depth1._children) do
+         depth2 = depth1[stype]
+         for _,mobj in pairs(depth2._children) do
+          sobj = depth2[mobj]
+          dfhack.script_environment('functions/entity').changeResources(key,mtype,stype,mobj,sobj,1,verbose)
+         end
         end
        end
       end
-      for _,position in pairs(civilizationTable.Level[tostring(i)].RemovePosition._children) do
-       dfhack.script_environment('functions/entity').changeNoble(key,position,-1,verbose)
+      if civilizationTable.Level[tostring(i)].RemovePosition then
+       for _,position in pairs(civilizationTable.Level[tostring(i)].RemovePosition._children) do
+        dfhack.script_environment('functions/entity').changeNoble(key,position,-1,verbose)
+       end
       end
-      for _,position in pairs(civilizationTable.Level[tostring(i)].AddPosition._children) do
-       dfhack.script_environment('functions/entity').changeNoble(key,position,1,verbose)
+      if civilizationTable.Level[tostring(i)].AddPosition then
+       for _,position in pairs(civilizationTable.Level[tostring(i)].AddPosition._children) do
+        dfhack.script_environment('functions/entity').changeNoble(key,position,1,verbose)
+       end
       end
       if civilizationTable.Level[tostring(i)].LevelMethod then
        entityTable.Civilization.CurrentMethod = civilizationTable.Level[tostring(i)].LevelMethod
-       entityTable.Civilization.CurrentPercent = civilizationTable.Level[tostring(i)].Levelchance
+       entityTable.Civilization.CurrentPercent = civilizationTable.Level[tostring(i)].LevelPercent
+	   queueCheck(key,entityTable.Civilization.CurrentMethod,verbose)
       end
      end
     end
+	--[[
    elseif amount <0 then
     for i = currentLevel,nextLevel,-1 do
      if civilizationTable.Level[tostring(i)] then
@@ -94,6 +111,7 @@ function changeLevel(entity,amount,verbose)
       end
      end
     end
+	]]
    end
   end
  end
@@ -114,12 +132,21 @@ end
 
 function checkEntity(id,method,verbose)
  local persistTable = require 'persist-table'
- civilizationTable = persistTable.GlobalTable.roses.EntityTable[id].Civilization
- leveled = checkRequirements(id,verbose)
- if leveled then
-  changeLevel(id,1,verbose)
-  if verbose then print('Civilization leveled up') end
-  method = civilizationTable.CurrentMethod
+ civilizationTable = persistTable.GlobalTable.roses.EntityTable[tostring(math.floor(id))].Civilization
+ if civilizationTable then
+--  if verbose then print('Checking civilization '..tostring(id)) end
+  percent = civilizationTable.CurrentPercent
+  if method ~= civilizationTable.CurrentMethod then return end
+  rand = dfhack.random.new()
+  rnum = rand:random(100)
+  if rnum <= tonumber(percent) then
+   leveled = checkRequirements(id,verbose)
+   if leveled then
+    changeLevel(id,1,verbose)
+    if verbose then print('Civilization leveled up') end
+    method = civilizationTable.CurrentMethod
+   end
+  end
  end
  queueCheck(id,method,verbose)
 end
@@ -128,28 +155,22 @@ function checkRequirements(entityID,verbose)
  local persistTable = require 'persist-table'
  local utils = require 'utils'
  local split = utils.split_string
- entity = persistTable.GlobalTable.roses.EntityTable[entityID]
+ entity = persistTable.GlobalTable.roses.EntityTable[tostring(math.floor(entityID))]
  if not entity then return false end
  if entity.Civilization then
-  level = entity.Civilization.Level
-  name = entity.Civilization.Name
+  level = tostring(math.floor(entity.Civilization.Level+1))
+  name = df.global.world.entities.all[math.floor(entityID)].entity_raw.code
   if not persistTable.GlobalTable.roses.CivilizationTable[name] then
    return false
   else
    civilization = persistTable.GlobalTable.roses.CivilizationTable[name]
   end
-  if not civilzation.Level[level] then return false end
+  if not civilization.Level[level] then return false end
  end
  
  check = civilization.Level[level].Required
- if not check then return false end
+ if not check then return true end
 
--- Check for chance occurance
- local rand = dfhack.random.new()
- local rnum = rand:random(100)
- if rnum > chance then
-  return false
- end
 -- Check for amount of time passed
  if check.Time then
   local x = tonumber(check.Time)

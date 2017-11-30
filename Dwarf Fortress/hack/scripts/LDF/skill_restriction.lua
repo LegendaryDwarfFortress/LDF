@@ -75,6 +75,7 @@ RestrictOnCompletedList={}
 RestrictOnInitiatedList={}
 local VERBOSE = false
 local QUIET = false
+local TIMEOUT = false
 for line in io.lines( ... ) do
   table.insert( RestrictLines, line )
 end
@@ -323,23 +324,27 @@ function CullSkill( skill, unitId, level )
   dfhack.run_script('modtools/skill-change', '-skill', skill, '-mode', 'set', '-granularity', 'experience', '-unit', unitId, '-value', 0 )
 end
 
-local lastAnnounceTick = 0
+function ResetTimeout()
+  TIMEOUT=false
+end
+
 function MakeAnnouncement( ThisAnnounce, uName, sName, jName, bName, pos )
- thisTime = dfhack.getTickCount() - lastAnnounceTick
- thisCheck = 3600000 - thisTime
- --print("time: ",thisTime,"check: ",thisCheck)
- if thisCheck < 1 then thisCheck = 1 end
- if math.random(0, thisCheck ) < 1 then
-  ThisAnnounce, _j = string.gsub( ThisAnnounce, "UNIT", uName )
-  ThisAnnounce, _j = string.gsub( ThisAnnounce, "SKILLNAME", string.lower(sName) )
-  ThisAnnounce, _j = string.gsub( ThisAnnounce, "JOB", string.lower(jName) )
-  ThisAnnounce, _j = string.gsub( ThisAnnounce, "BUILDING", string.lower(bName) )
-  dfhack.gui.showAnnouncement(ThisAnnounce, COLOR_LIGHTCYAN)
-  if VERBOSE then
-   print(ThisAnnounce)
+  if TIMEOUT == false then 
+    ThisAnnounce, _j = string.gsub( ThisAnnounce, "UNIT", uName )
+    ThisAnnounce, _j = string.gsub( ThisAnnounce, "SKILLNAME", string.lower(sName) )
+    ThisAnnounce, _j = string.gsub( ThisAnnounce, "JOB", string.lower(jName) )
+    ThisAnnounce, _j = string.gsub( ThisAnnounce, "BUILDING", string.lower(bName) )
+    dfhack.gui.showAnnouncement(ThisAnnounce, COLOR_LIGHTCYAN)
+    if VERBOSE then
+      print(ThisAnnounce)
+    end
+    TIMEOUT = true
+    dfhack.timeout(1,'months',
+                 function ()
+                  dfhack.script_environment('skill_restriction').ResetTimeout()
+                 end
+                )
   end
-  lastAnnounceTick = dfhack.getTickCount()
- end
 end
 
 jobCheck = require('plugins.eventful')

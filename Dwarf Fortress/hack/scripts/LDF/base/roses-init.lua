@@ -1,5 +1,5 @@
---MUST BE LOADED IN DFHACK.INIT
---MUST BE LOADED AT onLoad.int -due to it needing a map save file to create persist-tables.
+-- base/roses-init.lua v1.0 | DFHack 43.05
+--MUST BE LOADED IN ONLOAD.INIT
 
 local utils = require 'utils'
 local split = utils.split_string
@@ -298,14 +298,14 @@ else
   dfhack.run_command('base/on-death -verbose')
   print('Running base/on-time')
   dfhack.run_command('base/on-time -verbose')
---  print('Running base/periodic-check')  turned off in masterwork we don't use it.
---  dfhack.run_command('base/periodic-check -verbose')
+  print('Running base/periodic-check')
+  dfhack.run_command('base/periodic-check -verbose')
  else
   dfhack.run_command('base/persist-delay')
   dfhack.run_command('base/liquids-update')
   dfhack.run_command('base/flows-update')
   dfhack.run_command('base/on-death')
   dfhack.run_command('base/on-time')
---  dfhack.run_command('base/periodic-check')  turned off in masterwork we don't use it.
+  dfhack.run_command('base/periodic-check')
  end
 end
