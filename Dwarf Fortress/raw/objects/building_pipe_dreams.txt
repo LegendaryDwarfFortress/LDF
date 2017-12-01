@@ -19,7 +19,7 @@ building_pipe_dreams
 # MAGMAGENR
 
 # Amostubal: These Buildings are not directly added into the entity file as 
-# is the case with other files instead the pipe[dreams.lua script reads the
+# is the case with other files instead the pipe-dreams.lua script reads the
 # following section as line by line DFHack commands:
 #
 - START PIPE DREAMS
