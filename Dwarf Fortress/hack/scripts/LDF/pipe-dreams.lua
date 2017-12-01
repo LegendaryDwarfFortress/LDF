@@ -173,11 +173,11 @@ end
 if args.report then
   local t="\t" -- I type so many of them...
   print( "Printing LiquidTable" )
-  print( "Index\ttype\tlevel\tx\ty\tz\tmagma?" )
+  print( "Index\ttype\tlevel\tx\ty\tz\tmagma?\tbID" )
   for _,i in pairs(liquidTable._children) do
     local L = liquidTable[i]
     if L.Magma then local magma = "yes" else magma = "no" end
-    print( i..t..L.Type..t..L.Depth..t..L.x..t..L.y..t..L.z..t..magma )
+    print( i..t..L.Type..t..L.Depth..t..L.x..t..L.y..t..L.z..t..magma..t..L.Building )
   end
   print( "Printing Pipes" )
   print( "Id\tpipetype\tx1\tx2\ty1\ty2\tz\tSystem" )
@@ -418,7 +418,13 @@ function LiquidSource(n)
       Pipes = persistTable.GlobalTable.pipeDreamsTable.Pipes
       Systems = persistTable.GlobalTable.pipeDreamsTable.Systems
       bID = liquid.Building
+      if not Pipes[bID] then
+        liquid = nil
+      end
       sID = Pipes[bID].System
+      if not Systems[sID] then
+        liquid = nil
+      end
       LSS = Systems[sID]
       if magma then Count = tonumber(LSS.CountM) else Count = tonumber(LSS.CountW) end
       if dsgn.flow_size < depth and Count > 0 then -- we have Count and its less than depth
@@ -477,7 +483,13 @@ function LiquidSink(n)
       Pipes = persistTable.GlobalTable.pipeDreamsTable.Pipes
       Systems = persistTable.GlobalTable.pipeDreamsTable.Systems
       bID = liquid.Building
+      if not Pipes[bID] then
+        liquid = nil
+      end
       sID = Pipes[bID].System
+      if not Systems[sID] then
+        liquid = nil
+      end
       LSS = Systems[sID]
       size = tonumber(LSS.Size)
       Count = size - tonumber(LSS.CountM) - tonumber(LSS.CountW) --Count now equals the max it can take.
@@ -494,6 +506,9 @@ function LiquidSink(n)
           block.flags.update_liquid = true
           block.flags.update_liquid_twice = true
         end
+      else
+      -- It didn't do anything so set this Count to 0
+        Count = 0
       end
       if magma then
         LSS.CountM = tostring(tonumber(LSS.CountM) + Count)
@@ -520,68 +535,37 @@ end
 
 
 function SystemCombine( aID, bID )
-  if not aID then aID = "0" end
-  if not bID then bID = "0" end
-  if aID == "0" or bID == "0" then -- one or both are ID "0"; either they were
-    return                         -- not given or "0" was given as an ID.
-  end
+
   if aID == bID then return end -- they are the same ID.
 
   local Pipes = pipeDreamsTable.Pipes
   local Systems = pipeDreamsTable.Systems
 
-  if not ( Pipes[aID].System == "0" ) and not ( Pipes[bID].System == "0" ) then
-  -- then we have 2 defined Systems variables...
-    if Pipes[aID].System == Pipes[bID].System then
-      return -- nothing to do these guys are in the same System
-    else
-    -- 2 different Systems so combine them.
-      aSys=tostring(Pipes[aID].System)
-      bSys=tostring(Pipes[bID].System)
+  -- 2 different Systems so combine them.
+  aSys=tostring(Pipes[aID].System)
+  bSys=tostring(Pipes[bID].System)
+  if aSys == bSys then return end -- they are the same system?!?
 
-      local WCounter = tonumber(Systems[aSys].CountW) + tonumber(Systems[bSys].CountW)
-      local MCounter = tonumber(Systems[aSys].CountM) + tonumber(Systems[bSys].CountM)
-      local Size = tonumber(Systems[aSys].Size) + tonumber(Systems[bSys].Size)
+  local WCounter = tonumber(Systems[aSys].CountW) + tonumber(Systems[bSys].CountW)
+  local MCounter = tonumber(Systems[aSys].CountM) + tonumber(Systems[bSys].CountM)
+  local Size = tonumber(Systems[aSys].Size) + tonumber(Systems[bSys].Size)
 
-      if tonumber(aSys) < tonumber(bSys) then
-        for _,pID in pairs(Systems[bSys].Pipes._children) do
-          Pipes[pID].System = aSys
-          Systems[aSys].Pipes[pID] = pID
-        end
+  if tonumber(aSys) > tonumber(bSys) then
+  -- switch the numbers so that aSys is bSys and bSys is aSys
+    if VERBOSE then print("Switching Asys to Bsys: "..aSys.." to "..bSys ) end
+    aSys, bSys = bSys, aSys
+    if VERBOSE then print("Asys | Bsys after: "..aSys.." | "..bSys ) end
+  end      
 
-        Systems[aSys].CountW = tostring(WCounter)
-        Systems[aSys].CountM = tostring(MCounter)
-        Systems[aSys].Size = tostring(Size)
-        Systems[bSys]=nil
-
-      else
-        for _,pID in pairs(Systems[aSys].Pipes._children) do
-          Pipes[pID].System = bSys
-          Systems[bSys].Pipes[pID] = pID
-        end
-
-        Systems[bSys].CountW = tostring(WCounter)
-        Systems[bSys].CountM = tostring(MCounter)
-        Systems[bSys].Size = tostring(Size)
-        Systems[aSys]=nil
-
-      end
-        return
-    end
-
-  elseif Pipes[aID].System == "0" then
-  -- then bID is a defined System and aID needs to be added.
-    Pipes[aID].System = Pipes[bID].System
-    sID = Pipes[bID].System
-    Systems[sID].Pipes[aID] = "0"
-    Systems[sID].Size = tostring(tonumber(Systems[sID].Size) + tonumber(Pipes[aID].Size))
-  elseif Pipes[bID].System == "0" then
-  -- then aID is a defined System and bID needs to be added.
-    Pipes[bID].System = Pipes[aID].System
-    sID = Pipes[aID].System
-    Systems[sID].Pipes[bID] = "0"
-    Systems[sID].Size = tostring(tonumber(Systems[sID].Size) + tonumber(Pipes[bID].Size))
+  for _,pID in pairs(Systems[bSys].Pipes._children) do
+    Pipes[pID].System = aSys
+    Systems[aSys].Pipes[pID] = pID
   end
+
+  Systems[aSys].CountW = tostring(WCounter)
+  Systems[aSys].CountM = tostring(MCounter)
+  Systems[aSys].Size = tostring(Size)
+  Systems[bSys] = nil
   return
 end
 
@@ -628,7 +612,7 @@ function comparebuilding(bID)
           -- pID is on the line to the south of bID
           isSouth = true
         end
-        if isNorth or IsSouth then
+        if isNorth or isSouth then
           for i = 0, tonumber(Pipes[bID].Width) - 1 do
             for j = 0, tonumber(Pipes[pID].Width) - 1 do
             --[[  Just a little diagram of how the buildings variables align. for
@@ -664,9 +648,9 @@ function comparebuilding(bID)
           isWest = true
         elseif (tonumber(Pipes[bID].x2) + 1) == tonumber(Pipes[pID].x1) then
           -- pID is on the line to the east of bID
-          isEest = true
+          isEast = true
         end
-        if isEast or IsWest then
+        if isEast or isWest then
           for i = 0, tonumber(Pipes[bID].Length) - 1 do
             for j = 0, tonumber(Pipes[pID].Length) - 1 do
             --[[  Just a little diagram of how the buildings variables align. for
@@ -675,15 +659,15 @@ function comparebuilding(bID)
             X1,Y2 - X1,Y2
             --]]
               if (tonumber(Pipes[bID].y1) + i) == (tonumber(Pipes[pID].y1) + j) then
-                if isNorth then
-                --we have a match on North Side of bID
+                if isEast then
+                --we have a match on East Side of bID
                   Pipes[bID].E[tostring(i+1)]= pID
                   Pipes[pID].W[tostring(j+1)] = bID
                   SystemCombine( pID , bID )
                 else
-                --we must have a match on South Side of bID
-                  Pipes[bID].E[tostring(i+1)]= pID
-                  Pipes[pID].W[tostring(j+1)] = bID
+                --we must have a match on West Side of bID
+                  Pipes[bID].W[tostring(i+1)]= pID
+                  Pipes[pID].E[tostring(j+1)] = bID
                   SystemCombine( pID , bID )
                 end
               end
@@ -735,12 +719,12 @@ function AddBuilding()
       Pipes[bID].y1 = tostring(building.y1)
       Pipes[bID].y2 = tostring(building.y2)
       Pipes[bID].z  = tostring(building.z)
-      pipes[bID].Width = tostring(building.x2 - building.x1 + 1)
-      pipes[bID].Length = tostring(building.y2 - building.y1 +1)
-      pipes[bID].Size = tostring(tonumber(Pipes[bID].Width) * tonumber(Pipes[bID].Length) * 7 )
+      Pipes[bID].Width = tostring(building.x2 - building.x1 + 1)
+      Pipes[bID].Length = tostring(building.y2 - building.y1 + 1)
+      Pipes[bID].Size = tostring(tonumber(Pipes[bID].Width) * tonumber(Pipes[bID].Length) * 7 )
       if Pipes[bID].PIPETYPE == "WORKSHOP" then
       -- WORKSHOPS don't get a size for magma/water storage.
-        pipes[bID].Size = "0"
+        Pipes[bID].Size = "0"
       end
     -- This sets up the connection arrays.  0 = no connection. otherwise ID of
     -- the building connected.
@@ -769,24 +753,23 @@ function AddBuilding()
         Pipes[bID].U="0"
         Pipes[bID].D="0"
       end
-      -- prepare it to accept a System target.
-      Pipes[bID].System="0"
+
+      -- Create its System.
+      Pipes[bID].System = bID
+      Systems[bID] = {}
+      Systems[bID].CountW = "0"
+      Systems[bID].CountM = "0"
+      Systems[bID].Size = tostring(Pipes[bID].Size)
+      Systems[bID].Pipes={}
+      Systems[bID].Pipes[bID] = bID
 
       -- now we need to check if any other pipes are connected to this pipe
+  
       comparebuilding(bID)
 
-      if Pipes[bID].System == "0" then
-      -- This Pipe didn't touch anything... so we must make it, its own System.
-        Pipes[bID].System = bID
-        Systems[bID] = {}
-        Systems[bID].CountW = "0"
-        Systems[bID].CountM = "0"
-        Systems[bID].Size = tostring(Pipes[bID].Size)
-        Systems[bID].Pipes={}
-        Systems[bID].Pipes[bID] = bID
-      end
       -- remove it from the CheckList! Its done!
       CheckList[bID] = nil
+
       -- we break here... this kicks the loop out and lets the game relax a second.
       break
       -- it doesn't get the kick until it's added a building... This just gives the
@@ -906,7 +889,7 @@ function SystemTrace(pID, excludeTraceTable)
     sID = tostring(excludeTraceTable.NewSysID)
 
     -- Does it Exist?
-    if not Systems[sID] then
+    if Systems[sID] then
     -- the sID doesn't exist create it!
       Systems[sID] = {}
     else
@@ -1056,17 +1039,13 @@ function CheckBuilding()
     local pBuilding = df.building.find(tonumber(pID))
     if not ( pBuilding ) then
       DeleteBuilding(pID)
-    --pipeDreamsTable.Pipes = nil
-    --pipeDreamsTable.Systems = nil
-    --pipeDreamsTable.Pipes = {}
-    --pipeDreamsTable.Systems = {}
     end
   end
 
   for _,building in ipairs(df.global.world.buildings.other.WORKSHOP_CUSTOM) do
     if building.custom_type then
       bID = tostring(building.id)
-      if ( Pipes[bID] ) then
+      if Pipes[bID] or CheckList[bID] then
       -- do nothing
       elseif pipeDreamsTable.BuildCustomType[building.custom_type] then
       -- add the bID to the CheckList
@@ -1118,5 +1097,5 @@ elseif args.disable then
   pipeDreamsTable.Systems = nil
   pipeEvents.onBuildingCreatedDestroyed.pipeBuildings = function(buildingID)
   end
-  print("pipe-dreams enabled.")
+  print("pipe-dreams disabled.")
 end
